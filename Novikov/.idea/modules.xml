@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/novikov.iml" filepath="$PROJECT_DIR$/novikov.iml" />
+      <module fileurl="file://$PROJECT_DIR$/novikov-db/novikov-db/novikov-db.iml" filepath="$PROJECT_DIR$/novikov-db/novikov-db/novikov-db.iml" />
+      <module fileurl="file://$PROJECT_DIR$/novikov-test/novikov-test.iml" filepath="$PROJECT_DIR$/novikov-test/novikov-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/novikov-web/novikov-web.iml" filepath="$PROJECT_DIR$/novikov-web/novikov-web.iml" />
+    </modules>
+  </component>
+</project>

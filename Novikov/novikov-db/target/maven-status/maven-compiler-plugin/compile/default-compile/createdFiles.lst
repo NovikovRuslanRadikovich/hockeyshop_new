@@ -1,0 +1,8 @@
+com\fujitsu\fs\dao\UserDao.class
+com\fujitsu\fs\utils\DbWrapper.class
+com\fujitsu\fs\services\UserService.class
+com\fujitsu\fs\dao\UserDaoImpl.class
+com\fujitsu\fs\services\UserServiceImpl.class
+com\fujitsu\fs\utils\PropertiesRetriever.class
+com\fujitsu\fs\utils\ConnectionPool.class
+com\fujitsu\fs\entities\User.class

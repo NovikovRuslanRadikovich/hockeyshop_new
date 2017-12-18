@@ -1,0 +1,5 @@
+com\fujitsu\fs\servlets\AdminServlet.class
+com\fujitsu\fs\servlets\RegistrationServlet.class
+com\fujitsu\fs\filters\RegistrationFilter.class
+com\fujitsu\fs\servlets\HomeServlet.class
+com\fujitsu\fs\filters\AdminFilter.class

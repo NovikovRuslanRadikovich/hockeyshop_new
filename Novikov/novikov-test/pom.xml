@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <parent>
+        <artifactId>Novikov</artifactId>
+        <groupId>Ruslan</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>novikov-test</artifactId>
+    <packaging>jar</packaging>
+
+    <properties>
+        <http.port>8081</http.port>
+        <rmi.port>1099</rmi.port>
+        <http.context>/</http.context>
+    </properties>
+
+
+    <build>
+
+        <testResources>
+            <testResource>
+                <directory>src/test/resources</directory>
+                <filtering>true</filtering>
+            </testResource>
+        </testResources>
+
+        <plugins>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <phase>integration-test</phase>
+                        <goals>
+                            <goal>test</goal>
+                        </goals>
+
+                        <configuration>
+                            <excludes>
+                                <exclude>none</exclude>
+                            </excludes>
+                            <includes>
+                                <include>**/*tests.IntegrationTest.java</include>
+                            </includes>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <!-- we do not have unit test in this module -->
+                        <id>default-test</id>
+                        <phase>none</phase>
+                    </execution>
+                </executions>
+            </plugin>
+
+
+            <plugin>
+                <groupId>org.codehaus.cargo</groupId>
+                <artifactId>cargo-maven2-plugin</artifactId>
+                <configuration>
+
+
+                    <container>
+                        <containerId>${tomcat.type}</containerId>
+                        <artifactInstaller>
+                            <groupId>org.apache.tomcat</groupId>
+                            <artifactId>tomcat</artifactId>
+                            <version>${tomcat.version}</version>
+                            <type>zip</type>
+                        </artifactInstaller>
+                    </container>
+
+                    <configuration>
+                        <properties>
+                            <cargo.servlet.port>${http.port}</cargo.servlet.port>
+                            <cargo.rmi.port>${rmi.port}</cargo.rmi.port>
+                            <cargo.servlet.uriencoding>UTF-8</cargo.servlet.uriencoding>
+                        </properties>
+                    </configuration>
+
+                    <deployables>
+                        <deployable>
+                            <groupId>Ruslan</groupId>
+                            <artifactId>WebApp</artifactId>
+                            <type>war</type>
+                            <properties>
+                                <context>${http.context}</context>
+                            </properties>
+
+                        </deployable>
+                    </deployables>
+                </configuration>
+
+                <executions>
+                    <execution>
+                        <id>start-container</id>
+                        <phase>pre-integration-test</phase>
+                        <goals>
+                            <goal>start</goal>
+                        </goals>
+                    </execution>
+
+                    <execution>
+                        <id>stop-container</id>
+                        <phase>post-integration-test</phase>
+                        <goals>
+                            <goal>stop</goal>
+                        </goals>
+                    </execution>
+                </executions>
+
+            </plugin>
+
+            <plugin>
+
+                <!-- current version -->
+                <groupId>fr.avianey.mojo</groupId>
+                <artifactId>hsqldb-maven-plugin</artifactId>
+                <version>1.0.0</version>
+
+                <!--
+                    default value for in memory jdbc:hsqldb:hsql://localhost/xdb
+                    override only values you want to change
+                -->
+                <configuration>
+                    <driver>org.hsqldb.jdbc.JDBCDriver</driver>
+                    <!--<path></path>-->
+                    <address>localhost</address>
+                    <name>mydb</name>
+                    <username>sa</username>
+                    <password></password>
+                    <port>8080</port>
+                    <!--<validationQuery>SELECT 1 FROM INFORMATION_SCHEMA.SYSTEM_USERS</validationQuery>-->
+                </configuration>
+
+                <!-- call start and stop -->
+                <executions>
+                    <execution>
+                        <id>start-hsqldb</id>
+                        <phase>pre-integration-test</phase>
+                        <goals>
+                            <goal>start</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>stop-hsqldb</id>
+                        <phase>post-integration-test</phase>
+                        <goals>
+                            <goal>stop</goal>
+                        </goals>
+                    </execution>
+                </executions>
+
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-failsafe-plugin</artifactId>
+
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>integration-test</goal>
+                            <goal>verify</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <excludes>
+                        <exclude>none</exclude>
+                    </excludes>
+                    <includes>
+                        <include>**/*tests.IntegrationTest.java</include>
+                        <include>**/*tests.IntegrationDB.java</include>
+                    </includes>
+                </configuration>
+
+            </plugin>
+
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>properties-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <phase>generate-resources</phase>
+                        <goals>
+                            <goal>write-project-properties</goal>
+                        </goals>
+                        <configuration>
+                            <outputFile>${basedir}/src/main/resources/test.properties</outputFile>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+
+        </plugins>
+    </build>
+
+
+    <dependencies>
+
+        <dependency>
+            <groupId>Ruslan</groupId>
+            <artifactId>WebApp</artifactId>
+            <type>war</type>
+        </dependency>
+
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-firefox-driver</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.dbunit</groupId>
+            <artifactId>dbunit</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>Ruslan</groupId>
+            <artifactId>novikov-db</artifactId>
+        </dependency>
+    </dependencies>
+
+
+</project>

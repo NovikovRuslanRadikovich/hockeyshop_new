@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dao" />
+        <module name="novikov-db" />
+        <module name="novikov-test" />
+        <module name="novikov-testweb" />
+        <module name="novikov-web" />
+        <module name="test" />
+        <module name="Test" />
+        <module name="WebApp" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dao" target="1.5" />
+      <module name="Noviko" target="1.5" />
+      <module name="novikov" target="1.5" />
+      <module name="Novikov" target="1.5" />
+      <module name="novikov-db" target="1.5" />
+      <module name="novikov-test" target="1.5" />
+      <module name="novikov-testweb" target="1.5" />
+      <module name="novikov-web" target="1.8" />
+      <module name="Novikov_Test" target="1.5" />
+      <module name="test" target="1.5" />
+      <module name="Test" target="1.5" />
+      <module name="WebApp" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
