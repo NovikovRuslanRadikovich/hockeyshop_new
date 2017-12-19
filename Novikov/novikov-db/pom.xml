@@ -35,7 +35,7 @@
                         <location>filesystem:src/main/resources/db/migration</location>
                     </locations>
 
-
+                    <baselineOnMigrate>false</baselineOnMigrate>
 
                 </configuration>
                 <executions>

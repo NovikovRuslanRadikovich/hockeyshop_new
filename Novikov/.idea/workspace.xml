@@ -1,39 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81fc3627-017b-49df-842f-04dadda957b5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__Ruslan_WebApp_war_1_0_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dbunit_dbunit_2_4_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hsqldb_hsqldb_2_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20171018.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_5_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/novikov-db/novikov-db/novikov-db.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/novikov-db/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/novikov-db/src/main/java/com/fujitsu/fs/dao/UserDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/novikov-db/src/main/java/com/fujitsu/fs/dao/UserDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/novikov-db/src/main/java/com/fujitsu/fs/services/UserService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/novikov-db/src/main/java/com/fujitsu/fs/services/UserServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/novikov-db/src/main/java/com/fujitsu/fs/utils/ConnectionPool.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/novikov-db/src/main/java/com/fujitsu/fs/utils/DbWrapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/novikov-db/src/main/java/com/fujitsu/fs/utils/PropertiesRetriever.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/novikov-db/src/main/resources/database.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/novikov-db/src/main/resources/db/migration/V1__create_password_row.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/novikov-db/src/main/resources/db/migration/V2__delete_username_pk_constarint.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/novikov-db/src/main/resources/db/migration/V3__create_id_row.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/novikov-db/src/main/resources/db/migration/V4__create_pk_constraint.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/novikov-test/src/test/java/tests/AllTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/novikov-test/src/test/java/tests/IntegrationDB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/novikov-test/src/test/resources/credentials.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/novikov-test/src/test/resources/users_test.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/novikov-web/src/main/java/com/fujitsu/fs/filters/RegistrationFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/novikov-web/src/main/java/com/fujitsu/fs/servlets/RegistrationServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/novikov-web/src/main/webapp/WEB-INF/views/registration.ftl" />
+    <list default="true" id="81fc3627-017b-49df-842f-04dadda957b5" name="Default" comment="lasted">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/novikov-db/src/main/resources/db/migration/V01__create_initial_table.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/novikov-db/src/main/resources/db/migration/V04__create_id_row.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/novikov-db/src/main/resources/db/migration/V05__create_pk_constraint.sql" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/novikov-db/src/main/resources/db/migration/V3__create_id_row.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/novikov-db/src/main/resources/db/migration/V4__create_pk_constraint.sql" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/novikov-db/pom.xml" afterPath="$PROJECT_DIR$/novikov-db/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/novikov-db/src/main/resources/db/migration/V1__create_password_row.sql" afterPath="$PROJECT_DIR$/novikov-db/src/main/resources/db/migration/V02__create_password_row.sql" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/novikov-db/src/main/resources/db/migration/V2__delete_username_pk_constarint.sql" afterPath="$PROJECT_DIR$/novikov-db/src/main/resources/db/migration/V03__delete_username_pk_constarint.sql" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,14 +28,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="IntegrationDB.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/novikov-test/src/test/java/tests/IntegrationDB.java">
+      <file leaf-file-name="V05__create_pk_constraint.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/novikov-db/src/main/resources/db/migration/V05__create_pk_constraint.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="57" lean-forward="false" selection-start-line="0" selection-start-column="57" selection-end-line="0" selection-end-column="57" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -67,79 +41,82 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/novikov-db/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+            <state relative-caret-position="88">
+              <caret line="42" column="46" lean-forward="true" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.ftl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/novikov-web/src/main/webapp/WEB-INF/views/home.ftl">
+      <file leaf-file-name="CredentialsRetriever.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/novikov-test/src/main/java/com/fujitsu/fs/utils/CredentialsRetriever.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+            <state relative-caret-position="68">
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="V03__delete_username_pk_constarint.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/novikov-db/src/main/resources/db/migration/V03__delete_username_pk_constarint.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="34" lean-forward="true" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="V04__create_id_row.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/novikov-db/src/main/resources/db/migration/V04__create_id_row.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="V02__create_password_row.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/novikov-db/src/main/resources/db/migration/V02__create_password_row.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="V01__create_initial_table.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/novikov-db/src/main/resources/db/migration/V01__create_initial_table.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="62" lean-forward="false" selection-start-line="0" selection-start-column="62" selection-end-line="0" selection-end-column="62" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/novikov-web/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="credentials.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/novikov-test/src/test/resources/credentials.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="database.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/novikov-db/src/main/resources/database.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegistrationServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/novikov-web/src/main/java/com/fujitsu/fs/servlets/RegistrationServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.ftl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/novikov-web/src/main/webapp/WEB-INF/views/admin.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="-686">
+              <caret line="33" column="37" lean-forward="false" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/novikov-db/src/main/java/com/fujitsu/fs/dao/UserDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+              <folding>
+                <marker date="1513602345780" expanded="true" signature="1180:1235" ph=" SELECT statement (USERS)" />
+                <marker date="1513602345780" expanded="true" signature="2565:2614" ph=" INSERT statement (USERS)" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -158,10 +135,16 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>METHOD_HEAD</find>
+      <find>flyway-maven-plugin</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -171,16 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Test/src/main/resources/test.properties" />
-        <option value="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/log4j.properties" />
-        <option value="$PROJECT_DIR$/WebApp/src/main/java/dao/UserDaoImpl.java" />
-        <option value="$PROJECT_DIR$/WebApp/src/main/java/utils/DbWrapper.java" />
-        <option value="$PROJECT_DIR$/WebApp/src/main/java/com/fujitsu/fs/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/WebApp/src/main/java/com/fujitsu/fs/services/UserService.java" />
-        <option value="$PROJECT_DIR$/WebApp/src/main/java/com/fujitsu/fs/services/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/WebApp/src/main/resources/database.properties" />
-        <option value="$PROJECT_DIR$/WebApp/src/main/resources/database.json" />
-        <option value="$PROJECT_DIR$/WebApp/src/main/java/com/fujitsu/fs/utils/PropertiesRetriever.java" />
         <option value="$PROJECT_DIR$/WebApp/src/test/resources/users_test.xml" />
         <option value="$PROJECT_DIR$/WebApp/src/main/java/com/fujitsu/fs/utils/ConnectionPool.java" />
         <option value="$PROJECT_DIR$/WebApp/src/main/java/com/fujitsu/fs/dao/UserDaoImpl.java" />
@@ -214,14 +187,24 @@
         <option value="$PROJECT_DIR$/novikov-test/src/test/java/tests/IntegrationTest.java" />
         <option value="$PROJECT_DIR$/novikov-test/src/test/java/tests/AllTests.java" />
         <option value="$PROJECT_DIR$/novikov-test/pom.xml" />
-        <option value="$PROJECT_DIR$/novikov-db/src/main/java/com/fujitsu/fs/dao/UserDaoImpl.java" />
         <option value="$PROJECT_DIR$/novikov-db/src/main/java/com/fujitsu/fs/utils/DbWrapper.java" />
         <option value="$PROJECT_DIR$/novikov-db/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/novikov-web/src/main/java/com/fujitsu/fs/servlets/HomeServlet.java" />
         <option value="$PROJECT_DIR$/novikov-test/src/test/java/tests/IntegrationDB.java" />
         <option value="$PROJECT_DIR$/novikov-web/pom.xml" />
-        <option value="$PROJECT_DIR$/novikov-db/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/novikov-db/src/main/resources/db/migration/V1__create_password_row.sql" />
+        <option value="$PROJECT_DIR$/novikov-db/src/main/resources/db/migration/V2__delete_username_pk_constarint.sql" />
+        <option value="$PROJECT_DIR$/novikov-db/src/main/resources/V3__create_id_row.sql" />
+        <option value="$PROJECT_DIR$/novikov-db/src/main/resources/V4__create_pk_constraint.sql" />
+        <option value="$PROJECT_DIR$/novikov-db/src/main/resources/db/migration/V3__create_identity_row.sql" />
+        <option value="$PROJECT_DIR$/novikov-db/src/main/resources/db/migration/V3__create_id_row.sql" />
+        <option value="$PROJECT_DIR$/novikov-db/src/main/java/com/fujitsu/fs/dao/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/novikov-db/src/main/resources/db/migration/V4__create_pk_constraint.sql" />
+        <option value="$PROJECT_DIR$/novikov-db/pom.xml" />
+        <option value="$PROJECT_DIR$/novikov-db/src/main/resources/db/migration/V01__create_initial_table.sql" />
+        <option value="$PROJECT_DIR$/novikov-db/src/main/resources/db/migration/V04__create_id_row.sql" />
+        <option value="$PROJECT_DIR$/novikov-db/src/main/resources/db/migration/V05__create_pk_constraint.sql" />
       </list>
     </option>
   </component>
@@ -292,9 +275,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -357,6 +337,18 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="fujitsu" type="462c0819:PsiDirectoryNode" />
               <item name="fs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Novikov" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Novikov" type="462c0819:PsiDirectoryNode" />
+              <item name="novikov-db" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="fujitsu" type="462c0819:PsiDirectoryNode" />
+              <item name="fs" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Novikov" type="b2602c69:ProjectViewProjectNode" />
@@ -453,238 +445,14 @@
               <item name="fs" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Novikov" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Novikov" type="462c0819:PsiDirectoryNode" />
-              <item name="novikov-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Novikov" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Novikov" type="462c0819:PsiDirectoryNode" />
-              <item name="novikov-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Novikov" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Novikov" type="462c0819:PsiDirectoryNode" />
-              <item name="novikov-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Novikov" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Novikov" type="462c0819:PsiDirectoryNode" />
-              <item name="novikov-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Novikov" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Novikov" type="462c0819:PsiDirectoryNode" />
-              <item name="novikov-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Novikov" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Novikov" type="462c0819:PsiDirectoryNode" />
-              <item name="novikov-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Novikov" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Novikov" type="462c0819:PsiDirectoryNode" />
-              <item name="novikov-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Novikov" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Novikov" type="462c0819:PsiDirectoryNode" />
-              <item name="novikov-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Novikov" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Novikov" type="462c0819:PsiDirectoryNode" />
-              <item name="novikov-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Novikov" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Novikov" type="462c0819:PsiDirectoryNode" />
-              <item name="novikov-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="fujitsu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Novikov" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Novikov" type="462c0819:PsiDirectoryNode" />
-              <item name="novikov-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="fujitsu" type="462c0819:PsiDirectoryNode" />
-              <item name="fs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Novikov" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Novikov" type="462c0819:PsiDirectoryNode" />
-              <item name="novikov-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Novikov" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Novikov" type="462c0819:PsiDirectoryNode" />
-              <item name="novikov-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Novikov" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Novikov" type="462c0819:PsiDirectoryNode" />
-              <item name="novikov-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Novikov" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Novikov" type="462c0819:PsiDirectoryNode" />
-              <item name="novikov-web" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Novikov" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Novikov" type="462c0819:PsiDirectoryNode" />
-              <item name="novikov-web" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Novikov" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Novikov" type="462c0819:PsiDirectoryNode" />
-              <item name="novikov-web" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Novikov" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Novikov" type="462c0819:PsiDirectoryNode" />
-              <item name="novikov-web" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="fujitsu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Novikov" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Novikov" type="462c0819:PsiDirectoryNode" />
-              <item name="novikov-web" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="fujitsu" type="462c0819:PsiDirectoryNode" />
-              <item name="fs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Novikov" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Novikov" type="462c0819:PsiDirectoryNode" />
-              <item name="novikov-web" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Novikov" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Novikov" type="462c0819:PsiDirectoryNode" />
-              <item name="novikov-web" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="maven-archiver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Novikov" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Novikov" type="462c0819:PsiDirectoryNode" />
-              <item name="novikov-web" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="maven-status" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Novikov" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Novikov" type="462c0819:PsiDirectoryNode" />
-              <item name="novikov-web" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="maven-status" type="462c0819:PsiDirectoryNode" />
-              <item name="maven-compiler-plugin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Novikov" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Novikov" type="462c0819:PsiDirectoryNode" />
-              <item name="novikov-web" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="maven-status" type="462c0819:PsiDirectoryNode" />
-              <item name="maven-compiler-plugin" type="462c0819:PsiDirectoryNode" />
-              <item name="compile" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Novikov" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Novikov" type="462c0819:PsiDirectoryNode" />
-              <item name="novikov-web" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="maven-status" type="462c0819:PsiDirectoryNode" />
-              <item name="maven-compiler-plugin" type="462c0819:PsiDirectoryNode" />
-              <item name="compile" type="462c0819:PsiDirectoryNode" />
-              <item name="default-compile" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Novikov" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Novikov" type="462c0819:PsiDirectoryNode" />
-              <item name="novikov-web" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="novikov-web-1.0-SNAPSHOT" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Novikov" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Novikov" type="462c0819:PsiDirectoryNode" />
-              <item name="novikov-web" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="novikov-web-1.0-SNAPSHOT" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Novikov" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Novikov" type="462c0819:PsiDirectoryNode" />
-              <item name="novikov-web" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="novikov-web-1.0-SNAPSHOT" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -698,24 +466,24 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Novikov\novikov-db\src\main" />
-      <recent name="D:\Novikov\WebApp\src\test" />
-      <recent name="D:\Novikov\WebApp\src\main\webapp\resources" />
-      <recent name="D:\Novikov\Test\src\test\resources" />
-      <recent name="D:\Novikov\WebApp\src\main\webapp\WEB-INF\js" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="" />
-      <recent name="com.fujitsu.fs.entities" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Novikov\Test\src\test\resources" />
       <recent name="D:\Novikov\dao\src\main\java\com\fujitsu\fs" />
       <recent name="C:\Users\ruslan\IdeaProjects\Novikov_Test\WebApp\src\main" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="com.fujitsu.fs.entities" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Novikov\novikov-db\src\main\resources\db\migration" />
+      <recent name="D:\Novikov\novikov-db\src\main\resources" />
+      <recent name="D:\Novikov\novikov-db\src\main" />
+      <recent name="D:\Novikov\WebApp\src\test" />
+      <recent name="D:\Novikov\WebApp\src\main\webapp\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1309,13 +1077,21 @@
       <workItem from="1512030997163" duration="1457000" />
       <workItem from="1512325688797" duration="10612000" />
     </task>
+    <task id="LOCAL-00001" summary="last">
+      <created>1513608626275</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1513608626275</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AllTests - 2017.12.14 at 17h 55m 44s.xml">
+    <history-entry file="AllTests - 2017.12.14 at 17h 57m 13s.xml">
       <configuration name="AllTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AllTests - 2017.12.14 at 17h 57m 13s.xml">
+    <history-entry file="AllTests - 2017.12.18 at 17h 18m 31s.xml">
       <configuration name="AllTests" configurationId="JUnit" />
     </history-entry>
     <history-entry file="IntegrationDB - 2017.12.14 at 17h 48m 33s.xml">
@@ -1352,7 +1128,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20780712" sideWeight="0.16075794" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.58668196" sideWeight="0.12286063" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18765281" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1368,12 +1144,12 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295063" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4316877" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295063" sideWeight="0.7279951" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4316877" sideWeight="0.49755502" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20780712" sideWeight="0.83924204" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.58668196" sideWeight="0.8771394" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="FAQ Robot" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26650366" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2695599" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1384,7 +1160,7 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295063" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295063" sideWeight="0.49755502" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" x="92" y="92" width="1496" height="826" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1402,6 +1178,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="last" />
+    <option name="LAST_COMMIT_MESSAGE" value="last" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="4" />
@@ -1413,15 +1193,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WebApp/src/test/resources/users_test.xml" />
-    <entry file="file://$PROJECT_DIR$/WebApp/src/main/java/com/fujitsu/fs/dao/UserDao.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/junit/framework/TestCase.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204">
-          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/dbunit/dbunit/2.4.3/dbunit-2.4.3.jar!/org/dbunit/DatabaseTestCase.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1445,13 +1216,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/jdk-1.8.152-x64/jdk-1.8.152-x64/jre/lib/rt.jar!/java/sql/Connection.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
-          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebApp/src/test/java/IntegrationDB.java" />
     <entry file="file://$PROJECT_DIR$/WebApp/src/main/java/com/fujitsu/fs/utils/PropertiesRetriever.java" />
     <entry file="file://$PROJECT_DIR$/WebApp/src/main/java/com/fujitsu/fs/utils/LoggerWrapper.java" />
@@ -1461,7 +1225,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1469,7 +1232,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1480,82 +1242,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/novikov-test/src/main/java/com/fujitsu/fs/utils/CredentialsRetriever.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/novikov-db/src/main/resources/db/migration/V2__delete_username_pk_constarint.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/novikov-db/src/main/resources/db/migration/V3__create_id_row.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="63" lean-forward="false" selection-start-line="0" selection-start-column="63" selection-end-line="0" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/novikov-db/src/main/resources/db/migration/V4__create_pk_constraint.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="35" lean-forward="false" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/novikov-web/src/main/webapp/WEB-INF/views/registration.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="43" lean-forward="false" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/novikov-web/target/novikov-web-1.0-SNAPSHOT/WEB-INF/views/registration.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/novikov-test/src/test/java/tests/AllTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/novikov-test/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="172" column="31" lean-forward="false" selection-start-line="172" selection-start-column="31" selection-end-line="172" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/target/test-classes/tests/IntegrationDB.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="38" column="63" lean-forward="true" selection-start-line="38" selection-start-column="63" selection-end-line="38" selection-end-column="63" />
-          <folding>
-            <element signature="e#0#1535#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/target/test-classes/tests/IntegrationDB.class" />
     <entry file="file://$PROJECT_DIR$/novikov-db/src/main/java/com/fujitsu/fs/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1568,7 +1262,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1576,18 +1269,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-283">
           <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/novikov-db/src/main/java/com/fujitsu/fs/dao/UserDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="67" column="62" lean-forward="false" selection-start-line="67" selection-start-column="62" selection-end-line="67" selection-end-column="62" />
-          <folding>
-            <marker date="1513602345780" expanded="true" signature="1180:1235" ph=" SELECT statement (USERS)" />
-            <marker date="1513602345780" expanded="true" signature="2565:2614" ph=" INSERT statement (USERS)" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1595,7 +1276,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="47" lean-forward="false" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1603,10 +1283,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="20" column="53" lean-forward="false" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
-          <folding>
-            <element signature="e#453#454#0" expanded="false" />
-            <element signature="e#500#501#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1620,19 +1296,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/novikov-test/src/test/java/tests/IntegrationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-181">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1-sources.jar!/javax/servlet/http/HttpServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-11186">
           <caret line="119" column="22" lean-forward="false" selection-start-line="119" selection-start-column="22" selection-end-line="119" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1640,7 +1307,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1648,7 +1314,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1656,7 +1321,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1680,7 +1344,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1688,15 +1351,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="369">
           <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/novikov-web/target/novikov-web-1.0-SNAPSHOT/WEB-INF/views/home.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="49" column="17" lean-forward="false" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1722,46 +1376,160 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/novikov-test/src/test/java/tests/AllTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/novikov-db/src/main/resources/database.json">
+    <entry file="file://$PROJECT_DIR$/novikov-test/src/test/java/tests/IntegrationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        <state relative-caret-position="765">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/novikov-web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="374">
           <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/novikov-db/src/main/resources/db/migration/V1__create_password_row.sql">
+    <entry file="file://$PROJECT_DIR$/novikov-test/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+        <state relative-caret-position="731">
+          <caret line="172" column="31" lean-forward="false" selection-start-line="172" selection-start-column="31" selection-end-line="172" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/novikov-db/pom.xml">
+    <entry file="file://$PROJECT_DIR$/novikov-db/src/main/resources/database.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        <state relative-caret-position="34">
+          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/novikov-web/target/novikov-web-1.0-SNAPSHOT/WEB-INF/views/admin.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/novikov-web/target/novikov-web-1.0-SNAPSHOT/WEB-INF/views/home.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="49" column="17" lean-forward="false" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/novikov-web/target/novikov-web-1.0-SNAPSHOT/WEB-INF/views/registration.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="-686">
+          <caret line="33" column="37" lean-forward="false" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/novikov-test/src/main/java/com/fujitsu/fs/utils/CredentialsRetriever.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk-1.8.152-x64/jdk-1.8.152-x64/jre/lib/rt.jar!/java/sql/Connection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="34" column="12" lean-forward="false" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk-1.8.152-x64/jdk-1.8.152-x64/jre/lib/rt.jar!/java/lang/AutoCloseable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/novikov-db/src/main/java/com/fujitsu/fs/dao/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+          <folding>
+            <marker date="1513602345780" expanded="true" signature="1180:1235" ph=" SELECT statement (USERS)" />
+            <marker date="1513602345780" expanded="true" signature="2565:2614" ph=" INSERT statement (USERS)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/novikov-db/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="42" column="46" lean-forward="true" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/novikov-db/src/main/resources/db/migration/V01__create_initial_table.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="62" lean-forward="false" selection-start-line="0" selection-start-column="62" selection-end-line="0" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/novikov-db/src/main/resources/db/migration/V02__create_password_row.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/novikov-db/src/main/resources/db/migration/V03__delete_username_pk_constarint.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="34" lean-forward="true" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/novikov-db/src/main/resources/db/migration/V04__create_id_row.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/novikov-db/src/main/resources/db/migration/V05__create_pk_constraint.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="57" lean-forward="false" selection-start-line="0" selection-start-column="57" selection-end-line="0" selection-end-column="57" />
           <folding />
         </state>
       </provider>
