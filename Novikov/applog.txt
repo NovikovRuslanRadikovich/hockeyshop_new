@@ -38,3 +38,4 @@
 2017-12-14 17:59:05 INFO  LoggerWrapper:53 - Logged user with IP 127.0.0.1
 2017-12-18 16:11:06 INFO  LoggerWrapper:53 - Logged user with IP 127.0.0.1
 2017-12-18 16:11:25 INFO  LoggerWrapper:53 - Logged user with IP 127.0.0.1
+2017-12-19 16:09:28 INFO  LoggerWrapper:53 - Logged user with IP 127.0.0.1

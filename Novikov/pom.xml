@@ -53,6 +53,8 @@
 
         <dbunit.version>2.4.3</dbunit.version>
 
+        <hikari.cp.version>2.6.1</hikari.cp.version>
+
         <novikov.db.version>1.0-SNAPSHOT</novikov.db.version>
     </properties>
 
@@ -200,6 +202,12 @@
                 <groupId>Ruslan</groupId>
                 <artifactId>novikov-db</artifactId>
                 <version>${novikov.db.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.zaxxer</groupId>
+                <artifactId>HikariCP</artifactId>
+                <version>${hikari.cp.version}</version>
             </dependency>
 
         </dependencies>

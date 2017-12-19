@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: tests.IntegrationDB
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.032 s <<< FAILURE! - in tests.IntegrationDB
+initializationError(tests.IntegrationDB)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/slf4j/impl/StaticLoggerBinder
+Caused by: java.lang.ClassNotFoundException: org.slf4j.impl.StaticLoggerBinder
+
