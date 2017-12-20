@@ -1,4 +1,4 @@
 <dataset>
-    <users username="Ruslan" password="Novikov"/>
-    <users username="Rais" password="Novikov"/>
+    <Users username="Ruslan" password="Novikov"/>
+    <Users username="Rais" password="Novikov"/>
 </dataset>

@@ -5,4 +5,5 @@ com\fujitsu\fs\dao\UserDaoImpl.class
 com\fujitsu\fs\services\UserServiceImpl.class
 com\fujitsu\fs\utils\PropertiesRetriever.class
 com\fujitsu\fs\utils\ConnectionPool.class
+com\fujitsu\fs\utils\HikariConnectionPool.class
 com\fujitsu\fs\entities\User.class

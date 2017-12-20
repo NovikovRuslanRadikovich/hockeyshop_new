@@ -44,23 +44,6 @@
                         <goals>
                             <goal>migrate</goal>
                         </goals>
-                        <!--<configuration>-->
-                            <!--<url>${hsqldb.url}</url>-->
-                            <!--<user>${hsqldb.user}</user>-->
-                            <!--<password>${hsqldb.password}</password>-->
-                            <!--<locations>-->
-                                <!--<location>filesystem:src/main/resources/db/migration</location>-->
-                            <!--</locations>-->
-
-                        <!--</configuration>-->
-
-                        <!--<dependencies>-->
-                        <!--<dependency>-->
-                        <!--<groupId>org.hsqldb</groupId>-->
-                        <!--<artifactId>hsqldb</artifactId>-->
-                        <!--<version>${hsqldb.version}</version>-->
-                        <!--</dependency>-->
-                        <!--</dependencies>-->
                     </execution>
                 </executions>
 
@@ -101,7 +84,6 @@
         <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
-            <version>RELEASE</version>
         </dependency>
 
         <dependency>

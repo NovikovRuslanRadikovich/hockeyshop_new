@@ -4,5 +4,6 @@ D:\Novikov\novikov-db\src\main\java\com\fujitsu\fs\services\UserServiceImpl.java
 D:\Novikov\novikov-db\src\main\java\com\fujitsu\fs\utils\PropertiesRetriever.java
 D:\Novikov\novikov-db\src\main\java\com\fujitsu\fs\utils\DbWrapper.java
 D:\Novikov\novikov-db\src\main\java\com\fujitsu\fs\dao\UserDaoImpl.java
+D:\Novikov\novikov-db\src\main\java\com\fujitsu\fs\utils\HikariConnectionPool.java
 D:\Novikov\novikov-db\src\main\java\com\fujitsu\fs\entities\User.java
 D:\Novikov\novikov-db\src\main\java\com\fujitsu\fs\services\UserService.java

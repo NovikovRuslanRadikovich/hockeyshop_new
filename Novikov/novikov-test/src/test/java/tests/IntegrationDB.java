@@ -2,38 +2,30 @@ package tests;
 
 import com.fujitsu.fs.utils.PropertiesRetriever;
 import org.dbunit.DBTestCase;
-import org.dbunit.IDatabaseTester;
-import org.dbunit.JdbcDatabaseTester;
+import org.dbunit.PropertiesBasedJdbcDatabaseTester;
 import org.dbunit.dataset.IDataSet;
 import org.dbunit.dataset.ITable;
 import org.dbunit.dataset.xml.FlatXmlDataSet;
-import org.junit.AfterClass;
 import org.junit.Assert;
-import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class IntegrationDB extends DBTestCase {
 
-    private IDatabaseTester databaseTester;
+    public IntegrationDB(String name){
 
-    public IntegrationDB(String name) {
         super(name);
+
+        System.setProperty(PropertiesBasedJdbcDatabaseTester.DBUNIT_CONNECTION_URL,PropertiesRetriever.getConnection_URL());
+        System.setProperty(PropertiesBasedJdbcDatabaseTester.DBUNIT_DRIVER_CLASS,PropertiesRetriever.getDriver());
+        System.setProperty(PropertiesBasedJdbcDatabaseTester.DBUNIT_USERNAME,PropertiesRetriever.getUsername());
+        System.setProperty(PropertiesBasedJdbcDatabaseTester.DBUNIT_PASSWORD,PropertiesRetriever.getPassword());
+        System.setProperty(PropertiesBasedJdbcDatabaseTester.DBUNIT_SCHEMA,"Users");
+
     }
 
     protected IDataSet getDataSet() throws Exception {
-        return new FlatXmlDataSet(getClass().getResourceAsStream("/src/test/resources/users_test.xml"));
+        return new FlatXmlDataSet(getClass().getResourceAsStream(("/src/test/resources/users_test.xml")));
     }
-
-    @BeforeClass
-    public void setUp() throws Exception {
-          databaseTester = new JdbcDatabaseTester(PropertiesRetriever.getDriver(),
-                  PropertiesRetriever.getConnection_URL(),
-                  PropertiesRetriever.getUSERNAME(),
-                  PropertiesRetriever.getPassword());
-
-
-    }
-
 
 
     @Test
@@ -48,16 +40,14 @@ public class IntegrationDB extends DBTestCase {
 
     }
 
-    @Test
-    protected void testSecond() throws Exception {
+//    @Test
+//    protected void testSecond() throws Exception {
+//
+//         ITable expectedTable = getDataSet().getTable("Users");
+//
+//
+//
+//    }
 
-
-
-    }
-
-    @AfterClass
-    public void tearDown() throws Exception {
-        databaseTester.onTearDown();
-    }
 
 }

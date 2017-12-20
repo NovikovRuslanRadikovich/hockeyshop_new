@@ -49,8 +49,11 @@ Hello ${username!"anonymous"} !!!
 
 <#if anonymous??>
     <form action="/home" method="post" id="form">
-        <label for="username"> Username</label>
+        <label for="username"> Username</label>Y
         <input type="text" name="username" id="username">
+        <br>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password">
         <br>
         <input type="submit" id="submit" value="Войти">
     </form>

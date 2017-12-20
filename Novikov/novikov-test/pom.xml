@@ -47,6 +47,7 @@
                             </excludes>
                             <includes>
                                 <include>**/*tests.IntegrationTest.java</include>
+                                <!--<include>**/*tests.IntegrationDB.java</include>-->
                             </includes>
                         </configuration>
                     </execution>
@@ -86,7 +87,7 @@
                     <deployables>
                         <deployable>
                             <groupId>Ruslan</groupId>
-                            <artifactId>WebApp</artifactId>
+                            <artifactId>novikov-web</artifactId>
                             <type>war</type>
                             <properties>
                                 <context>${http.context}</context>
@@ -158,29 +159,29 @@
 
             </plugin>
 
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-failsafe-plugin</artifactId>
+            <!--<plugin>-->
+                <!--<groupId>org.apache.maven.plugins</groupId>-->
+                <!--<artifactId>maven-failsafe-plugin</artifactId>-->
 
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>integration-test</goal>
-                            <goal>verify</goal>
-                        </goals>
-                    </execution>
-                </executions>
-                <configuration>
-                    <excludes>
-                        <exclude>none</exclude>
-                    </excludes>
-                    <includes>
-                        <include>**/*tests.IntegrationTest.java</include>
-                        <include>**/*tests.IntegrationDB.java</include>
-                    </includes>
-                </configuration>
+                <!--<executions>-->
+                    <!--<execution>-->
+                        <!--<goals>-->
+                            <!--<goal>integration-test</goal>-->
+                            <!--<goal>verify</goal>-->
+                        <!--</goals>-->
+                    <!--</execution>-->
+                <!--</executions>-->
+                <!--<configuration>-->
+                    <!--<excludes>-->
+                        <!--<exclude>none</exclude>-->
+                    <!--</excludes>-->
+                    <!--<includes>-->
+                        <!--<include>**/*tests.IntegrationTest.java</include>-->
+                        <!--<include>**/*tests.IntegrationDB.java</include>-->
+                    <!--</includes>-->
+                <!--</configuration>-->
 
-            </plugin>
+            <!--</plugin>-->
 
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
@@ -207,7 +208,7 @@
 
         <dependency>
             <groupId>Ruslan</groupId>
-            <artifactId>WebApp</artifactId>
+            <artifactId>novikov-web</artifactId>
             <type>war</type>
         </dependency>
 
@@ -236,6 +237,13 @@
             <groupId>Ruslan</groupId>
             <artifactId>novikov-db</artifactId>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-log4j12 -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+        </dependency>
+
     </dependencies>
 
 

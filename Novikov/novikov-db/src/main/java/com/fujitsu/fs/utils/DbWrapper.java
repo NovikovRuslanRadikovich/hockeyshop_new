@@ -7,7 +7,7 @@ public class DbWrapper {
 
 
     public static ConnectionPool connectionPool = new ConnectionPool(PropertiesRetriever.getConnection_URL(),
-            PropertiesRetriever.getDriver(),PropertiesRetriever.getUSERNAME(),
+            PropertiesRetriever.getDriver(),PropertiesRetriever.getUsername(),
             PropertiesRetriever.getPassword(),
             10);
 

@@ -13,7 +13,7 @@ public class HikariConnectionPool {
 
     static{
         hikariConfig.setJdbcUrl(PropertiesRetriever.getConnection_URL());
-        hikariConfig.setUsername(PropertiesRetriever.getUSERNAME());
+        hikariConfig.setUsername(PropertiesRetriever.getUsername());
         hikariConfig.setPassword(PropertiesRetriever.getPassword());
         hikariConfig.addDataSourceProperty("cachePrepStmts","true");
         hikariConfig.addDataSourceProperty("prepStmtCacheSize","250");
