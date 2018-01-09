@@ -2,32 +2,883 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91fbf8cb-e38f-437a-94ab-aafeaa60ca17" name="Default" comment="weblayer">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hockeyshop-web/src/main/webapp/views/unregistered/login.ftl" />
-      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/logs/localhost_access_log..2017-12-20.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="D:/Novikov/novikov-db/target/classes/com/fujitsu/fs/dao/UserDaoImpl.class" afterPath="D:/Novikov/novikov-db/target/classes/com/fujitsu/fs/dao/UserDaoImpl.class" />
-      <change type="MODIFICATION" beforePath="D:/Novikov/novikov-db/target/classes/com/fujitsu/fs/services/UserServiceImpl.class" afterPath="D:/Novikov/novikov-db/target/classes/com/fujitsu/fs/services/UserServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="D:/Novikov/novikov-db/target/classes/com/fujitsu/fs/utils/DbWrapper.class" afterPath="D:/Novikov/novikov-db/target/classes/com/fujitsu/fs/utils/DbWrapper.class" />
-      <change type="MODIFICATION" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/work/Catalina/localhost/ROOT/SESSIONS.ser" afterPath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/work/Catalina/localhost/ROOT/SESSIONS.ser" />
-      <change type="MODIFICATION" beforePath="D:/Novikov/novikov-test/target/novikov-test-1.0-SNAPSHOT.jar" afterPath="D:/Novikov/novikov-test/target/novikov-test-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="D:/Novikov/novikov-web/target/novikov-web-1.0-SNAPSHOT.war" afterPath="D:/Novikov/novikov-web/target/novikov-web-1.0-SNAPSHOT.war" />
-      <change type="MODIFICATION" beforePath="D:/Novikov/.idea/workspace.xml" afterPath="D:/Novikov/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="D:/Novikov/novikov-db/pom.xml" afterPath="D:/Novikov/novikov-db/pom.xml" />
-      <change type="MODIFICATION" beforePath="D:/Novikov/novikov-db/src/main/java/com/fujitsu/fs/dao/UserDao.java" afterPath="D:/Novikov/novikov-db/src/main/java/com/fujitsu/fs/dao/UserDao.java" />
-      <change type="MODIFICATION" beforePath="D:/Novikov/novikov-db/src/main/java/com/fujitsu/fs/dao/UserDaoImpl.java" afterPath="D:/Novikov/novikov-db/src/main/java/com/fujitsu/fs/dao/UserDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="D:/Novikov/novikov-db/src/main/java/com/fujitsu/fs/services/UserService.java" afterPath="D:/Novikov/novikov-db/src/main/java/com/fujitsu/fs/services/UserService.java" />
-      <change type="MODIFICATION" beforePath="D:/Novikov/novikov-db/src/main/java/com/fujitsu/fs/services/UserServiceImpl.java" afterPath="D:/Novikov/novikov-db/src/main/java/com/fujitsu/fs/services/UserServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="D:/Novikov/novikov-db/src/main/java/com/fujitsu/fs/utils/DbWrapper.java" afterPath="D:/Novikov/novikov-db/src/main/java/com/fujitsu/fs/utils/DbWrapper.java" />
-      <change type="MODIFICATION" beforePath="D:/Novikov/novikov-test/pom.xml" afterPath="D:/Novikov/novikov-test/pom.xml" />
-      <change type="MODIFICATION" beforePath="D:/Novikov/novikov-test/src/main/resources/test.properties" afterPath="D:/Novikov/novikov-test/src/main/resources/test.properties" />
-      <change type="MODIFICATION" beforePath="D:/Novikov/novikov-test/target/classes/test.properties" afterPath="D:/Novikov/novikov-test/target/classes/test.properties" />
-      <change type="MODIFICATION" beforePath="D:/Novikov/novikov-test/target/maven-archiver/pom.properties" afterPath="D:/Novikov/novikov-test/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="D:/Novikov/novikov-test/target/surefire-reports/TEST-tests.IntegrationTest.xml" afterPath="D:/Novikov/novikov-test/target/surefire-reports/TEST-tests.IntegrationTest.xml" />
-      <change type="MODIFICATION" beforePath="D:/Novikov/novikov-test/target/surefire-reports/tests.IntegrationTest.txt" afterPath="D:/Novikov/novikov-test/target/surefire-reports/tests.IntegrationTest.txt" />
-      <change type="MODIFICATION" beforePath="D:/Novikov/novikov-web/novikov-web.iml" afterPath="D:/Novikov/novikov-web/novikov-web.iml" />
-      <change type="MODIFICATION" beforePath="D:/Novikov/novikov-web/pom.xml" afterPath="D:/Novikov/novikov-web/pom.xml" />
-      <change type="MODIFICATION" beforePath="D:/Novikov/novikov-web/src/main/java/com/fujitsu/fs/servlets/RegistrationServlet.java" afterPath="D:/Novikov/novikov-web/src/main/java/com/fujitsu/fs/servlets/RegistrationServlet.java" />
-      <change type="MODIFICATION" beforePath="D:/Novikov/novikov-web/target/maven-archiver/pom.properties" afterPath="D:/Novikov/novikov-web/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="D:/Novikov/pom.xml" afterPath="D:/Novikov/pom.xml" />
+      <change type="DELETED" beforePath="D:/Novikov/.idea/artifacts/WebApp_war.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/.idea/artifacts/WebApp_war_exploded.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/.idea/checkstyle-idea.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/.idea/dbnavigator.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/.idea/libraries/Maven__com_google_code_gson_gson_2_8_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_0_18.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/.idea/libraries/Maven__com_google_guava_guava_23_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/.idea/libraries/Maven__com_zaxxer_HikariCP_2_6_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/.idea/libraries/Maven__jstl_jstl_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/.idea/libraries/Maven__net_java_dev_jna_jna_4_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/.idea/libraries/Maven__net_java_dev_jna_jna_platform_4_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/.idea/libraries/Maven__org_dbunit_dbunit_2_4_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/.idea/libraries/Maven__org_freemarker_freemarker_2_3_9.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/.idea/libraries/Maven__org_hsqldb_hsqldb_2_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/.idea/libraries/Maven__org_json_json_20171018.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_6_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_6_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_6_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_6_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_6_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_6_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_6_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_6_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_6_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_6_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/.idea/libraries/Maven__org_slf4j_slf4j_api_1_5_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_22.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/applog.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-db/novikov-db/novikov-db.iml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-db/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-db/src/main/java/com/fujitsu/fs/dao/UserDao.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-db/src/main/java/com/fujitsu/fs/dao/UserDaoImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-db/src/main/java/com/fujitsu/fs/entities/User.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-db/src/main/java/com/fujitsu/fs/services/UserService.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-db/src/main/java/com/fujitsu/fs/services/UserServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-db/src/main/java/com/fujitsu/fs/utils/ConnectionPool.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-db/src/main/java/com/fujitsu/fs/utils/DbWrapper.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-db/src/main/java/com/fujitsu/fs/utils/HikariConnectionPool.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-db/src/main/java/com/fujitsu/fs/utils/PropertiesRetriever.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-db/src/main/resources/database.json" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-db/src/main/resources/db/migration/V01__create_initial_table.sql" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-db/src/main/resources/db/migration/V02__create_password_row.sql" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-db/src/main/resources/db/migration/V03__delete_username_pk_constarint.sql" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-db/src/main/resources/db/migration/V04__create_id_row.sql" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-db/src/main/resources/db/migration/V05__create_pk_constraint.sql" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-db/src/main/resources/db/migration/V06_add_unique_constraint.sql" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-db/src/main/resources/log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-db/target/classes/com/fujitsu/fs/dao/UserDao.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-db/target/classes/com/fujitsu/fs/dao/UserDaoImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-db/target/classes/com/fujitsu/fs/entities/User.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-db/target/classes/com/fujitsu/fs/services/UserService.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-db/target/classes/com/fujitsu/fs/services/UserServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-db/target/classes/com/fujitsu/fs/utils/ConnectionPool.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-db/target/classes/com/fujitsu/fs/utils/DbWrapper.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-db/target/classes/com/fujitsu/fs/utils/HikariConnectionPool.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-db/target/classes/com/fujitsu/fs/utils/PropertiesRetriever.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-db/target/classes/database.json" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-db/target/classes/db/migration/V01__create_initial_table.sql" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-db/target/classes/db/migration/V02__create_password_row.sql" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-db/target/classes/db/migration/V03__delete_username_pk_constarint.sql" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-db/target/classes/db/migration/V04__create_id_row.sql" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-db/target/classes/db/migration/V05__create_pk_constraint.sql" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-db/target/classes/db/migration/V06_add_unique_constraint.sql" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-db/target/classes/log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-db/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-db/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/novikov-test.iml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/src/main/java/com/fujitsu/fs/utils/CredentialsRetriever.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/src/main/resources/test.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/src/test/java/tests/AllTests.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/src/test/java/tests/IntegrationDB.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/src/test/java/tests/IntegrationTest.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/src/test/resources/credentials.json" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/src/test/resources/users_test.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/.cargo" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/conf/catalina.policy" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/conf/catalina.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/conf/context.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/conf/jaspic-providers.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/conf/jaspic-providers.xsd" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/conf/logging.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/conf/server.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/conf/tomcat-users.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/conf/tomcat-users.xsd" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/conf/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/ROOT.war" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/ROOT/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/ROOT/META-INF/maven/Ruslan/novikov-web/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/ROOT/META-INF/maven/Ruslan/novikov-web/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/ROOT/META-INF/war-tracker" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/ROOT/WEB-INF/classes/com/fujitsu/fs/filters/AdminFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/ROOT/WEB-INF/classes/com/fujitsu/fs/filters/RegistrationFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/ROOT/WEB-INF/classes/com/fujitsu/fs/servlets/AdminServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/ROOT/WEB-INF/classes/com/fujitsu/fs/servlets/HomeServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/ROOT/WEB-INF/classes/com/fujitsu/fs/servlets/RegistrationServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/ROOT/WEB-INF/lib/HikariCP-2.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/ROOT/WEB-INF/lib/commons-codec-1.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/ROOT/WEB-INF/lib/commons-collections-3.2.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/ROOT/WEB-INF/lib/dbunit-2.4.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/ROOT/WEB-INF/lib/freemarker-2.3.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/ROOT/WEB-INF/lib/gson-2.8.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/ROOT/WEB-INF/lib/json-20171018.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/ROOT/WEB-INF/lib/json-simple-1.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/ROOT/WEB-INF/lib/jstl-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/ROOT/WEB-INF/lib/log4j-1.2.17.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/ROOT/WEB-INF/lib/novikov-db-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/ROOT/WEB-INF/lib/slf4j-api-1.5.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/ROOT/WEB-INF/views/admin.ftl" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/ROOT/WEB-INF/views/home.ftl" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/ROOT/WEB-INF/views/registration.ftl" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/ROOT/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/ROOT/resources/js/home.js" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/cargocpc.war" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/cargocpc/META-INF/war-tracker" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/cargocpc/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/cargocpc/index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/host-manager/META-INF/context.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/host-manager/WEB-INF/jsp/401.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/host-manager/WEB-INF/jsp/403.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/host-manager/WEB-INF/jsp/404.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/host-manager/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/host-manager/images/add.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/host-manager/images/asf-logo.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/host-manager/images/code.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/host-manager/images/design.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/host-manager/images/docs.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/host-manager/images/fix.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/host-manager/images/tomcat.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/host-manager/images/update.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/host-manager/images/void.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/host-manager/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/host-manager/manager.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/manager/META-INF/context.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/manager/WEB-INF/jsp/401.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/manager/WEB-INF/jsp/403.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/manager/WEB-INF/jsp/404.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/manager/WEB-INF/jsp/connectorCiphers.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/manager/WEB-INF/jsp/sessionDetail.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/manager/WEB-INF/jsp/sessionsList.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/manager/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/manager/images/add.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/manager/images/asf-logo.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/manager/images/code.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/manager/images/design.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/manager/images/docs.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/manager/images/fix.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/manager/images/tomcat.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/manager/images/update.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/manager/images/void.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/manager/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/manager/status.xsd" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/webapps/manager/xform.xsl" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/configurations/tomcat8x/work/Catalina/localhost/ROOT/SESSIONS.ser" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/.cargo" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/RELEASE-NOTES" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/RUNNING.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/bin/bootstrap.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/bin/catalina-tasks.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/bin/catalina.bat" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/bin/catalina.sh" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/bin/commons-daemon-native.tar.gz" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/bin/commons-daemon.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/bin/configtest.bat" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/bin/configtest.sh" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/bin/daemon.sh" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/bin/digest.bat" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/bin/digest.sh" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/bin/setclasspath.bat" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/bin/setclasspath.sh" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/bin/shutdown.bat" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/bin/shutdown.sh" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/bin/startup.bat" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/bin/startup.sh" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/bin/tomcat-juli.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/bin/tomcat-native.tar.gz" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/bin/tool-wrapper.bat" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/bin/tool-wrapper.sh" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/bin/version.bat" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/bin/version.sh" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/conf/catalina.policy" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/conf/catalina.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/conf/context.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/conf/jaspic-providers.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/conf/jaspic-providers.xsd" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/conf/logging.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/conf/server.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/conf/tomcat-users.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/conf/tomcat-users.xsd" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/conf/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/lib/annotations-api.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/lib/catalina-ant.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/lib/catalina-ha.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/lib/catalina-storeconfig.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/lib/catalina-tribes.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/lib/catalina.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/lib/ecj-4.6.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/lib/el-api.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/lib/jasper-el.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/lib/jasper.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/lib/jaspic-api.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/lib/jsp-api.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/lib/servlet-api.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/lib/tomcat-api.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/lib/tomcat-coyote.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/lib/tomcat-dbcp.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/lib/tomcat-i18n-es.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/lib/tomcat-i18n-fr.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/lib/tomcat-i18n-ja.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/lib/tomcat-jdbc.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/lib/tomcat-jni.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/lib/tomcat-util-scan.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/lib/tomcat-util.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/lib/tomcat-websocket.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/lib/websocket-api.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/temp/safeToDelete.tmp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/ROOT/RELEASE-NOTES.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/ROOT/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/ROOT/asf-logo-wide.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/ROOT/bg-button.png" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/ROOT/bg-middle.png" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/ROOT/bg-nav-item.png" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/ROOT/bg-nav.png" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/ROOT/bg-upper.png" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/ROOT/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/ROOT/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/ROOT/tomcat-power.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/ROOT/tomcat.css" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/ROOT/tomcat.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/ROOT/tomcat.png" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/ROOT/tomcat.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/BUILDING.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/RELEASE-NOTES.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/RUNNING.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/aio.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/api/index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/appdev/build.xml.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/appdev/deployment.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/appdev/index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/appdev/installation.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/appdev/introduction.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/appdev/processes.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/appdev/sample/build.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/appdev/sample/docs/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/appdev/sample/index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/appdev/sample/sample.war" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/appdev/sample/src/mypackage/Hello.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/appdev/sample/web/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/appdev/sample/web/hello.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/appdev/sample/web/images/tomcat.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/appdev/sample/web/index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/appdev/source.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/appdev/web.xml.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/apr.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/architecture/index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/architecture/overview.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/architecture/requestProcess.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/architecture/requestProcess/authentication-process.png" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/architecture/requestProcess/request-process.png" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/architecture/startup.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/architecture/startup/serverStartup.pdf" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/architecture/startup/serverStartup.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/balancer-howto.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/building.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/cgi-howto.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/changelog.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/class-loader-howto.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/cluster-howto.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/comments.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/config/ajp.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/config/automatic-deployment.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/config/cluster-channel.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/config/cluster-deployer.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/config/cluster-interceptor.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/config/cluster-listener.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/config/cluster-manager.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/config/cluster-membership.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/config/cluster-receiver.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/config/cluster-sender.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/config/cluster-valve.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/config/cluster.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/config/context.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/config/cookie-processor.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/config/credentialhandler.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/config/engine.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/config/executor.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/config/filter.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/config/globalresources.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/config/host.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/config/http.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/config/http2.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/config/index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/config/jar-scan-filter.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/config/jar-scanner.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/config/jaspic.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/config/listeners.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/config/loader.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/config/manager.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/config/realm.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/config/resources.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/config/server.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/config/service.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/config/sessionidgenerator.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/config/systemprops.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/config/valve.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/connectors.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/default-servlet.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/deployer-howto.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/developers.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/elapi/index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/extras.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/funcspecs/fs-admin-apps.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/funcspecs/fs-admin-objects.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/funcspecs/fs-admin-opers.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/funcspecs/fs-default.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/funcspecs/fs-jdbc-realm.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/funcspecs/fs-jndi-realm.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/funcspecs/fs-memory-realm.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/funcspecs/index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/funcspecs/mbean-names.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/html-manager-howto.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/images/add.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/images/asf-logo.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/images/code.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/images/cors-flowchart.png" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/images/design.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/images/docs-stylesheet.css" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/images/docs.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/images/fix.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/images/fonts/OpenSans400.woff" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/images/fonts/OpenSans400italic.woff" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/images/fonts/OpenSans600.woff" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/images/fonts/OpenSans600italic.woff" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/images/fonts/OpenSans700.woff" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/images/fonts/OpenSans700italic.woff" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/images/fonts/fonts.css" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/images/printer.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/images/tomcat.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/images/tomcat.png" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/images/tomcat.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/images/update.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/images/void.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/introduction.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/jasper-howto.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/jdbc-pool.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/jndi-datasource-examples-howto.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/jndi-resources-howto.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/jspapi/index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/logging.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/manager-howto.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/maven-jars.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/mbeans-descriptors-howto.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/monitoring.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/proxy-howto.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/realm-howto.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/rewrite.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/security-howto.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/security-manager-howto.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/servletapi/index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/setup.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/ssi-howto.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/ssl-howto.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/tribes/developers.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/tribes/faq.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/tribes/interceptors.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/tribes/introduction.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/tribes/membership.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/tribes/setup.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/tribes/status.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/tribes/transport.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/virtual-hosting-howto.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/web-socket-howto.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/websocketapi/index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/windows-auth-howto.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/docs/windows-service-howto.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/CookieExample.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/CookieExample.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/HelloWorldExample.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/HelloWorldExample.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/LocalStrings.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/LocalStrings_en.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/LocalStrings_es.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/LocalStrings_fr.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/LocalStrings_pt.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/RequestHeaderExample.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/RequestHeaderExample.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/RequestInfoExample.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/RequestInfoExample.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/RequestParamExample.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/RequestParamExample.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/ServletToJsp.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/ServletToJsp.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/SessionExample.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/SessionExample.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/async/Async0$1.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/async/Async0.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/async/Async0.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/async/Async1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/async/Async1.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/async/Async1.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/async/Async2$1.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/async/Async2.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/async/Async2.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/async/Async3.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/async/Async3.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/async/AsyncStockServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/async/AsyncStockServlet.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/async/Stockticker$Stock.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/async/Stockticker$TickListener.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/async/Stockticker.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/async/Stockticker.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/cal/Entries.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/cal/Entries.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/cal/Entry.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/cal/Entry.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/cal/JspCalendar.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/cal/JspCalendar.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/cal/TableBean.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/cal/TableBean.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/checkbox/CheckTest.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/checkbox/CheckTest.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/colors/ColorGameBean.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/colors/ColorGameBean.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/compressionFilters/CompressionFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/compressionFilters/CompressionFilter.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/compressionFilters/CompressionFilterTestServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/compressionFilters/CompressionFilterTestServlet.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/compressionFilters/CompressionResponseStream.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/compressionFilters/CompressionResponseStream.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/compressionFilters/CompressionServletResponseWrapper.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/compressionFilters/CompressionServletResponseWrapper.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/dates/JspCalendar.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/dates/JspCalendar.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/error/Smart.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/error/Smart.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/examples/ExampleTagBase.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/examples/ExampleTagBase.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/examples/FooTag.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/examples/FooTag.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/examples/FooTagExtraInfo.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/examples/FooTagExtraInfo.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/examples/LogTag.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/examples/LogTag.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/examples/ShowSource.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/examples/ShowSource.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/examples/ValuesTag.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/examples/ValuesTag.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/filters/ExampleFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/filters/ExampleFilter.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/http2/SimpleImagePush.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/http2/SimpleImagePush.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/jsp2/examples/BookBean.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/jsp2/examples/BookBean.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/jsp2/examples/FooBean.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/jsp2/examples/FooBean.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/jsp2/examples/ValuesBean.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/jsp2/examples/ValuesBean.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/jsp2/examples/el/Functions.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/jsp2/examples/el/Functions.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/EchoAttributesTag.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/EchoAttributesTag.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/FindBookSimpleTag.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/FindBookSimpleTag.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/HelloWorldSimpleTag.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/HelloWorldSimpleTag.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/RepeatSimpleTag.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/RepeatSimpleTag.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/ShuffleSimpleTag.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/ShuffleSimpleTag.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/TileSimpleTag.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/TileSimpleTag.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/listeners/ContextListener.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/listeners/ContextListener.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/listeners/SessionListener.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/listeners/SessionListener.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/nonblocking/ByteCounter$1.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/nonblocking/ByteCounter$CounterListener.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/nonblocking/ByteCounter.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/nonblocking/ByteCounter.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/nonblocking/NumberWriter$1.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/nonblocking/NumberWriter$NumberWriterListener.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/nonblocking/NumberWriter.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/nonblocking/NumberWriter.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/num/NumberGuessBean.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/num/NumberGuessBean.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/sessions/DummyCart.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/sessions/DummyCart.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/util/CookieFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/util/CookieFilter.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/util/HTMLFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/util/HTMLFilter.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/validators/DebugValidator.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/validators/DebugValidator.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/ExamplesConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/ExamplesConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/chat/ChatAnnotation.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/chat/ChatAnnotation.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/drawboard/Client$1.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/drawboard/Client.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/drawboard/Client.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawMessage$ParseException.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardContextListener.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardContextListener.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint$1.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint$2.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint$3$1.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint$3.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/drawboard/Room$1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/drawboard/Room$1.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/drawboard/Room$2.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/drawboard/Room$MessageType.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/drawboard/Room$Player.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/drawboard/Room.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/drawboard/Room.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/AbstractWebsocketMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/AbstractWebsocketMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/BinaryWebsocketMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/BinaryWebsocketMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/CloseWebsocketMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/CloseWebsocketMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/StringWebsocketMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/StringWebsocketMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/echo/EchoAnnotation.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/echo/EchoAnnotation.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/echo/EchoAsyncAnnotation$1.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/echo/EchoAsyncAnnotation$CompletedFuture.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/echo/EchoAsyncAnnotation.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/echo/EchoAsyncAnnotation.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/echo/EchoEndpoint$1.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/echo/EchoEndpoint$EchoMessageHandlerBinary.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/echo/EchoEndpoint$EchoMessageHandlerText.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/echo/EchoEndpoint.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/echo/EchoEndpoint.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/echo/EchoStreamAnnotation.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/echo/EchoStreamAnnotation.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/echo/servers.json" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/snake/Direction.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/snake/Direction.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/snake/Location$1.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/snake/Location.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/snake/Location.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/snake/Snake.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/snake/Snake.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/snake/SnakeAnnotation.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/snake/SnakeAnnotation.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/snake/SnakeTimer$1.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/snake/SnakeTimer.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/classes/websocket/snake/SnakeTimer.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/jsp/applet/Clock2.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/jsp/debug-taglib.tld" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/jsp/example-taglib.tld" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/jsp2/jsp2-example-taglib.tld" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/tags/displayProducts.tag" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/tags/helloWorld.tag" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/tags/panel.tag" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/async/async1.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/async/async1.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/async/async3.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/async/async3.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/async/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/async/index.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/cal/Entries.java.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/cal/Entry.java.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/cal/JspCalendar.java.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/cal/TableBean.java.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/cal/cal1.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/cal/cal1.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/cal/cal2.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/cal/cal2.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/cal/calendar.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/cal/login.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/checkbox/CheckTest.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/checkbox/check.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/checkbox/checkresult.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/checkbox/checkresult.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/checkbox/cresult.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/colors/ColorGameBean.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/colors/clr.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/colors/colors.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/colors/colrs.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/colors/colrs.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/dates/date.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/dates/date.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/dates/date.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/error/er.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/error/err.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/error/err.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/error/error.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/error/errorpge.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/error/errorpge.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/forward/forward.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/forward/forward.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/forward/fwd.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/forward/one.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/forward/one.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/forward/two.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/images/code.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/images/execute.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/images/read.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/images/return.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/include/foo.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/include/foo.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/include/foo.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/include/inc.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/include/include.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/include/include.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/el/Functions.java.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/el/ValuesBean.java.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/el/ValuesTag.java.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/el/basic-arithmetic.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/el/basic-arithmetic.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/el/basic-arithmetic.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/el/basic-comparisons.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/el/basic-comparisons.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/el/basic-comparisons.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/el/composite.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/el/composite.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/el/composite.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/el/functions.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/el/functions.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/el/functions.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/el/implicit-objects.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/el/implicit-objects.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/el/implicit-objects.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/jspattribute/FooBean.java.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/jspattribute/HelloWorldSimpleTag.java.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/jspattribute/ShuffleSimpleTag.java.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/jspattribute/TileSimpleTag.java.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/jspattribute/jspattribute.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/jspattribute/jspattribute.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/jspattribute/jspattribute.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/jspattribute/shuffle.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/jspattribute/shuffle.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/jspattribute/shuffle.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/jspx/basic.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/jspx/basic.jspx" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/jspx/basic.jspx.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/jspx/svgexample.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/jspx/textRotate.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/jspx/textRotate.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/jspx/textRotate.jspx" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/jspx/textRotate.jspx.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/misc/EchoAttributesTag.java.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/misc/coda.jspf" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/misc/coda.jspf.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/misc/config.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/misc/config.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/misc/config.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/misc/dynamicattrs.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/misc/dynamicattrs.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/misc/dynamicattrs.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/misc/prelude.jspf" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/misc/prelude.jspf.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/simpletag/BookBean.java.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/simpletag/FindBookSimpleTag.java.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/simpletag/Functions.java.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/simpletag/HelloWorldSimpleTag.java.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/simpletag/RepeatSimpleTag.java.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/simpletag/book.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/simpletag/book.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/simpletag/book.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/simpletag/hello.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/simpletag/hello.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/simpletag/hello.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/simpletag/repeat.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/simpletag/repeat.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/simpletag/repeat.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/tagfiles/displayProducts.tag.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/tagfiles/hello.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/tagfiles/hello.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/tagfiles/hello.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/tagfiles/helloWorld.tag.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/tagfiles/panel.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/tagfiles/panel.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/tagfiles/panel.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/tagfiles/panel.tag.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/tagfiles/products.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/tagfiles/products.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsp2/tagfiles/products.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsptoserv/ServletToJsp.java.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsptoserv/hello.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsptoserv/hello.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsptoserv/jsptoservlet.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsptoserv/jsptoservlet.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/jsptoserv/jts.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/num/numguess.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/num/numguess.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/num/numguess.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/plugin/applet/Clock2.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/plugin/applet/Clock2.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/plugin/plugin.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/plugin/plugin.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/plugin/plugin.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/security/protected/error.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/security/protected/error.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/security/protected/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/security/protected/index.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/security/protected/login.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/security/protected/login.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/sessions/DummyCart.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/sessions/carts.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/sessions/carts.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/sessions/carts.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/sessions/crt.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/simpletag/foo.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/simpletag/foo.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/simpletag/foo.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/snp/snoop.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/snp/snoop.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/snp/snoop.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/source.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/source.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/tagplugin/choose.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/tagplugin/choose.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/tagplugin/choose.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/tagplugin/foreach.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/tagplugin/foreach.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/tagplugin/foreach.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/tagplugin/howto.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/tagplugin/if.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/tagplugin/if.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/tagplugin/if.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/tagplugin/notes.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/xml/xml.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/xml/xml.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/jsp/xml/xml.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/servlets/cookies.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/servlets/helloworld.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/servlets/images/code.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/servlets/images/execute.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/servlets/images/return.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/servlets/index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/servlets/nonblocking/bytecounter.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/servlets/reqheaders.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/servlets/reqinfo.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/servlets/reqparams.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/servlets/sessions.html" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/websocket/chat.xhtml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/websocket/drawboard.xhtml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/websocket/echo.xhtml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/websocket/index.xhtml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/examples/websocket/snake.xhtml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/host-manager/META-INF/context.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/host-manager/WEB-INF/jsp/401.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/host-manager/WEB-INF/jsp/403.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/host-manager/WEB-INF/jsp/404.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/host-manager/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/host-manager/images/add.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/host-manager/images/asf-logo.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/host-manager/images/code.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/host-manager/images/design.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/host-manager/images/docs.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/host-manager/images/fix.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/host-manager/images/tomcat.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/host-manager/images/update.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/host-manager/images/void.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/host-manager/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/host-manager/manager.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/manager/META-INF/context.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/manager/WEB-INF/jsp/401.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/manager/WEB-INF/jsp/403.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/manager/WEB-INF/jsp/404.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/manager/WEB-INF/jsp/connectorCiphers.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/manager/WEB-INF/jsp/sessionDetail.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/manager/WEB-INF/jsp/sessionsList.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/manager/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/manager/images/add.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/manager/images/asf-logo.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/manager/images/code.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/manager/images/design.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/manager/images/docs.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/manager/images/fix.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/manager/images/tomcat.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/manager/images/update.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/manager/images/void.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/manager/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/manager/status.xsd" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/webapps/manager/xform.xsl" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/classes/com/fujitsu/fs/utils/CredentialsRetriever.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/classes/test.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/novikov-test-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/surefire-reports/TEST-tests.IntegrationTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/surefire-reports/tests.IntegrationTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/test-classes/credentials.json" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/test-classes/tests/AllTests.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/test-classes/tests/IntegrationDB.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/test-classes/tests/IntegrationTest.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-test/target/test-classes/users_test.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-web/novikov-web.iml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-web/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-web/src/main/java/com/fujitsu/fs/filters/AdminFilter.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-web/src/main/java/com/fujitsu/fs/filters/RegistrationFilter.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-web/src/main/java/com/fujitsu/fs/servlets/AdminServlet.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-web/src/main/java/com/fujitsu/fs/servlets/HomeServlet.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-web/src/main/java/com/fujitsu/fs/servlets/RegistrationServlet.java" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-web/src/main/webapp/WEB-INF/views/admin.ftl" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-web/src/main/webapp/WEB-INF/views/home.ftl" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-web/src/main/webapp/WEB-INF/views/registration.ftl" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-web/src/main/webapp/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-web/src/main/webapp/resources/js/home.js" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-web/target/classes/com/fujitsu/fs/filters/AdminFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-web/target/classes/com/fujitsu/fs/filters/RegistrationFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-web/target/classes/com/fujitsu/fs/servlets/AdminServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-web/target/classes/com/fujitsu/fs/servlets/HomeServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-web/target/classes/com/fujitsu/fs/servlets/RegistrationServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-web/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-web/target/novikov-web-1.0-SNAPSHOT.war" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-web/target/novikov-web-1.0-SNAPSHOT/WEB-INF/classes/com/fujitsu/fs/filters/AdminFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-web/target/novikov-web-1.0-SNAPSHOT/WEB-INF/classes/com/fujitsu/fs/filters/RegistrationFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-web/target/novikov-web-1.0-SNAPSHOT/WEB-INF/classes/com/fujitsu/fs/servlets/AdminServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-web/target/novikov-web-1.0-SNAPSHOT/WEB-INF/classes/com/fujitsu/fs/servlets/HomeServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-web/target/novikov-web-1.0-SNAPSHOT/WEB-INF/classes/com/fujitsu/fs/servlets/RegistrationServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-web/target/novikov-web-1.0-SNAPSHOT/WEB-INF/lib/HikariCP-2.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-web/target/novikov-web-1.0-SNAPSHOT/WEB-INF/lib/commons-codec-1.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-web/target/novikov-web-1.0-SNAPSHOT/WEB-INF/lib/commons-collections-3.2.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-web/target/novikov-web-1.0-SNAPSHOT/WEB-INF/lib/dbunit-2.4.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-web/target/novikov-web-1.0-SNAPSHOT/WEB-INF/lib/freemarker-2.3.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-web/target/novikov-web-1.0-SNAPSHOT/WEB-INF/lib/gson-2.8.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-web/target/novikov-web-1.0-SNAPSHOT/WEB-INF/lib/json-20171018.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-web/target/novikov-web-1.0-SNAPSHOT/WEB-INF/lib/json-simple-1.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-web/target/novikov-web-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-web/target/novikov-web-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.17.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-web/target/novikov-web-1.0-SNAPSHOT/WEB-INF/lib/novikov-db-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-web/target/novikov-web-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.5.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-web/target/novikov-web-1.0-SNAPSHOT/WEB-INF/views/admin.ftl" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-web/target/novikov-web-1.0-SNAPSHOT/WEB-INF/views/home.ftl" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-web/target/novikov-web-1.0-SNAPSHOT/WEB-INF/views/registration.ftl" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-web/target/novikov-web-1.0-SNAPSHOT/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov-web/target/novikov-web-1.0-SNAPSHOT/resources/js/home.js" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/novikov.iml" afterPath="" />
+      <change type="DELETED" beforePath="D:/Novikov/pom.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-web/src/main/webapp/js/tov.js" afterPath="$PROJECT_DIR$/hockeyshop-web/src/main/webapp/js/tov.js" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,26 +894,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HomeServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/HomeServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.ftl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/webapp/views/home.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LoginServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/LoginServlet.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -73,62 +904,108 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.ftl" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.ftl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/webapp/views/unregistered/login.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+            <state relative-caret-position="408">
+              <caret line="45" column="47" lean-forward="true" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.ftl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/webapp/views/admin/admin.ftl">
+      <file leaf-file-name="BasketDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/BasketDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
+            <state relative-caret-position="255">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasketDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/BasketDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
               <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1515404856000" expanded="true" signature="888:939" ph=" INSERT statement (BASKET)" />
+                <marker date="1515404856000" expanded="true" signature="1331:1384" ph=" DELETE statement (BASKET)" />
+                <marker date="1515404856000" expanded="true" signature="2046:2083" ph=" SELECT statement (BASKET)" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GetProductsNext.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/GetProductsNext.java">
+      <file leaf-file-name="ProductDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/ProductDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="34" column="69" lean-forward="false" selection-start-line="34" selection-start-column="69" selection-end-line="34" selection-end-column="69" />
+            <state relative-caret-position="119">
+              <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu.ftl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/webapp/views/menu.ftl">
+      <file leaf-file-name="UserAuthFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/filters/UserAuthFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+            <state relative-caret-position="-297">
+              <caret line="22" column="73" lean-forward="false" selection-start-line="22" selection-start-column="73" selection-end-line="22" selection-end-column="73" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tov.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ProductDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/ProductDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="48" column="59" lean-forward="false" selection-start-line="48" selection-start-column="59" selection-end-line="48" selection-end-column="59" />
+              <folding>
+                <marker date="1515486392000" expanded="true" signature="887:990" ph=" INSERT statement (PRODUCTS)" />
+                <marker date="1515486392000" expanded="true" signature="1585:1619" ph=" DELETE statement (PRODUCTS)" />
+                <marker date="1515486392000" expanded="true" signature="1784:1806" ph=" SELECT statement (PRODUCTS)" />
+                <marker date="1515486392000" expanded="true" signature="3085:3120" ph=" SELECT statement (PRODUCTS)" />
+                <marker date="1515486392000" expanded="true" signature="3974:4011" ph=" SELECT statement (PRODUCTS)" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/UserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tov.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/webapp/js/tov.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
-              <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+            <state relative-caret-position="238">
+              <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Products.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/Products.java">
+      <file leaf-file-name="UserDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/UserDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="67" column="34" lean-forward="false" selection-start-line="67" selection-start-column="34" selection-end-line="67" selection-end-column="34" />
-              <folding />
+            <state relative-caret-position="17">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding>
+                <marker date="1515424338000" expanded="true" signature="836:901" ph=" INSERT statement (USERS)" />
+                <marker date="1515424338000" expanded="true" signature="1348:1378" ph=" DELETE statement (USERS)" />
+                <marker date="1515424338000" expanded="true" signature="1509:1528" ph=" SELECT statement (USERS)" />
+                <marker date="1515424338000" expanded="true" signature="2455:2487" ph=" SELECT statement (USERS)" />
+                <marker date="1515424338000" expanded="true" signature="3247:3281" ph=" SELECT statement (USERS)" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -147,7 +1024,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="D:/" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="D:/" value="WebModule" />
+        <entry key="D:/" value="webapp" />
       </map>
     </option>
   </component>
@@ -208,8 +1085,8 @@
         <option value="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/ProductDaoImpl.java" />
         <option value="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/utils/FormDataCheck.java" />
         <option value="$PROJECT_DIR$/hockeyshop-web/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/hockeyshop-web/src/main/webapp/js/tov.js" />
         <option value="$PROJECT_DIR$/hockeyshop-web/src/main/webapp/views/unregistered/login.ftl" />
+        <option value="$PROJECT_DIR$/hockeyshop-web/src/main/webapp/js/tov.js" />
       </list>
     </option>
   </component>
@@ -352,6 +1229,58 @@
             <path>
               <item name="hockeyshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="hockeyshop" type="462c0819:PsiDirectoryNode" />
+              <item name="hockeyshop-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="fujitsu" type="462c0819:PsiDirectoryNode" />
+              <item name="fs" type="462c0819:PsiDirectoryNode" />
+              <item name="rnovikov" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hockeyshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hockeyshop" type="462c0819:PsiDirectoryNode" />
+              <item name="hockeyshop-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="fujitsu" type="462c0819:PsiDirectoryNode" />
+              <item name="fs" type="462c0819:PsiDirectoryNode" />
+              <item name="rnovikov" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hockeyshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hockeyshop" type="462c0819:PsiDirectoryNode" />
+              <item name="hockeyshop-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="fujitsu" type="462c0819:PsiDirectoryNode" />
+              <item name="fs" type="462c0819:PsiDirectoryNode" />
+              <item name="rnovikov" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hockeyshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hockeyshop" type="462c0819:PsiDirectoryNode" />
+              <item name="hockeyshop-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="fujitsu" type="462c0819:PsiDirectoryNode" />
+              <item name="fs" type="462c0819:PsiDirectoryNode" />
+              <item name="rnovikov" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hockeyshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hockeyshop" type="462c0819:PsiDirectoryNode" />
               <item name="hockeyshop-test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -421,6 +1350,33 @@
               <item name="fujitsu" type="462c0819:PsiDirectoryNode" />
               <item name="fs" type="462c0819:PsiDirectoryNode" />
               <item name="rnovikov" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hockeyshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hockeyshop" type="462c0819:PsiDirectoryNode" />
+              <item name="hockeyshop-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="fujitsu" type="462c0819:PsiDirectoryNode" />
+              <item name="fs" type="462c0819:PsiDirectoryNode" />
+              <item name="rnovikov" type="462c0819:PsiDirectoryNode" />
+              <item name="filters" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hockeyshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hockeyshop" type="462c0819:PsiDirectoryNode" />
+              <item name="hockeyshop-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="fujitsu" type="462c0819:PsiDirectoryNode" />
+              <item name="fs" type="462c0819:PsiDirectoryNode" />
+              <item name="rnovikov" type="462c0819:PsiDirectoryNode" />
+              <item name="filters" type="462c0819:PsiDirectoryNode" />
+              <item name="UserAuthFilter" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="hockeyshop" type="b2602c69:ProjectViewProjectNode" />
@@ -950,10 +1906,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295063" sideWeight="0.50733495" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295063" sideWeight="0.50733495" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15158924" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1127,20 +2084,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/BasketDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-306">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/DeleteFromCart.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="451">
@@ -1188,20 +2131,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
           <caret line="17" column="64" lean-forward="false" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/BasketDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/UserDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1615">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1210,20 +2139,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="25" column="55" lean-forward="false" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/ProductDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/ProductDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1241">
-          <caret line="48" column="59" lean-forward="false" selection-start-line="48" selection-start-column="59" selection-end-line="48" selection-end-column="59" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1231,6 +2147,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-391">
           <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding>
+            <element signature="e#712#713#0" expanded="false" />
+            <element signature="e#740#741#0" expanded="false" />
+            <element signature="e#785#786#0" expanded="false" />
+            <element signature="e#825#826#0" expanded="false" />
+            <element signature="e#879#880#0" expanded="false" />
+            <element signature="e#925#926#0" expanded="false" />
+            <element signature="e#1100#1101#0" expanded="false" />
+            <element signature="e#1134#1135#0" expanded="false" />
+            <element signature="e#1174#1175#0" expanded="false" />
+            <element signature="e#1206#1207#0" expanded="false" />
+            <element signature="e#1232#1233#0" expanded="false" />
+            <element signature="e#1257#1258#0" expanded="false" />
+            <element signature="e#1288#1289#0" expanded="false" />
+            <element signature="e#1315#1316#0" expanded="false" />
+            <element signature="e#1344#1345#0" expanded="false" />
+            <element signature="e#1372#1373#0" expanded="false" />
+            <element signature="e#1410#1411#0" expanded="false" />
+            <element signature="e#1444#1445#0" expanded="false" />
+            <element signature="e#1491#1492#0" expanded="false" />
+            <element signature="e#1534#1535#0" expanded="false" />
+            <element signature="e#1566#1567#0" expanded="false" />
+            <element signature="e#1597#1598#0" expanded="false" />
+            <element signature="e#1633#1634#0" expanded="false" />
+            <element signature="e#1665#1666#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1238,6 +2180,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="e#440#441#0" expanded="false" />
+            <element signature="e#493#494#0" expanded="false" />
+            <element signature="e#524#525#0" expanded="false" />
+            <element signature="e#551#552#0" expanded="false" />
+            <element signature="e#589#590#0" expanded="false" />
+            <element signature="e#620#621#0" expanded="false" />
+            <element signature="e#657#658#0" expanded="false" />
+            <element signature="e#691#692#0" expanded="false" />
+            <element signature="e#717#718#0" expanded="false" />
+            <element signature="e#742#743#0" expanded="false" />
+            <element signature="e#783#784#0" expanded="false" />
+            <element signature="e#816#817#0" expanded="false" />
+            <element signature="e#849#850#0" expanded="false" />
+            <element signature="e#877#878#0" expanded="false" />
+            <element signature="e#931#932#0" expanded="false" />
+            <element signature="e#977#978#0" expanded="false" />
+            <element signature="e#1025#1026#0" expanded="false" />
+            <element signature="e#1065#1066#0" expanded="false" />
+            <element signature="e#1287#1288#0" expanded="false" />
+            <element signature="e#1314#1315#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1315,16 +2279,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/filters/UserAuthFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="22" column="73" lean-forward="false" selection-start-line="22" selection-start-column="73" selection-end-line="22" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/AddToCart.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1373,14 +2327,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/webapp/js/tov.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/HomeServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -1423,8 +2369,88 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/webapp/views/unregistered/login.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        <state relative-caret-position="408">
+          <caret line="45" column="47" lean-forward="true" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/BasketDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/BasketDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <marker date="1515404856000" expanded="true" signature="888:939" ph=" INSERT statement (BASKET)" />
+            <marker date="1515404856000" expanded="true" signature="1331:1384" ph=" DELETE statement (BASKET)" />
+            <marker date="1515404856000" expanded="true" signature="2046:2083" ph=" SELECT statement (BASKET)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/ProductDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/ProductDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="48" column="59" lean-forward="false" selection-start-line="48" selection-start-column="59" selection-end-line="48" selection-end-column="59" />
+          <folding>
+            <marker date="1515486392000" expanded="true" signature="887:990" ph=" INSERT statement (PRODUCTS)" />
+            <marker date="1515486392000" expanded="true" signature="1585:1619" ph=" DELETE statement (PRODUCTS)" />
+            <marker date="1515486392000" expanded="true" signature="1784:1806" ph=" SELECT statement (PRODUCTS)" />
+            <marker date="1515486392000" expanded="true" signature="3085:3120" ph=" SELECT statement (PRODUCTS)" />
+            <marker date="1515486392000" expanded="true" signature="3974:4011" ph=" SELECT statement (PRODUCTS)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <marker date="1515424338000" expanded="true" signature="836:901" ph=" INSERT statement (USERS)" />
+            <marker date="1515424338000" expanded="true" signature="1348:1378" ph=" DELETE statement (USERS)" />
+            <marker date="1515424338000" expanded="true" signature="1509:1528" ph=" SELECT statement (USERS)" />
+            <marker date="1515424338000" expanded="true" signature="2455:2487" ph=" SELECT statement (USERS)" />
+            <marker date="1515424338000" expanded="true" signature="3247:3281" ph=" SELECT statement (USERS)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/filters/UserAuthFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-297">
+          <caret line="22" column="73" lean-forward="false" selection-start-line="22" selection-start-column="73" selection-end-line="22" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/webapp/js/tov.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -56,7 +56,7 @@ $(document).ready(function () {
 
 function deleteProduct(id) {
     $.ajax({
-        url: "/tov?action=delete&id=" + id,
+        url: "/products?action=delete&id=" + id,
         type: "GET"
     }).done(function(data) {
         updateProducts()
