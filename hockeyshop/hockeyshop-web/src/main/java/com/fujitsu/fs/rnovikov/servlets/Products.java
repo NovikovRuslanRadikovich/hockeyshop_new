@@ -12,6 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by User on 07.01.2018.
@@ -40,13 +41,13 @@ public class Products extends HttpServlet {
                 e.printStackTrace();
             }
             if (allproducts.length > 10 ) {
-                ArrayList<Product> productsDecade = new ArrayList();
+                List<Product> productsDecade = new ArrayList<>();
 
                 for(int i = 0 ; i < 10;i++) {
                     productsDecade.add(allproducts[i]);
                 }
                 request.setAttribute("productsDecade",productsDecade);
-                ArrayList<Product> nextProducts = new ArrayList();
+                List<Product> nextProducts = new ArrayList<>();
 
                 for(int j = 10 ; j < allproducts.length;j++) {
                     nextProducts.add(allproducts[j]);
@@ -73,7 +74,7 @@ public class Products extends HttpServlet {
             return;
         }
 
-        getServletConfig().getServletContext().getRequestDispatcher("/tov.ftl").forward(request, response);
+        getServletConfig().getServletContext().getRequestDispatcher("/products.ftl").forward(request, response);
     }
 
     public void doPost(HttpServletRequest request,HttpServletResponse response) throws ServletException,IOException {

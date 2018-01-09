@@ -52,7 +52,7 @@ public class Admin extends HttpServlet {
         }
 
         if ("delete".equals(request.getParameter("action"))) {
-            System.out.println("deleting!");
+
             String id = request.getParameter("id");
 
             if (id != null) {
@@ -114,7 +114,7 @@ public class Admin extends HttpServlet {
         } catch(Exception ex) {
             ex.printStackTrace();
         }
-        productDao = ProductDao.getInstance();
+        productDao = ProductDaoImpl.getInstance();
         try {
             productDao.save(product);
             product = new Product();

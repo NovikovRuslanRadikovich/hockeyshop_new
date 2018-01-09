@@ -29,7 +29,7 @@
         <div id="navbarCollapse" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
                 <li id="nws"><a href="/home"><div class="menu_button_text">Главная</div></a></li>
-                <li id="nws"><a href="/tov"><div class="menu_button_text">Товары</div></a></li>
+                <li id="nws"><a href="/products"><div class="menu_button_text">Товары</div></a></li>
         </div>
     </nav>
 

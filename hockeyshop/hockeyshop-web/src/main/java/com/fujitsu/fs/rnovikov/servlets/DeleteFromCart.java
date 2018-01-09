@@ -19,7 +19,7 @@ import java.sql.SQLException;
 public class DeleteFromCart extends HttpServlet {
     BasketDao<Integer, Integer> basketDao;
     ProductDao<Product> productDao;
-    ProductDao<User> userDao;
+    UserDao<User> userDao;
     public void init() throws ServletException {
         basketDao = BasketDaoImpl.getInstance();
         productDao = ProductDaoImpl.getInstance();

@@ -15,19 +15,15 @@ import java.util.regex.Pattern;
 public class FormDataCheck {
     private FormDataCheck(){
     }
-    public static TreeMap<String, String> checkAllFieldsAndGetErrorMessageIfFieldsAreInvalid(String fullName, String phoneNumber, String DOB, String password1, String password2, String sex, String city) throws SQLException {
+    public static TreeMap<String, String> checkAllFieldsAndGetErrorMessageIfFieldsAreInvalid(String username, String phoneNumber, String password1, String password2) throws SQLException {
         TreeMap<String, String> errorMessage = new TreeMap<>();
 
-        if(exists(fullName)) {
+        if(exists(username)) {
             errorMessage.put("error","\nИмя занято другим пользователем");
         }
 
-        if(fullName == null){
+        if(username == null){
             errorMessage.put("error", "\nНе верное имя");
-        }
-
-        if(!checkDOB(DOB)){
-            errorMessage.put("error", "\nНе верная дата");
         }
 
         if (!checkPhoneNumber(phoneNumber)){
@@ -40,12 +36,6 @@ public class FormDataCheck {
             if (!password1.equals(password2)){
                 errorMessage.put("error", "\nНе верный повтор пароля");
             }
-        }
-        if (!checkGender(sex)){
-            errorMessage.put("error", "\nПол не указан");
-        }
-        if (!checkCity(city)){
-            errorMessage.put("error", "\nГород не указан");
         }
 
         return errorMessage;

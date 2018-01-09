@@ -1,6 +1,8 @@
 package com.fujitsu.fs.rnovikov.servlets;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fujitsu.fs.rnovikov.dao.ProductDao;
+import com.fujitsu.fs.rnovikov.dao.UserDao;
 import com.fujitsu.fs.rnovikov.dao.UserDaoImpl;
 import com.fujitsu.fs.rnovikov.entities.User;
 import com.fujitsu.fs.rnovikov.utils.FormDataCheck;
@@ -23,7 +25,7 @@ import java.util.TreeMap;
 
 public class Registration extends HttpServlet {
 
-    ProductDao<User> dao;
+    UserDao<User> dao;
 
     @Override
     public void init() throws ServletException {
@@ -41,7 +43,7 @@ public class Registration extends HttpServlet {
             return;
         }
 
-        request.getRequestDispatcher("/unregistered/register.ftl").forward(request, response);
+        request.getRequestDispatcher("/unregistered/registration.ftl").forward(request, response);
     }
 
     @Override
@@ -53,11 +55,13 @@ public class Registration extends HttpServlet {
         String password = request.getParameter("password");
         String password2 = request.getParameter("password2");
         String phone = request.getParameter("phone");
-        String dob = request.getParameter("dob");
-        String city = request.getParameter("city");
-        String sex = request.getParameter("sex");
 
-        TreeMap message = FormDataCheck.checkAllFieldsAndGetErrorMessageIfFieldsAreInvalid(username, phone, dob, password, password2, sex, city);
+        TreeMap message = null;
+        try {
+            message = FormDataCheck.checkAllFieldsAndGetErrorMessageIfFieldsAreInvalid(username, phone, password, password2);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
 
         PrintWriter pw = response.getWriter();
 

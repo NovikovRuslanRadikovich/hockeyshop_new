@@ -1,5 +1,9 @@
 package com.fujitsu.fs.rnovikov.servlets;
 
+import com.fujitsu.fs.rnovikov.dao.BasketDao;
+import com.fujitsu.fs.rnovikov.dao.BasketDaoImpl;
+import com.fujitsu.fs.rnovikov.entities.Product;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -17,7 +21,7 @@ public class Basket extends HttpServlet {
 
     private BasketDao basketDao;
     public void init() {
-        basketDao = BasketDao.getInstance();
+        basketDao = BasketDaoImpl.getInstance();
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException,IOException {
