@@ -7,4 +7,6 @@ public interface UserDao {
     boolean isRegistered(String username, String password);
 
     void save(String username, String password);
+
+    void updatePassword(String username, String newPassword);
 }

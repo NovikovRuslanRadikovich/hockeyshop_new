@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: tests.IntegrationTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.172 s - in tests.IntegrationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 46.912 s - in tests.IntegrationTest

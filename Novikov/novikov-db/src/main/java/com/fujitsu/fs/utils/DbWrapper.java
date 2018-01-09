@@ -6,7 +6,7 @@ import java.sql.SQLException;
 public class DbWrapper {
 
 
-    public static ConnectionPool connectionPool = new ConnectionPool(PropertiesRetriever.getConnection_URL(),
+    private static ConnectionPool connectionPool = new ConnectionPool(PropertiesRetriever.getConnection_URL(),
             PropertiesRetriever.getDriver(),PropertiesRetriever.getUsername(),
             PropertiesRetriever.getPassword(),
             10);

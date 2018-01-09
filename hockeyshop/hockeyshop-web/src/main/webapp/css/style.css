@@ -1,0 +1,157 @@
+/*@font-face {
+    font-family: "Avenir Next";
+    src: url("../fonts/avenir-next-lt-pro/AvenirNextLTPro-Regular.otf");
+}
+*/
+body {
+    font-family: 'Avenir Next', sans-serif;
+    background: url("/images/Alexander_Ovechkin.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.image {
+    margin: 0 auto;
+    border: solid 2px;
+    height: 200px;
+}
+
+.center-content {
+    margin: 40px auto 0;
+    background: white;
+    border: solid black 1px;
+    display: block;
+}
+
+.form-center-content {
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 40px 40px rgba(255, 255, 255, 0.8);
+    display: block;
+}
+
+@media (min-width: 500px) {
+    .form-center-content {
+        width: 400px;
+    }
+
+    .center-content {
+        width: 600px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .form-center-content {
+        margin-top: 70px;
+        width: 350px;
+    }
+
+    .center-content {
+        margin-left: 250px;
+        width: 400px;
+    }
+}
+
+@media (min-width: 900px) {
+    .center-content {
+        width: 650px;
+    }
+}
+
+@media (max-width: 500px) {
+    .form-center-content {
+        width: 90%;
+    }
+}
+
+.login-button {
+    border: 2px solid CornflowerBlue;
+    background-color: cornflowerblue;
+    border-radius: 37px;
+    width: 200px;
+    height: 80px;
+    margin: 30px auto auto;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 27px;
+
+    padding: 0;
+    line-height: 80px;
+
+    align-items: center;
+    text-align: center;
+}
+
+.register-button {
+    margin-top: 50px;
+    display: block;
+    background: green;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 27px;
+    padding: 0;
+    border: none;
+}
+
+.header {
+    font-size: 30px;
+    position: fixed;
+    top: 0;
+}
+
+.header-text {
+    padding-top: 5px;
+    padding-left: 10px;
+    float: left;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 40px 20px rgba(255, 255, 255, 0.8);
+}
+
+.logo {
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    padding: 30px;
+    float: left;
+}
+
+.images {
+    width: 180px;
+    height: 180px;
+}
+
+.red_header_text {
+    color: red;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.black_header_text {
+    color: black;
+}
+
+.container {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.error_message {
+    position: absolute;
+    width: 760px;
+    height: 500px;
+    left: 50%;
+    margin-left: -380px;
+    top: 50%;
+    margin-top: -250px;
+    background-color: #FFFF00;
+    border: 1px solid #FF0000;
+}
+
+.container_heading{
+    margin: 0 auto 10px;
+    text-align: center;
+    font-size: 40px;
+}

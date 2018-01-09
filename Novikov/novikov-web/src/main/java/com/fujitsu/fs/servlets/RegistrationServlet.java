@@ -17,8 +17,8 @@ import java.io.IOException;
 @WebServlet("/registration")
 public class RegistrationServlet extends HttpServlet {
 
-    UserService userService;
-    UserDao userDao;
+    private UserService userService;
+    private UserDao userDao;
 
     public void init() {
         userDao = UserDaoImpl.getInstance();

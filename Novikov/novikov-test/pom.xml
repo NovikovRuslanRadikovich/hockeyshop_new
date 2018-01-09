@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <parent>
-        <artifactId>Novikov</artifactId>
-        <groupId>Ruslan</groupId>
+        <artifactId>novikov</artifactId>
+        <groupId>ruslan</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -86,7 +86,7 @@
 
                     <deployables>
                         <deployable>
-                            <groupId>Ruslan</groupId>
+                            <groupId>ruslan</groupId>
                             <artifactId>novikov-web</artifactId>
                             <type>war</type>
                             <properties>
@@ -159,30 +159,6 @@
 
             </plugin>
 
-            <!--<plugin>-->
-                <!--<groupId>org.apache.maven.plugins</groupId>-->
-                <!--<artifactId>maven-failsafe-plugin</artifactId>-->
-
-                <!--<executions>-->
-                    <!--<execution>-->
-                        <!--<goals>-->
-                            <!--<goal>integration-test</goal>-->
-                            <!--<goal>verify</goal>-->
-                        <!--</goals>-->
-                    <!--</execution>-->
-                <!--</executions>-->
-                <!--<configuration>-->
-                    <!--<excludes>-->
-                        <!--<exclude>none</exclude>-->
-                    <!--</excludes>-->
-                    <!--<includes>-->
-                        <!--<include>**/*tests.IntegrationTest.java</include>-->
-                        <!--<include>**/*tests.IntegrationDB.java</include>-->
-                    <!--</includes>-->
-                <!--</configuration>-->
-
-            <!--</plugin>-->
-
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>properties-maven-plugin</artifactId>
@@ -207,7 +183,7 @@
     <dependencies>
 
         <dependency>
-            <groupId>Ruslan</groupId>
+            <groupId>ruslan</groupId>
             <artifactId>novikov-web</artifactId>
             <type>war</type>
         </dependency>
@@ -234,7 +210,7 @@
         </dependency>
 
         <dependency>
-            <groupId>Ruslan</groupId>
+            <groupId>ruslan</groupId>
             <artifactId>novikov-db</artifactId>
         </dependency>
 

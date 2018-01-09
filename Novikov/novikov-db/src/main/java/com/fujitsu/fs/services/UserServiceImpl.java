@@ -2,8 +2,6 @@ package com.fujitsu.fs.services;
 
 import com.fujitsu.fs.dao.UserDao;
 
-import java.sql.SQLException;
-
 public class UserServiceImpl implements UserService{
 
 
@@ -21,4 +19,6 @@ public class UserServiceImpl implements UserService{
     public void save(String username,String password) {
         userDao.save(username,password);
     }
+
+    public void updatePassword(String username,String password) {userDao.updatePassword(username,password);}
 }

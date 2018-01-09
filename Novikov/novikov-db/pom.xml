@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <parent>
-        <artifactId>Novikov</artifactId>
-        <groupId>Ruslan</groupId>
+        <artifactId>novikov</artifactId>
+        <groupId>ruslan</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -38,6 +38,7 @@
                     <baselineOnMigrate>false</baselineOnMigrate>
 
                 </configuration>
+
                 <executions>
                     <execution>
                         <phase>compile</phase>
@@ -54,6 +55,7 @@
                         <version>${hsqldb.version}</version>
                     </dependency>
                 </dependencies>
+
             </plugin>
         </plugins>
     </build>
