@@ -23,7 +23,7 @@
 
     <div class="center-content">
         <div class="container">
-            Лучший магазин продажи хоккеистов!!!
+            Лучший магазин хоккейных трансферов!!!
         </div>
     </div>
 

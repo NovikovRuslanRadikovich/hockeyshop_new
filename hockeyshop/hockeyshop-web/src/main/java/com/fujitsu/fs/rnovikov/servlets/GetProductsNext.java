@@ -13,7 +13,9 @@ import java.io.IOException;
 import java.sql.SQLException;
 
 /**
- * Created by User on 07.01.2018.
+ * This servlet handles requests where user want to see any decade from all products
+ * number of decade of products is written in request,
+ * it is a request attribute after /getproductsnext substring
  */
 @WebServlet("/getproductsnext/*")
 class GetProductsNext extends HttpServlet {
@@ -25,10 +27,7 @@ class GetProductsNext extends HttpServlet {
 
         productDao = ProductDaoImpl.getInstance();
     }
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
-        super.doPost(request,response);
 
-    }
     protected void doGet(HttpServletRequest request,HttpServletResponse response) throws IOException, ServletException {
         request.setCharacterEncoding("UTF-8");
         response.setCharacterEncoding("UTF-8");
@@ -42,6 +41,10 @@ class GetProductsNext extends HttpServlet {
     }
 
 
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+        super.doPost(request,response);
+
+    }
 
 
 }

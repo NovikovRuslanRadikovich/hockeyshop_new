@@ -76,7 +76,7 @@ public class ProductDaoImpl implements ProductDao<Product> {
                         resultSet.getInt("quantity")
                 );
 
-                product.setId(resultSet.getInt("id"));
+                product.setProduct_id(resultSet.getInt("id"));
 
                 products.add(product);
             }
@@ -109,7 +109,7 @@ public class ProductDaoImpl implements ProductDao<Product> {
                         resultSet.getInt("quantity")
                 );
 
-                product.setId(resultSet.getInt("id"));
+                product.setProduct_id(resultSet.getInt("id"));
 
             }
 
@@ -140,7 +140,7 @@ public class ProductDaoImpl implements ProductDao<Product> {
                     resultSet.getString("detailed_description"),
                     resultSet.getInt("quantity")
             );
-           product.setId(resultSet.getInt("id"));
+           product.setProduct_id(resultSet.getInt("id"));
 
         } catch (SQLException e) {
             System.out.println("Error: " + e.getMessage());

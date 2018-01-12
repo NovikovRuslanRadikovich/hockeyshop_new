@@ -31,7 +31,7 @@ public class UserDaoImpl implements UserDao<User> {
     public void save(User o) throws SQLException {
         Connection connection = ConnectionPool.getConnection();
 
-        PreparedStatement preparedStatement = connection.prepareStatement("INSERT INTO users (name, password, phonenumber) VALUES (?, ?, ?);");
+        PreparedStatement preparedStatement = connection.prepareStatement("INSERT INTO users (name, password, phoneNumber) VALUES (?, ?, ?);");
 
         preparedStatement.setString(1, o.getName());
         preparedStatement.setString(2, o.getPasswordHash());
@@ -46,15 +46,15 @@ public class UserDaoImpl implements UserDao<User> {
     public void delete(User o) throws SQLException {
         Connection connection = ConnectionPool.getConnection();
 
-        PreparedStatement preparedStatement = connection.prepareStatement("DELETE FROM users WHERE id = ?");
+        PreparedStatement preparedStatement = connection.prepareStatement("DELETE FROM users WHERE user_id = ?");
         preparedStatement.setInt(1, o.getId());
 
     }
 
     public List getAll() throws SQLException {
-        String query = "SELECT * FROM users";
+        String query = "SELECT * FROM Users";
         User user = null;
-        ArrayList<User> users = new ArrayList();
+        List<User> users = new ArrayList<User>();
 
         Connection connection = ConnectionPool.getConnection();
 
@@ -65,10 +65,10 @@ public class UserDaoImpl implements UserDao<User> {
                 user = new User(
                         resultSet.getString("name"),
                         resultSet.getString("password"),
-                        resultSet.getString("phone")
+                        resultSet.getString("phoneNumber")
                 );
 
-                user.setId(resultSet.getInt("id"));
+                user.setUser_id(resultSet.getInt("id"));
 
                 users.add(user);
             }
@@ -86,7 +86,7 @@ public class UserDaoImpl implements UserDao<User> {
 
         Connection connection = ConnectionPool.getConnection();
 
-        PreparedStatement preparedStatement = connection.prepareStatement("SELECT * FROM users WHERE id = ?");
+        PreparedStatement preparedStatement = connection.prepareStatement("SELECT * FROM users WHERE user_id = ?");
         preparedStatement.setInt(1, id);
 
         User user = null;
@@ -97,9 +97,9 @@ public class UserDaoImpl implements UserDao<User> {
              user = new User(
                     resultSet.getString("name"),
                     resultSet.getString("password"),
-                    resultSet.getString("phone")
+                    resultSet.getString("phoneNumber")
             );
-            user.setId(resultSet.getInt("id"));
+            user.setUser_id(resultSet.getInt("id"));
 
         } catch (SQLException e) {
             System.out.println("Error: " + e.getMessage());
@@ -123,9 +123,9 @@ public class UserDaoImpl implements UserDao<User> {
             user = new User(
                     resultSet.getString("name"),
                     resultSet.getString("password"),
-                    resultSet.getString("phone")
+                    resultSet.getString("phoneNumber")
             );
-            user.setId(resultSet.getInt("id"));
+            user.setUser_id(resultSet.getInt("id"));
 
         } catch (SQLException e) {
             System.out.println("Error: " + e.getMessage());

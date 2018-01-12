@@ -11,6 +11,15 @@
 
     <artifactId>hockeyshop-web</artifactId>
 
+    <properties>
+        <hsqldb.url>jdbc:hsqldb:hsql://localhost/mydb</hsqldb.url>
+        <hsqldb.user>SA</hsqldb.user>
+        <hsqldb.password></hsqldb.password>
+    </properties>
+
+
+
+
     <packaging>war</packaging>
     <build>
         <plugins>

@@ -5,7 +5,7 @@ package com.fujitsu.fs.rnovikov.entities;
  */
 public class Product {
 
-    private int id;
+    private int product_id;
     public String name;
     private int price;
     public String description;
@@ -26,8 +26,8 @@ public class Product {
         this.quantity = quantity;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setProduct_id(int id) {
+        this.product_id = product_id;
     }
 
     public void setQuantity(int quantity) {
@@ -50,8 +50,8 @@ public class Product {
         this.name = name;
     }
 
-    public int getId() {
-        return id;
+    public int getProduct_id() {
+        return product_id;
     }
 
     public String getName() {

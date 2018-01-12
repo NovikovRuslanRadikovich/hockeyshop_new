@@ -20,8 +20,8 @@ import java.sql.SQLException;
 @WebServlet("/login")
 public class LoginServlet extends HttpServlet {
 
-    static UserDao<User> dao;
-    static Service<User> userService;
+     UserDao<User> dao;
+     Service<User> userService;
 
     @Override
     public void init() throws ServletException {
@@ -57,7 +57,7 @@ public class LoginServlet extends HttpServlet {
         }
     }
 
-    public static boolean login(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    public boolean login(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String username = (String) request.getAttribute("name");
         String password = (String) request.getAttribute("password");
 
@@ -93,7 +93,7 @@ public class LoginServlet extends HttpServlet {
         return false;
     }
 
-    public static void addCookies(HttpServletResponse response, String key) throws UnsupportedEncodingException {
+    public  void addCookies(HttpServletResponse response, String key) throws UnsupportedEncodingException {
         // Create cookies for first and last names.
         Cookie name = new Cookie("users",
                 URLEncoder.encode(key, "UTF-8"));

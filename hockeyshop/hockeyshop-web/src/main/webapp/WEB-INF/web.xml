@@ -67,7 +67,7 @@
 
     <filter-mapping>
         <filter-name>UserAuthFilter</filter-name>
-        <url-pattern>/tov</url-pattern>
+        <url-pattern>/product</url-pattern>
     </filter-mapping>
 
 

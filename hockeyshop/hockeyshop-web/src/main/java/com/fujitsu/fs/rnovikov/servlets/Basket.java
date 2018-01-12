@@ -31,7 +31,7 @@ public class Basket extends HttpServlet {
             response.sendRedirect("/login");
         } else {
             try {
-                request.setAttribute("basket", basketDao.getAll((String) request.getSession().getAttribute("user")));
+                request.setAttribute("basket", basketDao.getAll( request.getSession().getAttribute("user")));
             } catch (SQLException e) {
                 e.printStackTrace();
             }

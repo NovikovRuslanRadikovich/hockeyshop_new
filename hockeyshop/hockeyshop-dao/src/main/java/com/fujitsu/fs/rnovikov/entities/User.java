@@ -7,7 +7,7 @@ public class User {
 
     private String name;
     public String password;
-    private int id;
+    private int user_id;
     private String phoneNumber;
 
 
@@ -36,16 +36,18 @@ public class User {
     }
 
     public int getId() {
-        return id;
+        return user_id;
     }
 
     public void setName(String login) {
         this.name = login;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setUser_id(int user_id) {
+        this.user_id = user_id;
     }
+
+    public int getUser_id() {return user_id; }
 
     public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
@@ -57,7 +59,7 @@ public class User {
 
     @Override
     public String toString() {
-        return "Имя: " + name + "; id: " + Integer.toString(id) +
+        return "Имя: " + name + "; id: " + Integer.toString(user_id) +
                 "; number: " + getPhoneNumber();
     }
     @Override

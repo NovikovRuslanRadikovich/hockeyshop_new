@@ -82,20 +82,5 @@ public class FormDataCheck {
             return false;
         }
     }
-    public static boolean checkGender(String sex){
-        if (sex != null){
-            if (sex.equals("male") || sex.equals("female")){
-                return true;
-            }
-            else{
-                return false;
-            }
-        }
-        else{
-            return false;
-        }
-    }
-    public static boolean checkCity(String city) {
-        return "Kazan".equals(city) || "Moscow".equals(city) || "Spb".equals(city);
-    }
+
 }
