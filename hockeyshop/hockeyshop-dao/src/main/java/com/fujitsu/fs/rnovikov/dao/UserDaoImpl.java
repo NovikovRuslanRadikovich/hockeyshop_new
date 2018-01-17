@@ -2,12 +2,14 @@ package com.fujitsu.fs.rnovikov.dao;
 
 import com.fujitsu.fs.rnovikov.entities.User;
 import com.fujitsu.fs.rnovikov.utils.ConnectionPool;
+import org.apache.commons.codec.digest.DigestUtils;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -52,14 +54,13 @@ public class UserDaoImpl implements UserDao<User> {
     }
 
     public List getAll() throws SQLException {
-        String query = "SELECT * FROM Users";
         User user = null;
         List<User> users = new ArrayList<User>();
 
         Connection connection = ConnectionPool.getConnection();
 
         try {
-            ResultSet resultSet = connection.createStatement().executeQuery(query);
+            ResultSet resultSet = connection.createStatement().executeQuery("SELECT * FROM Users");
             while (resultSet.next()) {
 
                 user = new User(
@@ -68,7 +69,7 @@ public class UserDaoImpl implements UserDao<User> {
                         resultSet.getString("phoneNumber")
                 );
 
-                user.setUser_id(resultSet.getInt("id"));
+                user.setUser_id(resultSet.getInt("user_id"));
 
                 users.add(user);
             }
@@ -99,7 +100,7 @@ public class UserDaoImpl implements UserDao<User> {
                     resultSet.getString("password"),
                     resultSet.getString("phoneNumber")
             );
-            user.setUser_id(resultSet.getInt("id"));
+            user.setUser_id(resultSet.getInt("user_id"));
 
         } catch (SQLException e) {
             System.out.println("Error: " + e.getMessage());
@@ -125,7 +126,7 @@ public class UserDaoImpl implements UserDao<User> {
                     resultSet.getString("password"),
                     resultSet.getString("phoneNumber")
             );
-            user.setUser_id(resultSet.getInt("id"));
+            user.setUser_id(resultSet.getInt("user_id"));
 
         } catch (SQLException e) {
             System.out.println("Error: " + e.getMessage());
@@ -133,7 +134,6 @@ public class UserDaoImpl implements UserDao<User> {
 
         return user;
     }
-
 
 
 }

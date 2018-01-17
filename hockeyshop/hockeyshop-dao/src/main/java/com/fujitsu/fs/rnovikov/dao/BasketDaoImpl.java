@@ -55,6 +55,20 @@ public class BasketDaoImpl implements BasketDao<Integer,Integer> {
         connection.close();
     }
 
+    public void delete(Integer productId) throws SQLException {
+        Connection connection = ConnectionPool.getConnection();
+
+
+        PreparedStatement preparedStatement = connection.prepareStatement("DELETE FROM basket WHERE productId = ?");
+        preparedStatement.setInt(1,productId);
+
+        preparedStatement.execute();
+
+        connection.close();
+    }
+
+
+
     public List<Product> getAll(Integer userId) throws SQLException {
         Connection connection = null;
         try {
@@ -87,7 +101,9 @@ public class BasketDaoImpl implements BasketDao<Integer,Integer> {
             }
         }
 
-        connection.close();
+        if (connection != null) {
+            connection.close();
+        }
 
         return usersProducts;
     }

@@ -23,7 +23,8 @@ import java.util.Iterator;
 import java.util.List;
 
 /**
- * Created by User on 07.01.2018.
+ * This Servlet Class handle queries for admin page and admin operations
+ *
  */
 @WebServlet("/admin")
 
@@ -41,6 +42,18 @@ public class Admin extends HttpServlet {
         userDao = UserDaoImpl.getInstance();
 
     }
+
+    /**
+     *
+     * @param request
+     * If request doesn't have an admin attribute it means that this link is not allowed for user
+     * And he must be redirected to a main page
+     * Else if admin attribute is present in session it means that this is an admin
+     * Then if request has a delete attribute
+     * @param response
+     * @throws ServletException
+     * @throws IOException
+     */
 
     @Override
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -64,13 +77,13 @@ public class Admin extends HttpServlet {
             }
         }
 
-        User[] users = new User[0];
-        try {
-            users = UserDaoImpl.getInstance().getAll().toArray(new User[0]);
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-        request.setAttribute("Users", users);
+//        User[] users = new User[0];
+//        try {
+//            users = UserDaoImpl.getInstance().getAll().toArray(new User[0]);
+//        } catch (SQLException e) {
+//            e.printStackTrace();
+//        }
+//        request.setAttribute("Users", users);
 
         getServletConfig().getServletContext().getRequestDispatcher("/admin/admin.ftl").forward(request, response);
     }
@@ -104,25 +117,31 @@ public class Admin extends HttpServlet {
                 do {
                     FileItem item = (FileItem) iterator.next();
                     if (item.isFormField()) {
-                        processFormField(item);
+//                        processFormField(item);
                     } else {
                         processUploadedFile(item);
                     }
-                } while (iterator.hasNext());
+                }
+                while (iterator.hasNext());
             }
 
         } catch(Exception ex) {
             ex.printStackTrace();
         }
-        productDao = ProductDaoImpl.getInstance();
+//        productDao = ProductDaoImpl.getInstance();
+//        try {
+//            productDao.save(product);
+//        } catch (SQLException e) {
+//            e.printStackTrace();
+//        }
+
         try {
-            productDao.save(product);
-            product = new Product();
-        } catch (SQLException e) {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
-        response.sendRedirect("/tov");
+//        response.sendRedirect("/admin");
     }
 
     private void processFormField(FileItem item) {
@@ -151,7 +170,12 @@ public class Admin extends HttpServlet {
     private String processUploadedFile(FileItem item) throws Exception {
 
 
-        String path = "C:\\Users\\ruslan\\Desktop\\SemestrovayaRabota\\src\\main\\webapp\\imagesOfproducts\\"  + nameOfProduct + ".jpg";
+//      String path = System.getProperty("user.dir") +  "\\hockeyshop-web\\src\\main\\webapp\\imagesOfproducts\\" + "Ovi" + ".jpg";
+
+        String path = "D:\\hockeyshop\\hockeyshop-web\\src\\main\\webapp\\imagesOfproducts\\" + "Toews" + ".jpg";
+
+        //   String path = "D:\\hockeyshop\\hockeyshop-web\\src\\main\\webapp\\imagesOfproducts\\" + nameOfProduct + ".jpg";
+
         File uploadedFile = new File(path);
 
         uploadedFile.createNewFile();

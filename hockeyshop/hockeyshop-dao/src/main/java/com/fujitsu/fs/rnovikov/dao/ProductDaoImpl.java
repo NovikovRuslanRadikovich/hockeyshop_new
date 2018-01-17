@@ -10,6 +10,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+
 /**
  * Created by User on 07.01.2018.
  */
@@ -47,9 +48,12 @@ public class ProductDaoImpl implements ProductDao<Product> {
     }
 
     public void delete(int productId) throws SQLException {
+
+        BasketDaoImpl.getInstance().delete(productId);
+
         Connection connection = ConnectionPool.getConnection();
 
-        PreparedStatement preparedStatement = connection.prepareStatement("DELETE  FROM products WHERE id = ?");
+        PreparedStatement preparedStatement = connection.prepareStatement("DELETE  FROM products WHERE product_id = ?");
         preparedStatement.setInt(1, productId);
 
         connection.close();
@@ -57,9 +61,10 @@ public class ProductDaoImpl implements ProductDao<Product> {
 
     public Product[] getAll() throws SQLException {
 
+
         String query = "SELECT * FROM products";
         Product product  = null;
-        ArrayList<Product> products = new ArrayList();
+        List<Product> products = new ArrayList<>();
 
         Connection connection = ConnectionPool.getConnection();
 
@@ -70,13 +75,12 @@ public class ProductDaoImpl implements ProductDao<Product> {
                 product = new Product(
                         resultSet.getString("name"),
                         resultSet.getInt("price"),
-                        resultSet.getString("imagePath"),
                         resultSet.getString("description"),
                         resultSet.getString("detailed_description"),
                         resultSet.getInt("quantity")
                 );
 
-                product.setProduct_id(resultSet.getInt("id"));
+                product.setProduct_id(resultSet.getInt("product_id"));
 
                 products.add(product);
             }
@@ -97,19 +101,18 @@ public class ProductDaoImpl implements ProductDao<Product> {
         ArrayList<Product> products = new ArrayList<Product>();
 
         try {
-            ResultSet resultSet = connection.createStatement().executeQuery("SELECT * FROM products WHERE id = ?");
+            ResultSet resultSet = connection.createStatement().executeQuery("SELECT * FROM products WHERE product_id = ?");
             while (resultSet.next()) {
 
                 product = new Product(
                         resultSet.getString("name"),
                         resultSet.getInt("price"),
-                        resultSet.getString("imagePath"),
                         resultSet.getString("description"),
                         resultSet.getString("detailed_description"),
                         resultSet.getInt("quantity")
                 );
 
-                product.setProduct_id(resultSet.getInt("id"));
+                product.setProduct_id(resultSet.getInt("product_id"));
 
             }
 
@@ -135,12 +138,11 @@ public class ProductDaoImpl implements ProductDao<Product> {
             product = new Product(
                     resultSet.getString("name"),
                     resultSet.getInt("price"),
-                    resultSet.getString("imagePath"),
                     resultSet.getString("description"),
                     resultSet.getString("detailed_description"),
                     resultSet.getInt("quantity")
             );
-           product.setProduct_id(resultSet.getInt("id"));
+           product.setProduct_id(resultSet.getInt("product_id"));
 
         } catch (SQLException e) {
             System.out.println("Error: " + e.getMessage());
@@ -166,6 +168,21 @@ public class ProductDaoImpl implements ProductDao<Product> {
         return decade;
     }
 
+    @Override
+    public void editProduct(int product_id, int price, String detailed_description) throws SQLException {
+        Connection connection = ConnectionPool.getConnection();
+        PreparedStatement preparedStatement = null;
+        try {
+            preparedStatement = connection.prepareStatement("UPDATE products SET price = ?, detailed_description = ? WHERE product_id = ?");
+            preparedStatement.setInt(1,price);
+            preparedStatement.setString(2,detailed_description);
+            preparedStatement.setInt(3,product_id);
+
+            preparedStatement.execute();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
 
 
 }

@@ -10,6 +10,7 @@
     <link href="../../css/style.css" rel="stylesheet">
     <link href="../../css/menu.css" rel="stylesheet">
     <script src="../../js/jquery.min.js"></script>
+    <script src="../../js/validation.js"></script>
 </head>
 <body>
 
@@ -38,7 +39,8 @@
 
         <input class="form-control" type="text" name="name" placeholder="Имя"/>
         <input class="form-control" type="password" name="password" placeholder="Пароль"/>
-
+        <input class="form-control" type="password" name="password2" placeholder="Повтор Пароля"/>
+        <input class="form-control" type="text" name="phone" placeholder="Телефон"/>
         <label for="save">Запомнить меня</label>
         <input id="save" type="checkbox" name="save" checked="checked"/>
     <#if error??>

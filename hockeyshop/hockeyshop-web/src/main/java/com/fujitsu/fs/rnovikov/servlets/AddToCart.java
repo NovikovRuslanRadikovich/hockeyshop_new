@@ -13,8 +13,10 @@ import java.io.IOException;
 import java.sql.SQLException;
 
 /**
- * Created by User on 07.01.2018.
+ * This is a servlet class which handles requests for adding any products to a cart
  */
+
+
 @WebServlet("/addToCart/*")
 public class AddToCart extends HttpServlet {
     BasketDao basketDao;
@@ -25,6 +27,16 @@ public class AddToCart extends HttpServlet {
         productDao = ProductDaoImpl.getInstance();
         userDao = UserDaoImpl.getInstance();
     }
+
+    /**
+     *
+     * @param request contains a url with a numeric attribute which defines an id of a product
+     * I retrieve an id of product from request, when find a product with this id in a database
+     * and save this product in basket table for current user
+     * @param response
+     * @throws ServletException
+     * @throws IOException
+     */
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException,IOException {
         request.setCharacterEncoding("UTF-8");
         response.setCharacterEncoding("UTF-8");
@@ -40,7 +52,9 @@ public class AddToCart extends HttpServlet {
         }
 
         try {
-            BasketDaoImpl.getInstance().save(user != null ? user.getId() : 0,id);
+            if (user != null) {
+                BasketDaoImpl.getInstance().save( user.getId(),id);
+            }
         } catch(SQLException e){
             System.out.println("SQL error");
         }

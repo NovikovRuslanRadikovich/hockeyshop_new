@@ -1,5 +1,9 @@
 package com.fujitsu.fs.rnovikov.entities;
 
+import org.apache.commons.codec.digest.DigestUtils;
+
+import java.util.Arrays;
+
 /**
  * Created by User on 06.01.2018.
  */
@@ -19,17 +23,11 @@ public class User {
     }
 
 
-    public boolean confirmPassword(String password){
-        return this.password.equals(password);
-    }
-
     public String getName() {
         return name;
     }
 
-    public String getPasswordHash(){
-        return password;
-    }
+    public String getPasswordHash(){ return DigestUtils.md5Hex(password) ;}
 
     public String getPhoneNumber(){
         return phoneNumber;
@@ -47,12 +45,6 @@ public class User {
         this.user_id = user_id;
     }
 
-    public int getUser_id() {return user_id; }
-
-    public void setPhoneNumber(String phoneNumber) {
-        this.phoneNumber = phoneNumber;
-    }
-
     public void setPassword(String password) {
         this.password = password;
     }
@@ -64,6 +56,8 @@ public class User {
     }
     @Override
     public boolean equals(Object user) {
-        return true;
+        return user != null && user instanceof User && ((User) user).getName().equals(name) && ((User) user).getPasswordHash().equals(DigestUtils.md5Hex(password)) && ((User) user).getPhoneNumber().equals(phoneNumber);
+
     }
+
 }

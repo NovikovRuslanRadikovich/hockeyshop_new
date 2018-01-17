@@ -11,22 +11,20 @@ public class Product {
     public String description;
     public String detailed_description;
     private int quantity;
-    private String imagePath;
 
     public Product() {
 
     }
 
-    public Product(String name, int price, String image, String description, String detailed_description, int quantity) {
+    public Product(String name, int price,String description, String detailed_description, int quantity) {
         this.name = name;
         this.price = price;
-        this.imagePath = image;
         this.description = description;
         this.detailed_description = detailed_description;
         this.quantity = quantity;
     }
 
-    public void setProduct_id(int id) {
+    public void setProduct_id(int product_id) {
         this.product_id = product_id;
     }
 
@@ -73,11 +71,5 @@ public class Product {
     public int getQuantity() {
         return quantity;
     }
-
-    public String getImagePath() {
-        return imagePath;
-    }
-
-    public void setImagePath(String imagePath) {this.imagePath = imagePath;}
 
 }

@@ -13,15 +13,7 @@
 
     <script src="/js/jquery.min.js"></script>
 
-    <script>
-        function add(i) {
-            $.ajax({
-                url: "/addToCart/" + i,
-                type: "GET"
-            });
-        }
-    </script>
-
+    <script src="/js/detailed_product.js"></script>
 
 
 </head>
@@ -37,7 +29,7 @@
             <div class="container_heading" name="name">${product.getName() ! "Товар не найден"}</div>
             <div id="products_container">
             <#if product??>
-                <div class="news_item">
+                <div class="news_item" id="detailed_product${product.getId()}">
                     <div class="news_item_text">Цена: ${product.getPrice()}</div>
                     <div class="news_item_text">Оценка: ${product.getQuantity()}</div>
                     <div class="news_item_text">Подробное Описание: ${product.getDetailed_description()}</div>
@@ -52,7 +44,7 @@
                         <p> <a href="/edit_product/${product.getId()}">Редактировать</a> </p>
                     </#if>
                     <#if user??>
-                        <button style="display: block" onclick="add(${product.getId()})">Добавить в корзину
+                        <button style="display: block" onclick="addToCart(${product.getId()})">Добавить в корзину
                         </button>
 
                         <form>

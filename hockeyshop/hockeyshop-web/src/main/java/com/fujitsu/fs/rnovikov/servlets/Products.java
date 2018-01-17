@@ -15,54 +15,34 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by User on 07.01.2018.
+ * This Servlet Class provide functionality for operations with products for users and also for admin
  */
 @WebServlet("/products")
 public class Products extends HttpServlet {
     ProductDao<Product> productDao;
 
+    /**
+     * This method initializes Data Access Object for Product Entity
+     *
+     * @throws ServletException
+     */
     @Override
     public void init() throws ServletException {
         productDao = ProductDaoImpl.getInstance();
     }
 
+    /**
+     * @param request  If request has delete parameter it means that admin deletes a product from a DataBase and id of product
+     *                 to be deleted is also sent as parameter to this method
+     * @param response
+     * @throws ServletException
+     * @throws IOException
+     */
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setCharacterEncoding("UTF-8");
         response.setCharacterEncoding("UTF-8");
-        if("get_products".equals(request.getParameter("action"))){
-            if (request.getSession().getAttribute("admin") != null) {
-                request.setAttribute("admin","admin");
-            }
-            Product[] allproducts = null;
 
-            try {
-                allproducts = productDao.getAll();
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }
-            if (allproducts.length > 10 ) {
-                List<Product> productsDecade = new ArrayList<>();
-
-                for(int i = 0 ; i < 10;i++) {
-                    productsDecade.add(allproducts[i]);
-                }
-                request.setAttribute("productsDecade",productsDecade);
-                List<Product> nextProducts = new ArrayList<>();
-
-                for(int j = 10 ; j < allproducts.length;j++) {
-                    nextProducts.add(allproducts[j]);
-                }
-
-                request.setAttribute("nextProducts",nextProducts);
-            } else {
-                request.setAttribute("productsDecade",allproducts);
-            }
-
-            getServletConfig().getServletContext().getRequestDispatcher("/get_products_ajax.ftl").forward(request, response);
-            return;
-        }
-
-        if("delete".equals(request.getParameter("action"))){
+        if ("delete".equals(request.getParameter("action"))) {
             int id = Integer.parseInt(request.getParameter("id"));
 
             try {
@@ -71,13 +51,55 @@ public class Products extends HttpServlet {
                 e.printStackTrace();
             }
 
-            return;
+        }  else {
+
+            if (request.getSession().getAttribute("admin") != null) {
+                request.setAttribute("admin", "admin");
+            }
+            Product[] allproducts = null;
+
+            try {
+                allproducts = productDao.getAll();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+            if (allproducts.length > 10) {
+                List<Product> productsDecade = new ArrayList<>();
+
+                for (int i = 0; i < 10; i++) {
+                    productsDecade.add(allproducts[i]);
+                }
+                request.setAttribute("productsDecade", productsDecade);
+
+                List<Integer> nextProductsDecades = new ArrayList<>();
+                int k = 0;
+                try {
+                    for(int i = 1; i < productDao.getAll().length / 10; i++) {
+                        nextProductsDecades.add(i);
+                        k = i;
+                    }
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                try {
+                    if (productDao.getAll().length % 10 != 0) {
+                        nextProductsDecades.add(k+1);
+                    }
+                }catch(SQLException ex) {
+
+                }
+
+                request.setAttribute("nextProductsDecades", nextProductsDecades);
+            } else {
+                request.setAttribute("productsDecade", allproducts);
+            }
+
+            getServletConfig().getServletContext().getRequestDispatcher("products_decade.ftl").forward(request, response);
         }
 
-        getServletConfig().getServletContext().getRequestDispatcher("/products.ftl").forward(request, response);
     }
 
-    public void doPost(HttpServletRequest request,HttpServletResponse response) throws ServletException,IOException {
-        super.doPost(request,response);
+    public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
     }
 }

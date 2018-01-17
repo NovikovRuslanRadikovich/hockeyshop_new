@@ -2,11 +2,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
     <parent>
-        <artifactId>hockeyshop</artifactId>
         <groupId>novikov</groupId>
+        <artifactId>hockeyshop</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
+
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>hockeyshop-web</artifactId>
@@ -15,22 +17,87 @@
         <hsqldb.url>jdbc:hsqldb:hsql://localhost/mydb</hsqldb.url>
         <hsqldb.user>SA</hsqldb.user>
         <hsqldb.password></hsqldb.password>
+
+        <compiler.encoding>UTF-8</compiler.encoding>
+        <compiler.source.version>1.7</compiler.source.version>
+        <compiler.target.version>1.7</compiler.target.version>
+
+        <tomcat.type>tomcat8x</tomcat.type>
+        <tomcat.version>8.5.23</tomcat.version>
+        <http.port>8081</http.port>
+        <rmi.port>1099</rmi.port>
+        <http.context>/</http.context>
     </properties>
 
-
-
-
     <packaging>war</packaging>
+
     <build>
         <plugins>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>1.7</source>
-                    <target>1.7</target>
+                    <source>${compiler.source.version}</source>
+                    <target>${compiler.target.version}</target>
+                    <encoding>${compiler.encoding}</encoding>
                 </configuration>
             </plugin>
+
+            <plugin>
+                <groupId>org.codehaus.cargo</groupId>
+                <artifactId>cargo-maven2-plugin</artifactId>
+                <configuration>
+
+
+                    <container>
+                        <containerId>${tomcat.type}</containerId>
+                        <artifactInstaller>
+                            <groupId>org.apache.tomcat</groupId>
+                            <artifactId>tomcat</artifactId>
+                            <version>${tomcat.version}</version>
+                            <type>zip</type>
+                        </artifactInstaller>
+                    </container>
+
+                    <configuration>
+                        <properties>
+                            <cargo.servlet.port>${http.port}</cargo.servlet.port>
+                            <cargo.rmi.port>${rmi.port}</cargo.rmi.port>
+                            <cargo.servlet.uriencoding>UTF-8</cargo.servlet.uriencoding>
+                        </properties>
+                    </configuration>
+
+                    <deployables>
+                        <deployable>
+                            <properties>
+                                <context>${http.context}</context>
+                            </properties>
+                        </deployable>
+                    </deployables>
+                </configuration>
+
+                <executions>
+
+                    <execution>
+                        <id>start-container</id>
+                        <phase>pre-integration-test</phase>
+                        <goals>
+                            <goal>start</goal>
+                        </goals>
+                    </execution>
+
+                    <execution>
+                        <id>stop-container</id>
+                        <phase>post-integration-test</phase>
+                        <goals>
+                            <goal>stop</goal>
+                        </goals>
+                    </execution>
+                </executions>
+
+            </plugin>
+
         </plugins>
     </build>
 
@@ -60,6 +127,22 @@
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+        </dependency>
+
     </dependencies>
 
 

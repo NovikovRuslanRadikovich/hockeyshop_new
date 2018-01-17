@@ -24,12 +24,12 @@
         <surefire.plugin.version>2.20.1</surefire.plugin.version>
         <cargo.plugin.version>1.6.5</cargo.plugin.version>
         <mojo.plugin.version>1.0-alpha-2</mojo.plugin.version>
-        <flyway.plugin.version>5.0.2</flyway.plugin.version>
+        <maven.flyway.plugin.version>5.0.2</maven.flyway.plugin.version>
 
         <freemarker.version>2.3.9</freemarker.version>
         <log4j.version>1.2.17</log4j.version>
         <servlet.version>3.0.1</servlet.version>
-        <hsqldb.version>2.3.1</hsqldb.version>
+        <hsqldb.version>2.3.2</hsqldb.version>
         <selenium.java.version>3.6.0</selenium.java.version>
         <selenium.firefox.driver>3.6.0</selenium.firefox.driver>
         <hikari.cp.version>2.6.1</hikari.cp.version>
@@ -40,11 +40,21 @@
         <junit.version>4.12</junit.version>
         <fileupload.version>1.2.1</fileupload.version>
         <jackson.databind.version>2.9.3</jackson.databind.version>
+        <maven.compiler.plugin.version>3.7.0</maven.compiler.plugin.version>
+        <compiler.source.version>1.7</compiler.source.version>
+        <compiler.target.version>1.7</compiler.target.version>
+        <commons.io.version>1.4</commons.io.version>
     </properties>
 
     <build>
         <pluginManagement>
             <plugins>
+
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>${maven.compiler.plugin.version}</version>
+                </plugin>
 
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
@@ -67,7 +77,7 @@
                 <plugin>
                     <groupId>org.flywaydb</groupId>
                     <artifactId>flyway-maven-plugin</artifactId>
-                    <version>${flyway.plugin.version}</version>
+                    <version>${maven.flyway.plugin.version}</version>
                 </plugin>
 
 
@@ -169,6 +179,12 @@
                 <groupId>com.fasterxml.jackson.core</groupId>
                 <artifactId>jackson-databind</artifactId>
                 <version>${jackson.databind.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>commons-io</groupId>
+                <artifactId>commons-io</artifactId>
+                <version>${commons.io.version}</version>
             </dependency>
 
         </dependencies>

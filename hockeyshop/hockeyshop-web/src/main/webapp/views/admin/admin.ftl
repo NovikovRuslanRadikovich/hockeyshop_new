@@ -12,7 +12,7 @@
     <link href="/css/news_item.css" rel="stylesheet">
 
     <script src="/js/jquery.min.js"></script>
-    <script src="/js/tov.js"></script>
+    <script src="/js/products.js"></script>
 </head>
 <body>
 <div class="container">
@@ -24,7 +24,7 @@
         <div class="container">
             Новый товар:
             <br>
-            <form enctype="multipart/form-data" name="new_product" class="news_item" action="" method="post">
+            <form enctype="multipart/form-data" name="new_product" class="news_item" action="/admin" method="post">
                 <input name="action" value="new_feed_item" type="hidden">
                 <label>
                     Имя:
@@ -55,11 +55,6 @@
                         <input class="button_add_news_item" type="submit">
 
             </form>
-
-
-            <div id="products_container">
-
-            </div>
 
         </div>
     </div>

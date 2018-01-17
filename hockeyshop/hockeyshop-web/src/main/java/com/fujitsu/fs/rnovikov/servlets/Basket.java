@@ -13,17 +13,34 @@ import java.io.IOException;
 import java.sql.SQLException;
 
 /**
- * Created by User on 07.01.2018.
+ * This servlet class is used to handle basket queries
+ *
  */
 @WebServlet("/basket")
 
 public class Basket extends HttpServlet {
 
     private BasketDao basketDao;
+
+    /**
+     * Simply initializes Data Access object for Basket entity
+     */
     public void init() {
         basketDao = BasketDaoImpl.getInstance();
     }
 
+    /**
+     *
+     * @param request
+     * Firstly I retrieve Session Object from a request
+     * If session doesn't contain user attribute, it means that user is not authorized
+     * If no authority, user is being redirected to login page
+     * Else all products from basket of user are being retrieved from cart and added to request as basket attribute
+     * rendered on the basket.ftl page
+     * @param response
+     * @throws ServletException
+     * @throws IOException
+     */
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException,IOException {
         request.setCharacterEncoding("UTF-8");
         response.setCharacterEncoding("UTF-8");

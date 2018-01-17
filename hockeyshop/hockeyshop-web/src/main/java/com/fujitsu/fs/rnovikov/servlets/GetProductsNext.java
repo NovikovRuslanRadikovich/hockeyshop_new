@@ -11,6 +11,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * This servlet handles requests where user want to see any decade from all products
@@ -22,11 +24,25 @@ class GetProductsNext extends HttpServlet {
 
     private ProductDao<Product> productDao;
 
+    /**
+     * This method initializes a productDao Object
+     */
     @Override
     public void init() {
 
         productDao = ProductDaoImpl.getInstance();
     }
+
+    /**
+     * I get a numeric attribute from a servlet path and this numeric value means a number of products decades
+     * which must be shown on a page
+     * Then I get the other products decades that are following after this decade and put them to request
+     * as nextProductsDecades attribute
+     * @param request
+     * @param response
+     * @throws IOException
+     * @throws ServletException
+     */
 
     protected void doGet(HttpServletRequest request,HttpServletResponse response) throws IOException, ServletException {
         request.setCharacterEncoding("UTF-8");
@@ -37,7 +53,27 @@ class GetProductsNext extends HttpServlet {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        getServletConfig().getServletContext().getRequestDispatcher("get_products_next.ftl").forward(request,response);
+
+        List<Integer> nextProductsDecades = new ArrayList<>();
+        int k = 0;
+        try {
+            for(int i = id + 1; i < productDao.getAll().length / 10; i++) {
+                nextProductsDecades.add(i);
+                k = i;
+            }
+        } catch (SQLException e) {
+
+        }
+
+        try {
+            if (productDao.getAll().length % 10 != 0) {
+                nextProductsDecades.add(k+1);
+            }
+        }catch(SQLException ex) {
+
+        }
+        request.setAttribute("nextProductsDecades",nextProductsDecades);
+        getServletConfig().getServletContext().getRequestDispatcher("products_decade.ftl").forward(request,response);
     }
 
 

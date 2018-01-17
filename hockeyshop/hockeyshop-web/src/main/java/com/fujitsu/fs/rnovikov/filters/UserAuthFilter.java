@@ -23,7 +23,6 @@ public class UserAuthFilter implements Filter {
     private List<String> urlList;
 
     /**
-     *
      * @param filterConfig
      * @throws ServletException
      * firstly this method gets allow-urls parameter, which is written in web configuration file for UserAuthFilter
@@ -37,6 +36,16 @@ public class UserAuthFilter implements Filter {
         Collections.addAll(urlList, initParameter.split(","));
     }
 
+    /**
+     * @param servletRequest
+     * @param servletResponse
+     * @param filterChain
+     * @throws IOException
+     * @throws ServletException
+     * I from ServletPath object from a request
+     * Then if ServletPath Object starts with one of allowed requests it means that request is allowed
+     * If session doesn't have user attribute and request is not allowed user is redirected to login page
+     */
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
         HttpServletRequest request = (HttpServletRequest) servletRequest;
