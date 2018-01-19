@@ -31,7 +31,7 @@ public class UserAuthFilter implements Filter {
      */
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
-        String initParameter = filterConfig.getInitParameter("allow-urls");
+        String initParameter = filterConfig.getInitParameter("allow-urls-users");
         urlList = new ArrayList<String>();
         Collections.addAll(urlList, initParameter.split(","));
     }

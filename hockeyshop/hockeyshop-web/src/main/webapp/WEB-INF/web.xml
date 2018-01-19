@@ -14,11 +14,21 @@
         <filter-name>UserAuthFilter</filter-name>
         <filter-class>com.fujitsu.fs.rnovikov.filters.UserAuthFilter</filter-class>
         <init-param>
-            <param-name>allow-urls</param-name>
-            <param-value>/,/home,/fonts,/login,/register,/css,/bootstrap,/images,/js,/admin,/product_detail,/edit_product</param-value>
+            <param-name>allow-urls-users</param-name>
+            <param-value>/,/home,/fonts,/login,/register,/css,/bootstrap,/images,/js,/admin,/product_detail
+            </param-value>
         </init-param>
     </filter>
 
+
+    <filter>
+        <filter-name>AdminAuthFilter</filter-name>
+        <filter-class>com.fujitsu.fs.rnovikov.filter.AdminAuthFilter</filter-class>
+        <init-param>
+            <param-name>allow-urls-admin</param-name>
+            <param-value>/admin,/addToCart,/edit_product</param-value>
+        </init-param>
+    </filter>
 
     <filter-mapping>
         <filter-name>UserAuthFilter</filter-name>
@@ -103,7 +113,6 @@
         <servlet-name>freemarker</servlet-name>
         <url-pattern>*.ftl</url-pattern>
     </servlet-mapping>
-
 
 
 </web-app>

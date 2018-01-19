@@ -17,7 +17,7 @@
 
 <body>
 
-<#include "header.ftl">
+    <#include "header.ftl">
     <#include "menu.ftl">
 
         <#if productsDecade??>
@@ -51,9 +51,7 @@
 
                 </div>
 
-                <#if product_index
-                <
-                productsDecade?size - 1>
+                <#if product_index < productsDecade?size - 1>
                 <div class="divider"></div>
         </#if>
         </#list>

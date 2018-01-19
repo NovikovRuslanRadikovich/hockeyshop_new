@@ -29,11 +29,7 @@ public class ConnectionPool {
             System.out.println("NNNNNNNO SUCCCHHHHHHH FFFILLLLLLLLLLEEEEEEE");
         }
 
-//        try {
-//            Class.forName("org.hsqldb.jdbc.JDBCDriver");
-//        } catch (ClassNotFoundException e) {
-//            e.printStackTrace();
-//        }
+
         hikariConfig.setDriverClassName(properties.getProperty("DRIVER"));
         hikariConfig.setJdbcUrl(properties.getProperty("CONNECTION_URL"));
         hikariConfig.setUsername(properties.getProperty("USERNAME"));
@@ -45,7 +41,7 @@ public class ConnectionPool {
 //        hikariConfig.setUsername("SA");
 //        hikariConfig.setPassword("");
 
-        hikariConfig.setMaximumPoolSize(1);
+          hikariConfig.setMaximumPoolSize(1);
 
 //        hikariConfig.addDataSourceProperty("cachePrepStmts", "true");
 //        hikariConfig.addDataSourceProperty("prepStmtCacheSize", "250");

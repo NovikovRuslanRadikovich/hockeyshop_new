@@ -38,9 +38,9 @@ class GetProductsNext extends HttpServlet {
      * which must be shown on a page
      * Then I get the other products decades that are following after this decade and put them to request
      * as nextProductsDecades attribute
-     * @param request
-     * @param response
-     * @throws IOException
+     * @param request contains a numeric value of products dacede
+     * @param response is represented as forwarding to products_decade page
+     * @throws IOException is thrown if an input or output error is detected
      * @throws ServletException
      */
 

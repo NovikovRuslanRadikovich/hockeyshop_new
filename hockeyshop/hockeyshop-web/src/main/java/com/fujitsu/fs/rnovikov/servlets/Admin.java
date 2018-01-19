@@ -59,10 +59,10 @@ public class Admin extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setCharacterEncoding("UTF-8");
         response.setCharacterEncoding("UTF-8");
-        if (request.getSession().getAttribute("admin") == null) {
-            response.sendRedirect("/");
-            return;
-        }
+//        if (request.getSession().getAttribute("admin") == null) {
+//            response.sendRedirect("/");
+//            return;
+//        }
 
         if ("delete".equals(request.getParameter("action"))) {
 
