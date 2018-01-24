@@ -2,16 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91fbf8cb-e38f-437a-94ab-aafeaa60ca17" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_tngtech_java_junit_dataprovider_1_13_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/CommentDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/entities/Comment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hockeyshop-dao/src/main/resources/db/migration/V09__create_comments_primary_key.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hockeyshop-test/src/main/resources/credentials.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hockeyshop-test/src/main/resources/homepageelements.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hockeyshop-test/src/test/java/com/fujitsu/tests/ShopSmokeTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hockeyshop-test/src/test/java/com/fujitsu/tests/testers/AllTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/CommentsServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hockeyshop-web/src/main/webapp/js/comments.js" />
       <change type="DELETED" beforePath="D:/Novikov/.idea/artifacts/WebApp_war.xml" afterPath="" />
       <change type="DELETED" beforePath="D:/Novikov/.idea/artifacts/WebApp_war_exploded.xml" afterPath="" />
       <change type="DELETED" beforePath="D:/Novikov/.idea/checkstyle-idea.xml" afterPath="" />
@@ -882,77 +872,7 @@
       <change type="DELETED" beforePath="D:/Novikov/novikov-web/target/novikov-web-1.0-SNAPSHOT/resources/js/home.js" afterPath="" />
       <change type="DELETED" beforePath="D:/Novikov/novikov.iml" afterPath="" />
       <change type="DELETED" beforePath="D:/Novikov/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_0_18.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_23_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_6_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_4_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_platform_4_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_6_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_6_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_6_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_6_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_6_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_6_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_6_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_6_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_6_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_6_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_22.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/utils/ProductBuilder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/utils/Properties.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/AddToCart.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/Admin.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/Basket.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/DeleteFromCart.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/GetProductsNext.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/Products.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/Registration.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hockeyshop-web/src/main/webapp/js/tov.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/hockeyshop_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/hockeyshop_web_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-dao/hockeyshop-dao.iml" afterPath="$PROJECT_DIR$/hockeyshop-dao/hockeyshop-dao.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-dao/pom.xml" afterPath="$PROJECT_DIR$/hockeyshop-dao/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/BasketDao.java" afterPath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/BasketDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/BasketDaoImpl.java" afterPath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/BasketDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/ProductDao.java" afterPath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/ProductDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/ProductDaoImpl.java" afterPath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/ProductDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/UserDao.java" afterPath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/UserDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/UserDaoImpl.java" afterPath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/UserDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/entities/Product.java" afterPath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/entities/Product.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/entities/User.java" afterPath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/entities/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/services/UserService.java" afterPath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/services/UserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/utils/ConnectionPool.java" afterPath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/utils/ConnectionPool.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/utils/FormDataCheck.java" afterPath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/utils/FormDataCheck.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-dao/src/main/resources/database.json" afterPath="$PROJECT_DIR$/hockeyshop-dao/src/main/resources/database.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-test/hockeyshop-test.iml" afterPath="$PROJECT_DIR$/hockeyshop-test/hockeyshop-test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-test/pom.xml" afterPath="$PROJECT_DIR$/hockeyshop-test/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-web/hockeyshop-web.iml" afterPath="$PROJECT_DIR$/hockeyshop-web/hockeyshop-web.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-web/pom.xml" afterPath="$PROJECT_DIR$/hockeyshop-web/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/filters/UserAuthFilter.java" afterPath="$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/filters/UserAuthFilter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/HomeServlet.java" afterPath="$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/HomeServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/LoginServlet.java" afterPath="$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/LoginServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-web/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/hockeyshop-web/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-web/src/main/webapp/js/validation.js" afterPath="$PROJECT_DIR$/hockeyshop-web/src/main/webapp/js/validation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-web/src/main/webapp/views/admin/admin.ftl" afterPath="$PROJECT_DIR$/hockeyshop-web/src/main/webapp/views/admin/admin.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-web/src/main/webapp/views/basket.ftl" afterPath="$PROJECT_DIR$/hockeyshop-web/src/main/webapp/views/basket.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-web/src/main/webapp/views/detailed_product.ftl" afterPath="$PROJECT_DIR$/hockeyshop-web/src/main/webapp/views/detailed_product.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-web/src/main/webapp/views/home.ftl" afterPath="$PROJECT_DIR$/hockeyshop-web/src/main/webapp/views/home.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-web/src/main/webapp/views/menu.ftl" afterPath="$PROJECT_DIR$/hockeyshop-web/src/main/webapp/views/menu.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-web/src/main/webapp/views/products.ftl" afterPath="$PROJECT_DIR$/hockeyshop-web/src/main/webapp/views/products.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-web/src/main/webapp/views/unregistered/login.ftl" afterPath="$PROJECT_DIR$/hockeyshop-web/src/main/webapp/views/unregistered/login.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-web/src/main/webapp/views/unregistered/registration.ftl" afterPath="$PROJECT_DIR$/hockeyshop-web/src/main/webapp/views/unregistered/registration.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MOVED" beforePath="D:/Novikov/novikov-test/target/cargo/installs/tomcat-8.5.23/apache-tomcat-8.5.23/temp/safeToDelete.tmp" afterPath="$PROJECT_DIR$/hockeyshop-dao/src/main/resources/db/migration/V08__create_comments_table.sql" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -2334,7 +2254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1515498909223</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="comments">
+      <created>1516802858347</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1516802858348</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2445,7 +2372,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="weblayer" />
-    <option name="LAST_COMMIT_MESSAGE" value="weblayer" />
+    <MESSAGE value="comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="comments" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2470,6 +2398,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2477,6 +2406,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
