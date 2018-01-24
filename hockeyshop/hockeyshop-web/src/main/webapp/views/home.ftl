@@ -12,7 +12,7 @@
     <link href="/css/news_item.css" rel="stylesheet">
 
     <script src="/js/jquery.min.js"></script>
-    <script src="/js/tov.js"></script>
+    <script src="/js/products.js"></script>
 
 </head>
 <body>
@@ -23,7 +23,7 @@
 
     <div class="center-content">
         <div class="container">
-            Лучший магазин продажи хоккеистов!!!
+            Лучший магазин хоккеистов!!!
         </div>
     </div>
 

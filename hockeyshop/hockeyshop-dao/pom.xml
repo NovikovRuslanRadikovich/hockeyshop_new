@@ -21,38 +21,39 @@
 
     <build>
         <plugins>
-            <plugin>
-                <groupId>org.flywaydb</groupId>
-                <artifactId>flyway-maven-plugin</artifactId>
+            <!--<plugin>-->
+                <!--<groupId>org.flywaydb</groupId>-->
+                <!--<artifactId>flyway-maven-plugin</artifactId>-->
 
-                <configuration>
-                    <url>${hsqldb.url}</url>
-                    <user>${hsqldb.user}</user>
-                    <password>${hsqldb.password}</password>
-                    <locations>
-                        <location>filesystem:src/main/resources/db/migration</location>
-                    </locations>
+                <!--<configuration>-->
+                    <!--<url>${hsqldb.url}</url>-->
+                    <!--<user>${hsqldb.user}</user>-->
+                    <!--<password>${hsqldb.password}</password>-->
+                    <!--<locations>-->
+                        <!--<location>filesystem:src/main/resources/db/migration</location>-->
+                    <!--</locations>-->
 
-                    <baselineOnMigrate>true</baselineOnMigrate>
+                    <!--<baselineOnMigrate>false</baselineOnMigrate>-->
 
-                </configuration>
-                <executions>
-                    <execution>
-                        <phase>compile</phase>
-                        <goals>
-                            <goal>migrate</goal>
-                        </goals>
-                    </execution>
-                </executions>
+                <!--</configuration>-->
+                <!--<executions>-->
+                    <!--<execution>-->
+                        <!--<phase>compile</phase>-->
+                        <!--<goals>-->
+                            <!--<goal>migrate</goal>-->
+                        <!--</goals>-->
+                    <!--</execution>-->
+                <!--</executions>-->
 
-                <dependencies>
-                    <dependency>
-                        <groupId>org.hsqldb</groupId>
-                        <artifactId>hsqldb</artifactId>
-                        <version>${hsqldb.version}</version>
-                    </dependency>
-                </dependencies>
-            </plugin>
+                <!--<dependencies>-->
+                    <!--<dependency>-->
+                        <!--<groupId>org.hsqldb</groupId>-->
+                        <!--<artifactId>hsqldb</artifactId>-->
+                        <!--<version>${hsqldb.version}</version>-->
+                    <!--</dependency>-->
+                <!--</dependencies>-->
+            <!--</plugin>-->
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -61,6 +62,7 @@
                     <target>1.7</target>
                 </configuration>
             </plugin>
+
         </plugins>
     </build>
 
@@ -83,11 +85,6 @@
         </dependency>
 
         <dependency>
-            <groupId>log4j</groupId>
-            <artifactId>log4j</artifactId>
-        </dependency>
-
-        <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
         </dependency>
@@ -96,6 +93,12 @@
             <groupId>com.zaxxer</groupId>
             <artifactId>HikariCP</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>org.hsqldb</groupId>
+            <artifactId>hsqldb</artifactId>
+        </dependency>
+
     </dependencies>
 
 </project>

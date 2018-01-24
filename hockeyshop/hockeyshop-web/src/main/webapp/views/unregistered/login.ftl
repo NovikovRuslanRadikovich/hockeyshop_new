@@ -37,8 +37,8 @@
     <form class="form-center-content" action="/login" method="post">
         <div class="form-signin-heading">Вход</div>
 
-        <input class="form-control" type="text" name="name" placeholder="Логин"/>
-        <input class="form-control" type="password" name="password" placeholder="Пароль"/>
+        <input class="form-control" type="text" id="name" name="name" placeholder="Логин"/>
+        <input class="form-control" type="password" id="password" name="password" placeholder="Пароль"/>
 
         <label for="save">Запомнить меня</label>
         <input id="save" type="checkbox" name="save" checked="checked"/>
@@ -46,7 +46,7 @@
         <div class="text-danger">${error}</div>
     </#if>
 
-        <input class="login-button" type="submit" name="login" value="Войти"/>
+        <input class="login-button" type="submit" id="login" name="login" value="Войти"/>
         <a class="register-button" href="/register">Регистрация</a>
     </form>
 

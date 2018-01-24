@@ -53,7 +53,7 @@
                         <#if user??>
                             <button style="display: block" onclick="ByProduct(${productInbasket.getPrice()})">Купить</button>
                             <p></p>
-                            <button style="display: block" onclick="Delete(${productInbasket.getId()})">Удалить из корзины
+                            <button style="display: block" onclick="Delete(${productInbasket.getProduct_id()})">Удалить из корзины
                             </button>
                         </#if>
                     </div>

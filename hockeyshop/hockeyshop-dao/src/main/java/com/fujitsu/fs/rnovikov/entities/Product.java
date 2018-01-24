@@ -5,29 +5,27 @@ package com.fujitsu.fs.rnovikov.entities;
  */
 public class Product {
 
-    private int id;
+    private int product_id;
     public String name;
     private int price;
     public String description;
     public String detailed_description;
     private int quantity;
-    private String imagePath;
 
     public Product() {
 
     }
 
-    public Product(String name, int price, String image, String description, String detailed_description, int quantity) {
+    public Product(String name, int price,String description, String detailed_description, int quantity) {
         this.name = name;
         this.price = price;
-        this.imagePath = image;
         this.description = description;
         this.detailed_description = detailed_description;
         this.quantity = quantity;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setProduct_id(int product_id) {
+        this.product_id = product_id;
     }
 
     public void setQuantity(int quantity) {
@@ -50,8 +48,8 @@ public class Product {
         this.name = name;
     }
 
-    public int getId() {
-        return id;
+    public int getProduct_id() {
+        return product_id;
     }
 
     public String getName() {
@@ -73,11 +71,5 @@ public class Product {
     public int getQuantity() {
         return quantity;
     }
-
-    public String getImagePath() {
-        return imagePath;
-    }
-
-    public void setImagePath(String imagePath) {this.imagePath = imagePath;}
 
 }

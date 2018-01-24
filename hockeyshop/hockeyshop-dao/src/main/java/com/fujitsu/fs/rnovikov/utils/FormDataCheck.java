@@ -7,6 +7,7 @@ import com.fujitsu.fs.rnovikov.entities.User;
 
 import java.sql.SQLException;
 import java.util.List;
+import java.util.Map;
 import java.util.TreeMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -15,19 +16,15 @@ import java.util.regex.Pattern;
 public class FormDataCheck {
     private FormDataCheck(){
     }
-    public static TreeMap<String, String> checkAllFieldsAndGetErrorMessageIfFieldsAreInvalid(String fullName, String phoneNumber, String DOB, String password1, String password2, String sex, String city) throws SQLException {
-        TreeMap<String, String> errorMessage = new TreeMap<>();
+    public static TreeMap<String, String> checkAllFieldsAndGetErrorMessageIfFieldsAreInvalid(String username, String phoneNumber, String password1, String password2) throws SQLException {
+        TreeMap<String, String> errorMessage = new TreeMap<String,String>();
 
-        if(exists(fullName)) {
+        if(exists(username)) {
             errorMessage.put("error","\nИмя занято другим пользователем");
         }
 
-        if(fullName == null){
+        if(username == null){
             errorMessage.put("error", "\nНе верное имя");
-        }
-
-        if(!checkDOB(DOB)){
-            errorMessage.put("error", "\nНе верная дата");
         }
 
         if (!checkPhoneNumber(phoneNumber)){
@@ -40,12 +37,6 @@ public class FormDataCheck {
             if (!password1.equals(password2)){
                 errorMessage.put("error", "\nНе верный повтор пароля");
             }
-        }
-        if (!checkGender(sex)){
-            errorMessage.put("error", "\nПол не указан");
-        }
-        if (!checkCity(city)){
-            errorMessage.put("error", "\nГород не указан");
         }
 
         return errorMessage;
@@ -60,16 +51,6 @@ public class FormDataCheck {
             }
         }
         return false;
-    }
-    public static boolean checkDOB(String DOB){
-        if (DOB != null){
-            Pattern p = Pattern.compile("^\\d\\d\\d\\d-\\d\\d-\\d\\d$");
-            Matcher m = p.matcher(DOB);
-            return m.matches();
-        }
-        else{
-            return false;
-        }
     }
 
     public static boolean checkPassword(String password){
@@ -92,20 +73,5 @@ public class FormDataCheck {
             return false;
         }
     }
-    public static boolean checkGender(String sex){
-        if (sex != null){
-            if (sex.equals("male") || sex.equals("female")){
-                return true;
-            }
-            else{
-                return false;
-            }
-        }
-        else{
-            return false;
-        }
-    }
-    public static boolean checkCity(String city) {
-        return "Kazan".equals(city) || "Moscow".equals(city) || "Spb".equals(city);
-    }
+
 }

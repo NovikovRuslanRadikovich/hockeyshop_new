@@ -2,12 +2,15 @@ package com.fujitsu.fs.rnovikov.dao;
 
 import com.fujitsu.fs.rnovikov.entities.User;
 import com.fujitsu.fs.rnovikov.utils.ConnectionPool;
+import com.fujitsu.fs.rnovikov.utils.SingleConnection;
+import org.apache.commons.codec.digest.DigestUtils;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -31,14 +34,14 @@ public class UserDaoImpl implements UserDao<User> {
     public void save(User o) throws SQLException {
         Connection connection = ConnectionPool.getConnection();
 
-        PreparedStatement preparedStatement = connection.prepareStatement("INSERT INTO users (name, password, phonenumber) VALUES (?, ?, ?);");
+        PreparedStatement preparedStatement = connection.prepareStatement("INSERT INTO users (name, password, phoneNumber) VALUES (?, ?, ?);");
 
         preparedStatement.setString(1, o.getName());
-        preparedStatement.setString(2, o.getPasswordHash());
+        preparedStatement.setString(2, DigestUtils.md5Hex(o.getPassword()));
         preparedStatement.setString(3, o.getPhoneNumber());
 
 
-        preparedStatement.execute();
+        preparedStatement.executeUpdate();
 
         connection.close();
     }
@@ -46,15 +49,16 @@ public class UserDaoImpl implements UserDao<User> {
     public void delete(User o) throws SQLException {
         Connection connection = ConnectionPool.getConnection();
 
-        PreparedStatement preparedStatement = connection.prepareStatement("DELETE FROM users WHERE id = ?");
+        PreparedStatement preparedStatement = connection.prepareStatement("DELETE FROM users WHERE user_id = ?");
         preparedStatement.setInt(1, o.getId());
 
+        connection.close();
     }
 
     public List getAll() throws SQLException {
-        String query = "SELECT * FROM users";
+        String query = "SELECT * FROM Users";
         User user = null;
-        ArrayList<User> users = new ArrayList();
+        List<User> users = new ArrayList<User>();
 
         Connection connection = ConnectionPool.getConnection();
 
@@ -65,10 +69,10 @@ public class UserDaoImpl implements UserDao<User> {
                 user = new User(
                         resultSet.getString("name"),
                         resultSet.getString("password"),
-                        resultSet.getString("phone")
+                        resultSet.getString("phoneNumber")
                 );
 
-                user.setId(resultSet.getInt("id"));
+                user.setUser_id(resultSet.getInt("user_id"));
 
                 users.add(user);
             }
@@ -77,6 +81,7 @@ public class UserDaoImpl implements UserDao<User> {
             System.out.println("error: " + e.getMessage());
         }
 
+        connection.close();
 
         return users;
     }
@@ -86,7 +91,7 @@ public class UserDaoImpl implements UserDao<User> {
 
         Connection connection = ConnectionPool.getConnection();
 
-        PreparedStatement preparedStatement = connection.prepareStatement("SELECT * FROM users WHERE id = ?");
+        PreparedStatement preparedStatement = connection.prepareStatement("SELECT * FROM users WHERE user_id = ?");
         preparedStatement.setInt(1, id);
 
         User user = null;
@@ -97,13 +102,15 @@ public class UserDaoImpl implements UserDao<User> {
              user = new User(
                     resultSet.getString("name"),
                     resultSet.getString("password"),
-                    resultSet.getString("phone")
+                    resultSet.getString("phoneNumber")
             );
-            user.setId(resultSet.getInt("id"));
+            user.setUser_id(resultSet.getInt("user_id"));
 
         } catch (SQLException e) {
             System.out.println("Error: " + e.getMessage());
         }
+
+        connection.close();
 
         return user;
     }
@@ -123,17 +130,18 @@ public class UserDaoImpl implements UserDao<User> {
             user = new User(
                     resultSet.getString("name"),
                     resultSet.getString("password"),
-                    resultSet.getString("phone")
+                    resultSet.getString("phoneNumber")
             );
-            user.setId(resultSet.getInt("id"));
+            user.setUser_id(resultSet.getInt("user_id"));
 
         } catch (SQLException e) {
             System.out.println("Error: " + e.getMessage());
         }
 
+        connection.close();
+
         return user;
     }
-
 
 
 }

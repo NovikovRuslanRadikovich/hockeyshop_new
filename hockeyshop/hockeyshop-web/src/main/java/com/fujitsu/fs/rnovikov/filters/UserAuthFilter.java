@@ -12,13 +12,23 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * Created by User on 08.01.2018.
+ * This Filter Class caches all requests before all specified servlets,
+ * Retrieves Session Object from users request,
+ * if session doesn't have user attribute then users is being redirected to login page,
+ * else filter gives the request handling to a defined servlet for this request
  */
 
 public class UserAuthFilter implements Filter {
 
     private List<String> urlList;
 
+    /**
+     * @param filterConfig
+     * @throws ServletException
+     * firstly this method gets allow-urls parameter, which is written in web configuration file for UserAuthFilter
+     * allow-urls String is compound as all servlet urls splited with commas,
+     * urlList list is initialized as collection of all urls from allow-urls string
+     */
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
         String initParameter = filterConfig.getInitParameter("allow-urls");
@@ -26,8 +36,17 @@ public class UserAuthFilter implements Filter {
         Collections.addAll(urlList, initParameter.split(","));
     }
 
+    /**
+     * @param servletRequest
+     * @param servletResponse
+     * @param filterChain
+     * @throws IOException
+     * @throws ServletException
+     * I from ServletPath object from a request
+     * Then if ServletPath Object starts with one of allowed requests it means that request is allowed
+     * If session doesn't have user attribute and request is not allowed user is redirected to login page
+     */
     @Override
-
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
         HttpServletRequest request = (HttpServletRequest) servletRequest;
         HttpServletResponse response = (HttpServletResponse) servletResponse;

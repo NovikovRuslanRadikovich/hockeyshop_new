@@ -15,6 +15,7 @@ public interface BasketDao<T,E> {
 
     public void delete(T t, E e) throws SQLException;
 
-    public List<Product> getAll(T t) throws SQLException;
+    public List<? extends Object> getAll(T t) throws SQLException;
+
 
 }

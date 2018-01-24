@@ -2,6 +2,7 @@ package com.fujitsu.fs.rnovikov.dao;
 
 import com.fujitsu.fs.rnovikov.entities.Product;
 import com.fujitsu.fs.rnovikov.utils.ConnectionPool;
+import com.fujitsu.fs.rnovikov.utils.SingleConnection;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -30,12 +31,11 @@ public class BasketDaoImpl implements BasketDao<Integer,Integer> {
     public void save(Integer userId, Integer productId) throws SQLException {
         Connection connection = ConnectionPool.getConnection();
 
-
-        PreparedStatement preparedStatement = connection.prepareStatement("INSERT INTO basket (userId, productId) VALUES (?,?)");
+        PreparedStatement preparedStatement = connection.prepareStatement("INSERT INTO basket (user_id, product_id) VALUES (?,?)");
         preparedStatement.setInt(1,userId);
         preparedStatement.setInt(2,productId);
 
-        preparedStatement.execute();
+        preparedStatement.executeUpdate();
 
         connection.close();
 
@@ -45,8 +45,7 @@ public class BasketDaoImpl implements BasketDao<Integer,Integer> {
     public void delete(Integer userId, Integer productId) throws SQLException {
         Connection connection = ConnectionPool.getConnection();
 
-
-        PreparedStatement preparedStatement = connection.prepareStatement("DELETE FROM basket WHERE userId = ? AND productId = ?");
+        PreparedStatement preparedStatement = connection.prepareStatement("DELETE FROM basket WHERE user_id = ? AND product_id = ?");
         preparedStatement.setInt(1,userId);
         preparedStatement.setInt(2,productId);
 
@@ -59,6 +58,7 @@ public class BasketDaoImpl implements BasketDao<Integer,Integer> {
         Connection connection = null;
         try {
             connection = ConnectionPool.getConnection();
+
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -70,7 +70,7 @@ public class BasketDaoImpl implements BasketDao<Integer,Integer> {
         if(connection != null) {
             try {
 
-                preparedStatement = connection.prepareStatement("SELECT * FROM basket WHERE userId = ?");
+                preparedStatement = connection.prepareStatement("SELECT * FROM basket WHERE user_id = ?");
 
                 preparedStatement.setInt(1, userId);
 
@@ -87,7 +87,10 @@ public class BasketDaoImpl implements BasketDao<Integer,Integer> {
             }
         }
 
-        connection.close();
+
+        if (connection != null) {
+            connection.close();
+        }
 
         return usersProducts;
     }

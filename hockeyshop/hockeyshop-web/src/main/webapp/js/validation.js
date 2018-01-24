@@ -55,7 +55,7 @@ $(document).ready(function () {
             } else {
 
                 if(checkOther()){
-                    //noinspection JSUnresolvedFunction
+
                     $.ajax({
                         url: "register",
                         type: "POST",
@@ -64,9 +64,7 @@ $(document).ready(function () {
                             "phone" : $('input[name=phone]').val(),
                             "password" : $('input[name=password]').val(),
                             "password2" : $('input[name=password2]').val(),
-                            "dob" : $('input[name=dob]').val(),
-                            "city" : $('select option:selected').val(),
-                            "sex" : $('input[name=sex]:checked').val()
+                            "save" : $('input[name=save]').attr('checked')
                         }
                     }).done(function(data) {
                         if(data ==  "success"){

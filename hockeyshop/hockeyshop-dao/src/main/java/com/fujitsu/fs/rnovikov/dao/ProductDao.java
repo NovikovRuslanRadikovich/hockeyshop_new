@@ -17,4 +17,6 @@ public interface ProductDao<T> {
 
 
     T[] getDecadeProduct(int id) throws SQLException;
+
+    void editProduct(int id, int price, String detailed_description) throws SQLException;
 }

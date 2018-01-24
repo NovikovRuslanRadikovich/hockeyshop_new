@@ -18,32 +18,49 @@
 
     <properties>
 
+        <tomcat.type>tomcat8x</tomcat.type>
+        <tomcat.version>8.5.23</tomcat.version>
+
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <surefire.plugin.version>2.20.1</surefire.plugin.version>
         <cargo.plugin.version>1.6.5</cargo.plugin.version>
         <mojo.plugin.version>1.0-alpha-2</mojo.plugin.version>
-        <flyway.plugin.version>5.0.2</flyway.plugin.version>
+        <maven.flyway.plugin.version>5.0.2</maven.flyway.plugin.version>
 
         <freemarker.version>2.3.9</freemarker.version>
         <log4j.version>1.2.17</log4j.version>
         <servlet.version>3.0.1</servlet.version>
-        <hsqldb.version>2.3.1</hsqldb.version>
-        <selenium.java.version>3.6.0</selenium.java.version>
+        <hsqldb.version>2.4.0</hsqldb.version>
+        <selenium.java.version>3.8.1</selenium.java.version>
         <selenium.firefox.driver>3.6.0</selenium.firefox.driver>
-        <hikari.cp.version>2.6.1</hikari.cp.version>
+        <hikari.cp.version>2.7.6</hikari.cp.version>
         <commons.codec.version>1.9</commons.codec.version>
         <json.simple.version>1.1.1</json.simple.version>
         <org.json.version>20171018</org.json.version>
         <com.google.code.gson.version>2.8.2</com.google.code.gson.version>
         <junit.version>4.12</junit.version>
         <fileupload.version>1.2.1</fileupload.version>
+        <jackson.databind.version>2.9.3</jackson.databind.version>
+        <maven.compiler.plugin.version>3.7.0</maven.compiler.plugin.version>
+        <compiler.source.version>1.7</compiler.source.version>
+        <compiler.target.version>1.7</compiler.target.version>
+        <commons.io.version>1.4</commons.io.version>
+        <junit.dataprovider.version>1.13.1</junit.dataprovider.version>
+        <com.google.code.gson.version>2.8.2</com.google.code.gson.version>
+
     </properties>
 
     <build>
         <pluginManagement>
             <plugins>
+
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>${maven.compiler.plugin.version}</version>
+                </plugin>
 
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
@@ -66,7 +83,7 @@
                 <plugin>
                     <groupId>org.flywaydb</groupId>
                     <artifactId>flyway-maven-plugin</artifactId>
-                    <version>${flyway.plugin.version}</version>
+                    <version>${maven.flyway.plugin.version}</version>
                 </plugin>
 
 
@@ -76,6 +93,13 @@
 
     <dependencyManagement>
         <dependencies>
+
+            <dependency>
+                <groupId>novikov</groupId>
+                <artifactId>hockeyshop-web</artifactId>
+                <version>1.0-SNAPSHOT</version>
+                <type>war</type>
+            </dependency>
 
             <dependency>
                 <groupId>novikov</groupId>
@@ -163,6 +187,33 @@
                 <artifactId>commons-fileupload</artifactId>
                 <version>${fileupload.version}</version>
             </dependency>
+
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-databind</artifactId>
+                <version>${jackson.databind.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>commons-io</groupId>
+                <artifactId>commons-io</artifactId>
+                <version>${commons.io.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.tngtech.java</groupId>
+                <artifactId>junit-dataprovider</artifactId>
+                <version>${junit.dataprovider.version}</version>
+                <scope>test</scope>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+            <dependency>
+                <groupId>com.google.code.gson</groupId>
+                <artifactId>gson</artifactId>
+                <version>${com.google.code.gson.version}</version>
+            </dependency>
+
 
         </dependencies>
     </dependencyManagement>

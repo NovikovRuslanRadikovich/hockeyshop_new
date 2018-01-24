@@ -10,11 +10,22 @@ import java.io.IOException;
 import java.net.URLDecoder;
 
 /**
- * Created by User on 06.01.2018.
+ * This servlet class is used to handle request's for main page of application
+ * It doesn't support post queries, only get methods are allowed
  */
 @WebServlet("/home")
 public class HomeServlet extends HttpServlet {
 
+    /**
+     * If request object contains a logout parameter, it means that I remove user attribute from users session
+     * and set maximum age 0 for cookie named users
+     * Finally I redirect user to a login page
+     * In opposite case I make additionally checking if request contains cookie named users I add user attribute to session object
+     * @param request
+     * @param response
+     * @throws IOException
+     * @throws ServletException
+     */
     protected void doGet(HttpServletRequest request,HttpServletResponse response) throws IOException,ServletException {
         request.setCharacterEncoding("UTF-8");
         response.setCharacterEncoding("UTF-8");
@@ -32,10 +43,12 @@ public class HomeServlet extends HttpServlet {
             response.sendRedirect("/login");
         } else {
 
-            for (Cookie cookie : request.getCookies()) {
-                if ("users".equals(cookie.getName())) {
-                    request.getSession().setAttribute("user", URLDecoder.decode(cookie.getValue(), "UTF-8"));
+            if(request.getCookies() != null) {
+                for (Cookie cookie : request.getCookies()) {
+                    if ("users".equals(cookie.getName())) {
+                        request.getSession().setAttribute("user", URLDecoder.decode(cookie.getValue(), "UTF-8"));
 
+                    }
                 }
             }
 

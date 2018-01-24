@@ -10,6 +10,7 @@
     <link href="../../css/style.css" rel="stylesheet">
     <link href="../../css/menu.css" rel="stylesheet">
     <script src="../../js/jquery.min.js"></script>
+    <script src="../../js/validation.js"></script>
 </head>
 <body>
 
@@ -29,7 +30,7 @@
         <div id="navbarCollapse" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
                 <li id="nws"><a href="/home"><div class="menu_button_text">Главная</div></a></li>
-                <li id="nws"><a href="/tov"><div class="menu_button_text">Товары</div></a></li>
+                <li id="nws"><a href="/products"><div class="menu_button_text">Товары</div></a></li>
         </div>
     </nav>
 
@@ -38,7 +39,8 @@
 
         <input class="form-control" type="text" name="name" placeholder="Имя"/>
         <input class="form-control" type="password" name="password" placeholder="Пароль"/>
-
+        <input class="form-control" type="password" name="password2" placeholder="Повтор Пароля"/>
+        <input class="form-control" type="text" name="phone" placeholder="Телефон"/>
         <label for="save">Запомнить меня</label>
         <input id="save" type="checkbox" name="save" checked="checked"/>
     <#if error??>

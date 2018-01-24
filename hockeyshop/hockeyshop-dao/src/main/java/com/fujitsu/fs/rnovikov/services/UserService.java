@@ -28,10 +28,12 @@ public class UserService implements Service<User> {
             e.printStackTrace();
         }
 
-        for(User user2 : allUsers) {
-            String user2name = user2.getName();
-            if (user2name.equals(username)) {
-                return true;
+        if (allUsers != null) {
+            for(User user2 : allUsers) {
+                String user2name = user2.getName();
+                if (user2name.equals(username)) {
+                    return true;
+                }
             }
         }
         return false;

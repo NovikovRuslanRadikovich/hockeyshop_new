@@ -1,0 +1,1 @@
+CREATE TABLE COMMENT(product_id INTEGER, comment VARCHAR(100) ,username VARCHAR(20));
