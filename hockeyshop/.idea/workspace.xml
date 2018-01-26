@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91fbf8cb-e38f-437a-94ab-aafeaa60ca17" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hockeyshop-dao/src/main/resources/db/migration/V10__create_image_row_of_products.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/BasketDao.java" afterPath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/BasketDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/BasketDaoImpl.java" afterPath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/BasketDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/CommentDao.java" afterPath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/CommentDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/ProductDao.java" afterPath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/ProductDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/ProductDaoImpl.java" afterPath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/ProductDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/UserDao.java" afterPath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/UserDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/UserDaoImpl.java" afterPath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/UserDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/entities/Product.java" afterPath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/entities/Product.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/services/Service.java" afterPath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/services/Service.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/CommentsServlet.java" afterPath="$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/CommentsServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/LoginServlet.java" afterPath="$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/LoginServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-web/src/main/webapp/js/comments.js" afterPath="$PROJECT_DIR$/hockeyshop-web/src/main/webapp/js/comments.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-web/src/main/webapp/views/detailed_product.ftl" afterPath="$PROJECT_DIR$/hockeyshop-web/src/main/webapp/views/detailed_product.ftl" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -1426,7 +1412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516802946726</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="normal version">
+      <created>1516974847446</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1516974847446</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1538,7 +1531,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="weblayer" />
     <MESSAGE value="comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="comments" />
+    <MESSAGE value="normal version" />
+    <option name="LAST_COMMIT_MESSAGE" value="normal version" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
