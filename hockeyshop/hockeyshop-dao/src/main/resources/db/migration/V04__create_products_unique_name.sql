@@ -1,0 +1,1 @@
+ALTER TABLE Products ADD CONSTRAINT Unique_productname UNIQUE (name);

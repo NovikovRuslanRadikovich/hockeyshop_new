@@ -1,0 +1,1 @@
+ALTER TABLE Basket ADD CONSTRAINT FK_to_products FOREIGN KEY (product_id) REFERENCES Products(product_id);

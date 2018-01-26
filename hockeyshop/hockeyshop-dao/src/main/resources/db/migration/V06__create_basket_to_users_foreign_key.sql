@@ -1,0 +1,1 @@
+ALTER TABLE Basket ADD CONSTRAINT FK_to_users FOREIGN KEY (user_id) REFERENCES Users(user_id);

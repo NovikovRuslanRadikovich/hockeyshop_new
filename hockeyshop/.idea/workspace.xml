@@ -2,6 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91fbf8cb-e38f-437a-94ab-aafeaa60ca17" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hockeyshop-web/src/main/webapp/imagesOfproducts/Crosby.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hockeyshop-web/src/main/webapp/imagesOfproducts/McDavid.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hockeyshop-web/src/main/webapp/imagesOfproducts/Toews.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_1_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hsqldb_hsqldb_2_4_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_8_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_8_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_8_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_8_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_8_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_8_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_8_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_8_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_8_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/applog.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/CommentDaoImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/utils/PropertiesJson.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/utils/SingleConnection.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hockeyshop-dao/src/main/resources/database.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hockeyshop-dao/src/main/resources/db/migration/V01__create_users_table.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hockeyshop-dao/src/main/resources/db/migration/V02__create_users_name_unique.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hockeyshop-dao/src/main/resources/db/migration/V03__create_products_table.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hockeyshop-dao/src/main/resources/db/migration/V04__create_products_unique_name.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hockeyshop-dao/src/main/resources/db/migration/V05__create_basket_table.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hockeyshop-dao/src/main/resources/db/migration/V06__create_basket_to_users_foreign_key.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hockeyshop-dao/src/main/resources/db/migration/V07__create_basket_to_products_foreign_key.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hockeyshop-dao/src/main/resources/log4j.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hockeyshop-test/src/main/resources/testproperties.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hockeyshop-test/src/test/java/com/fujitsu/tests/AppManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hockeyshop-test/src/test/java/com/fujitsu/tests/bases/AuthBase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hockeyshop-test/src/test/java/com/fujitsu/tests/bases/TestBase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hockeyshop-test/src/test/java/com/fujitsu/tests/helpers/HelperBase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hockeyshop-test/src/test/java/com/fujitsu/tests/helpers/LoginHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hockeyshop-test/src/test/java/com/fujitsu/tests/helpers/NavigationHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hockeyshop-test/src/test/java/com/fujitsu/tests/models/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hockeyshop-test/src/test/java/com/fujitsu/tests/testers/HomeTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hockeyshop-test/src/test/java/com/fujitsu/tests/testers/LoginTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hockeyshop-test/src/test/java/com/fujitsu/tests/utils/CredentialsRetriever.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/AddToCartServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/AdminServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/BasketServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/DeleteFromCartServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/Detailed_Product.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/EditProductServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/GetProductsNextServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/ProductsServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/RegistrationServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hockeyshop-web/src/main/resources/log4j.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hockeyshop-web/src/main/webapp/js/detailed_product.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hockeyshop-web/src/main/webapp/js/products.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hockeyshop-web/src/main/webapp/views/edit_product.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hockeyshop-web/src/main/webapp/views/products_decade.ftl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -116,8 +175,8 @@
       <file leaf-file-name="RegistrationServlet.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/RegistrationServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="107" column="36" lean-forward="false" selection-start-line="107" selection-start-column="36" selection-end-line="107" selection-end-column="36" />
+            <state relative-caret-position="1003">
+              <caret line="89" column="0" lean-forward="true" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -155,6 +214,9 @@
         <entry key="D:/" value="webapp" />
       </map>
     </option>
+    <push-targets>
+      <push-target-info target-remote="origin" target-branch="webapp" repo="D:/" source="webapp" />
+    </push-targets>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -1419,7 +1481,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516974847446</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="normal version">
+      <created>1516974882771</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1516974882771</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1966,8 +2035,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/RegistrationServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="107" column="36" lean-forward="false" selection-start-line="107" selection-start-column="36" selection-end-line="107" selection-end-column="36" />
+        <state relative-caret-position="1003">
+          <caret line="89" column="0" lean-forward="true" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
           <folding />
         </state>
       </provider>

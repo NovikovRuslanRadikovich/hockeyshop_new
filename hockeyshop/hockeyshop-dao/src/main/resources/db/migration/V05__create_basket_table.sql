@@ -1,0 +1,1 @@
+CREATE TABLE Basket(user_id INTEGER, product_id INTEGER);
