@@ -31,38 +31,45 @@ public class UserDaoImpl implements UserDao<User> {
         return userDao;
     }
 
-    public void save(User o) throws SQLException {
-        Connection connection = ConnectionPool.getConnection();
+    public void save(User o) {
+        try {
+            Connection connection = ConnectionPool.getConnection();
 
-        PreparedStatement preparedStatement = connection.prepareStatement("INSERT INTO users (name, password, phoneNumber) VALUES (?, ?, ?);");
+            PreparedStatement preparedStatement = connection.prepareStatement("INSERT INTO users (name, password, phoneNumber) VALUES (?, ?, ?);");
 
-        preparedStatement.setString(1, o.getName());
-        preparedStatement.setString(2, DigestUtils.md5Hex(o.getPassword()));
-        preparedStatement.setString(3, o.getPhoneNumber());
+            preparedStatement.setString(1, o.getName());
+            preparedStatement.setString(2, DigestUtils.md5Hex(o.getPassword()));
+            preparedStatement.setString(3, o.getPhoneNumber());
 
 
-        preparedStatement.executeUpdate();
+            preparedStatement.executeUpdate();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
 
-        connection.close();
+
     }
 
-    public void delete(User o) throws SQLException {
-        Connection connection = ConnectionPool.getConnection();
+    public void delete(User o) {
+        try {
+            Connection connection = ConnectionPool.getConnection();
 
-        PreparedStatement preparedStatement = connection.prepareStatement("DELETE FROM users WHERE user_id = ?");
-        preparedStatement.setInt(1, o.getId());
+            PreparedStatement preparedStatement = connection.prepareStatement("DELETE FROM users WHERE user_id = ?");
+            preparedStatement.setInt(1, o.getId());
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
 
-        connection.close();
+
     }
 
-    public List getAll() throws SQLException {
+    public List getAll() {
         String query = "SELECT * FROM Users";
         User user = null;
         List<User> users = new ArrayList<User>();
 
-        Connection connection = ConnectionPool.getConnection();
+        try(Connection connection = ConnectionPool.getConnection()) {
 
-        try {
             ResultSet resultSet = connection.createStatement().executeQuery(query);
             while (resultSet.next()) {
 
@@ -77,25 +84,23 @@ public class UserDaoImpl implements UserDao<User> {
                 users.add(user);
             }
 
-        } catch (SQLException e) {
-            System.out.println("error: " + e.getMessage());
+        } catch(SQLException e) {
+
         }
 
-        connection.close();
 
         return users;
     }
 
 
-    public User get(int id) throws SQLException {
+    public User get(int id) {
 
-        Connection connection = ConnectionPool.getConnection();
+        User user = null;
+        try(Connection connection = ConnectionPool.getConnection()) {
 
         PreparedStatement preparedStatement = connection.prepareStatement("SELECT * FROM users WHERE user_id = ?");
         preparedStatement.setInt(1, id);
 
-        User user = null;
-        try {
             ResultSet resultSet = preparedStatement.executeQuery();
             resultSet.next();
 
@@ -106,24 +111,22 @@ public class UserDaoImpl implements UserDao<User> {
             );
             user.setUser_id(resultSet.getInt("user_id"));
 
-        } catch (SQLException e) {
-            System.out.println("Error: " + e.getMessage());
-        }
+        }  catch (SQLException e) {
 
-        connection.close();
+        }
 
         return user;
     }
 
-    public User get(String name) throws SQLException {
+    public User get(String name) {
 
-        Connection connection = ConnectionPool.getConnection();
+        User user = null;
+        try(Connection connection = ConnectionPool.getConnection()) {
 
         PreparedStatement preparedStatement = connection.prepareStatement("SELECT * FROM users WHERE name = ?");
         preparedStatement.setString(1, name);
 
-        User user = null;
-        try {
+
             ResultSet resultSet = preparedStatement.executeQuery();
             resultSet.next();
 
@@ -134,11 +137,9 @@ public class UserDaoImpl implements UserDao<User> {
             );
             user.setUser_id(resultSet.getInt("user_id"));
 
-        } catch (SQLException e) {
-            System.out.println("Error: " + e.getMessage());
-        }
+        } catch(SQLException e) {
 
-        connection.close();
+        }
 
         return user;
     }

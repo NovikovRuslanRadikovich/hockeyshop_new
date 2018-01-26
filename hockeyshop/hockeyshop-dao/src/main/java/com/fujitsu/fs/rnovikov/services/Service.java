@@ -7,6 +7,6 @@ import java.sql.SQLException;
  */
 public interface Service<T> {
 
-    boolean isRegistred(String username) throws SQLException;
+    boolean isRegistred(String username);
 
 }

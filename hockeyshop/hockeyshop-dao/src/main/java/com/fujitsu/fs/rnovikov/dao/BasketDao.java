@@ -11,11 +11,11 @@ import java.util.List;
 public interface BasketDao<T,E> {
 
 
-    public void save(T t, E e) throws SQLException;
+    public void save(T t, E e);
 
-    public void delete(T t, E e) throws SQLException;
+    public void delete(T t, E e);
 
-    public List<? extends Object> getAll(T t) throws SQLException;
+    public List<? extends Object> getAll(T t);
 
 
 }

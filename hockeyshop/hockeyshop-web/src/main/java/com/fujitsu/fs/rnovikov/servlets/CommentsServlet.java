@@ -33,15 +33,13 @@ public class CommentsServlet extends HttpServlet {
 
         String commentText = request.getParameter("comment");
         String productId = request.getParameter("productId");
-        String username = (String) request.getSession().getAttribute("name");
+        String username = (String) request.getSession().getAttribute("user");
+
+
 
         Comment comment = null;
-        try {
-            comment = new Comment(Integer.parseInt(productId),commentText,username);
-            commentDao.save(comment);
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
+        comment = new Comment(Integer.parseInt(productId),commentText,username);
+        commentDao.save(comment);
 
         response.getWriter().write(comment.toString());
     }

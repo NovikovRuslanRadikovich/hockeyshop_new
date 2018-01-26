@@ -1,5 +1,7 @@
 package com.fujitsu.fs.rnovikov.entities;
 
+import java.sql.Blob;
+
 /**
  * Created by User on 06.01.2018.
  */
@@ -11,17 +13,19 @@ public class Product {
     public String description;
     public String detailed_description;
     private int quantity;
+    private Blob photo;
 
     public Product() {
 
     }
 
-    public Product(String name, int price,String description, String detailed_description, int quantity) {
+    public Product(String name, int price,String description, String detailed_description, int quantity,Blob photo) {
         this.name = name;
         this.price = price;
         this.description = description;
         this.detailed_description = detailed_description;
         this.quantity = quantity;
+        this.photo = photo;
     }
 
     public void setProduct_id(int product_id) {
@@ -48,6 +52,8 @@ public class Product {
         this.name = name;
     }
 
+    public void setPhoto(Blob photo) {this.photo = photo; }
+
     public int getProduct_id() {
         return product_id;
     }
@@ -71,5 +77,7 @@ public class Product {
     public int getQuantity() {
         return quantity;
     }
+
+    public Blob getPhoto() {return photo; }
 
 }

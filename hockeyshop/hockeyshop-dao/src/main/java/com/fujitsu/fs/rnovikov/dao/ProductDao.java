@@ -9,14 +9,14 @@ import java.sql.SQLException;
  */
 public interface ProductDao<T> {
 
-    void save(T t) throws SQLException;
-    void delete(int t) throws SQLException;
-    Product[] getAll() throws SQLException;
-    T get(int id) throws SQLException;
-    T get(String name) throws SQLException;
+    void save(T t);
+    void delete(int t);
+    Product[] getAll();
+    T get(int id);
+    T get(String name);
 
 
-    T[] getDecadeProduct(int id) throws SQLException;
+    T[] getDecadeProduct(int id);
 
-    void editProduct(int id, int price, String detailed_description) throws SQLException;
+    void editProduct(int id, int price, String detailed_description);
 }

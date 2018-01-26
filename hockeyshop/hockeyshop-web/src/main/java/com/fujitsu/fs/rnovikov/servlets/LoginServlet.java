@@ -98,28 +98,23 @@ public class LoginServlet extends HttpServlet {
             return true;
         } else {
 
-            try {
-                if (userService.isRegistred(username)) {
+            if (userService.isRegistred(username)) {
 
-                    if (dao.get(username).getPassword().equals(DigestUtils.md5Hex(password))) {
+                if (dao.get(username).getPassword().equals(DigestUtils.md5Hex(password))) {
 
-                        request.getSession().setAttribute("user", username);
-                        addCookies(response, username);
-                        return true;
+                    request.getSession().setAttribute("user", username);
+                    addCookies(response, username);
+                    return true;
 
-                    } else {
-                        request.setAttribute("error", "Не верный пароль");
-                        return false;
-                    }
                 } else {
-                    request.setAttribute("error", "Пользователь не найден");
+                    request.setAttribute("error", "Не верный пароль");
                     return false;
                 }
-            } catch (SQLException e) {
-                e.printStackTrace();
+            } else {
+                request.setAttribute("error", "Пользователь не найден");
+                return false;
             }
         }
-        return false;
     }
 
     public  void addCookies(HttpServletResponse response, String key) throws UnsupportedEncodingException {

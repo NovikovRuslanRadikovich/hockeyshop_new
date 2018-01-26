@@ -1,46 +1,30 @@
 $(document).ready(function() {
 
-         var username = '${username}';
+          $("#commentForm").submit(function() {
 
+                   var form = $(this);
 
-         $("#commentForm").each(function() {
-
-              var form = $(this);
-
-              form.submit(function() {
-
-                   var comment = form.find("[name='comment']");
-                   var productId = form.attr('id');
-
-                   alert(productId);
+                   var comment = form.find('[name=comment]').val();
+                   var productId = form.find('[name=comment]').prop('id');
 
                    $.ajax({
-                      url : form.attr('action'),
-                      type: form.attr('method'),
+                      url : "/comments",
+                      type: "POST",
                       data: {
                           "comment" : comment,
-                          "productId" : productId
+                          "productId" : productId,
                       }
                    }).done(function(data) {
-                       alert("YEAHHHHHH");
+
                        $("#comments").append("<p>" + data + "</p>");
 
                        form[0].reset();
-
-
 
                    });
 
                    return false;
 
-              })
-
-
-
-
          })
-
-
 
 
 });

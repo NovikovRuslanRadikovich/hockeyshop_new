@@ -68,7 +68,6 @@
                                 <div id="comments">
                                     <#if comments??>
 
-
                                         <#list comments as comment>
                                             <p>${comment}</p>
                                         </#list>

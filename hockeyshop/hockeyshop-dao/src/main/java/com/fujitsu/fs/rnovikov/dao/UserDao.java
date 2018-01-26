@@ -8,10 +8,10 @@ import java.util.List;
  */
 public interface UserDao<T> {
 
-    void save(T t) throws SQLException;
-    void delete(T t) throws SQLException;
-    List<T> getAll() throws SQLException;
-    T get(int user_id) throws SQLException;
-    T get(String name) throws SQLException;
+    void save(T t);
+    void delete(T t);
+    List<T> getAll();
+    T get(int user_id);
+    T get(String name);
 
 }
