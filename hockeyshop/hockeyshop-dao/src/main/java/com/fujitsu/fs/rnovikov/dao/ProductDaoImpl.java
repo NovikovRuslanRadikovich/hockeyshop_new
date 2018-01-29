@@ -15,15 +15,15 @@ import java.util.List;
 /**
  * Created by User on 07.01.2018.
  */
-public class ProductDaoImpl implements ProductDao<Product> {
+public class ProductDaoImpl implements ProductDao<Product,Integer,String> {
 
-    private static ProductDao<Product> productDao;
+    private static ProductDao<Product,Integer,String> productDao;
 
     private ProductDaoImpl() {
 
     }
 
-    public static ProductDao<Product> getInstance() {
+    public static ProductDao<Product,Integer,String> getInstance() {
         if (productDao == null) {
             productDao = new ProductDaoImpl();
         }
@@ -50,10 +50,26 @@ public class ProductDaoImpl implements ProductDao<Product> {
         }
     }
 
-    public void delete(int productId) {
+    public void delete(Integer productId) {
+
+        deleteConcreteProductInBaskets(productId);
+
         try(Connection connection = ConnectionPool.getConnection()) {
 
             PreparedStatement preparedStatement = connection.prepareStatement("DELETE FROM products WHERE product_id = ?");
+            preparedStatement.setInt(1, productId);
+
+            preparedStatement.execute();
+
+        } catch (SQLException e) {
+
+        }
+    }
+
+    public void deleteConcreteProductInBaskets(Integer productId) {
+        try (Connection connection = ConnectionPool.getConnection()) {
+
+            PreparedStatement preparedStatement = connection.prepareStatement("DELETE FROM basket WHERE product_id = ?");
             preparedStatement.setInt(1, productId);
 
             preparedStatement.execute();
@@ -94,7 +110,7 @@ public class ProductDaoImpl implements ProductDao<Product> {
         return products.toArray(new Product[0]);
     }
 
-    public Product get(int id) {
+    public Product getById(Integer id) {
 
         Product product = null;
 
@@ -132,7 +148,7 @@ public class ProductDaoImpl implements ProductDao<Product> {
 
     }
 
-    public Product get(String name){
+    public Product getByName(String name){
 
         Product product = null;
         try (Connection connection = ConnectionPool.getConnection()) {
@@ -160,7 +176,7 @@ public class ProductDaoImpl implements ProductDao<Product> {
         return product;
     }
 
-    public Product[] getDecadeProduct(int decadeId) {
+    public Product[] getDecadeProduct(Integer decadeId) {
         Product[] allproducts = getAll();
         int productsNumber = allproducts.length;
         List<Product> decadeProducts = new ArrayList<Product>();
@@ -179,7 +195,7 @@ public class ProductDaoImpl implements ProductDao<Product> {
     }
 
     @Override
-    public void editProduct(int product_id, int price, String detailed_description) {
+    public void editProduct(Integer product_id, Integer price, String detailed_description) {
         try (Connection connection = ConnectionPool.getConnection()) {
 
             PreparedStatement preparedStatement = connection.prepareStatement("UPDATE products SET price = ?, detailed_description = ? WHERE product_id = ?");

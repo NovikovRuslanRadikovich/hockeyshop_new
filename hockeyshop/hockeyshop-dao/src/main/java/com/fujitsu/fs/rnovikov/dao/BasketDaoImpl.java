@@ -58,6 +58,7 @@ public class BasketDaoImpl implements BasketDao<Integer, Integer> {
         }
     }
 
+
     public List<Product> getAll(Integer userId) {
 
         List<Product> usersProducts = new ArrayList<Product>();
@@ -71,7 +72,7 @@ public class BasketDaoImpl implements BasketDao<Integer, Integer> {
             ResultSet resultSet = preparedStatement.executeQuery();
             while (resultSet.next()) {
                 int productId = resultSet.getInt(2);
-                Product product = ProductDaoImpl.getInstance().get(productId);
+                Product product = ProductDaoImpl.getInstance().getById(productId);
                 usersProducts.add(product);
             }
 

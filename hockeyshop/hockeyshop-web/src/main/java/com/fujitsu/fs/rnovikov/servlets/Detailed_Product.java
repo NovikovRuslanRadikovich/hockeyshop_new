@@ -19,7 +19,7 @@ import java.util.List;
 @WebServlet("/product_detail/*")
 public class Detailed_Product extends HttpServlet {
 
-    private ProductDao<Product> productDao;
+    private ProductDao<Product,Integer,String> productDao;
     private CommentDao<Comment,Integer> commentDao;
 
     /**
@@ -44,18 +44,24 @@ public class Detailed_Product extends HttpServlet {
 
         int id = Integer.valueOf(request.getPathInfo().substring(1));
 
-        Product product = null;
-        product = productDao.get(id);
-        request.setAttribute("product",product);
+        Product product;
+        product = productDao.getById(id);
 
-        List<Comment> comments = null;
+        if(product != null) {
 
-        comments = commentDao.get(id);
-        request.setAttribute("comments",comments);
+            request.setAttribute("product", product);
 
-        request.setAttribute("username",request.getSession().getAttribute("user"));
+            List<Comment> comments = null;
 
-        getServletConfig().getServletContext().getRequestDispatcher("/detailed_product.ftl").forward(request,response);
+            comments = commentDao.get(id);
+            request.setAttribute("comments", comments);
+
+            request.setAttribute("username", request.getSession().getAttribute("user"));
+
+            getServletConfig().getServletContext().getRequestDispatcher("/detailed_product.ftl").forward(request, response);
+        } else {
+            response.getWriter().write("Queried product doesn't exist");
+        }
 
     }
 

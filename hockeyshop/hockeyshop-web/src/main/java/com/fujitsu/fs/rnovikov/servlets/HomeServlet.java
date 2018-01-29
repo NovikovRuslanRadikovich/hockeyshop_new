@@ -40,6 +40,8 @@ public class HomeServlet extends HttpServlet {
                 }
             }
 
+            request.getSession().removeAttribute("admin");
+
             response.sendRedirect("/login");
         } else {
 

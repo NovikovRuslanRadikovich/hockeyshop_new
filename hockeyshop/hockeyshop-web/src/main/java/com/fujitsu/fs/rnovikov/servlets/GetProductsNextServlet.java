@@ -22,7 +22,7 @@ import java.util.List;
 @WebServlet("/getproductsnext/*")
 class GetProductsNextServlet extends HttpServlet {
 
-    private ProductDao<Product> productDao;
+    private ProductDao<Product,Integer,String> productDao;
 
     /**
      * This method initializes a productDao Object

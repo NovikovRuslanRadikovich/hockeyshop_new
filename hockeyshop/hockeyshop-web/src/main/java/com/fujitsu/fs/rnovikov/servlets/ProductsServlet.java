@@ -19,7 +19,7 @@ import java.util.List;
  */
 @WebServlet("/products")
 public class ProductsServlet extends HttpServlet {
-    ProductDao<Product> productDao;
+    ProductDao<Product,Integer,String> productDao;
 
     /**
      * This method initializes Data Access Object for Product Entity

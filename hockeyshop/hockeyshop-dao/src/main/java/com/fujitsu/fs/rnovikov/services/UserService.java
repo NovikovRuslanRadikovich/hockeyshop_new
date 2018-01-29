@@ -22,11 +22,7 @@ public class UserService implements Service<User> {
 
 
         List<User> allUsers = null;
-        try {
-            allUsers = myDao.getAll();
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
+        allUsers = myDao.getAll();
 
         if (allUsers != null) {
             for(User user2 : allUsers) {

@@ -20,7 +20,7 @@ import java.sql.SQLException;
 @WebServlet("/addToCart/*")
 public class AddToCartServlet extends HttpServlet {
     BasketDao basketDao;
-    ProductDao<Product> productDao;
+    ProductDao<Product,Integer,String> productDao;
     UserDao<User> userDao;
     public void init() throws ServletException {
         basketDao = BasketDaoImpl.getInstance();

@@ -21,7 +21,7 @@ import java.sql.SQLException;
 @WebServlet("/edit_product/*")
 public class EditProductServlet extends HttpServlet {
 
-    private ProductDao<Product> productDao;
+    private ProductDao<Product,Integer,String> productDao;
     private final Logger logger = Logger.getLogger(EditProductServlet.class);
 
     @Override
@@ -34,7 +34,7 @@ public class EditProductServlet extends HttpServlet {
         request.setCharacterEncoding("UTF-8");
         response.setCharacterEncoding("UTF-8");
         int id = Integer.valueOf(request.getPathInfo().substring(1));
-        Product product = productDao.get(id);
+        Product product = productDao.getById(id);
         request.setAttribute("product",product);
 
         getServletConfig().getServletContext().getRequestDispatcher("/edit_product.ftl").forward(request,response);

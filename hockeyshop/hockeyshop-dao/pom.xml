@@ -33,7 +33,7 @@
                         <!--<location>filesystem:src/main/resources/db/migration</location>-->
                     <!--</locations>-->
 
-                    <!--<baselineOnMigrate>false</baselineOnMigrate>-->
+                <!--<baselineOnMigrate>false</baselineOnMigrate>-->
 
                 <!--</configuration>-->
                 <!--<executions>-->

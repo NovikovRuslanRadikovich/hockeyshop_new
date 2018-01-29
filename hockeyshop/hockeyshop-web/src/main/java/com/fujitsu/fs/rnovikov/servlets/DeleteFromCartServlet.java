@@ -18,7 +18,7 @@ import java.sql.SQLException;
 @WebServlet("/deleteFromCart/*")
 public class DeleteFromCartServlet extends HttpServlet {
     BasketDao<Integer, Integer> basketDao;
-    ProductDao<Product> productDao;
+    ProductDao<Product,Integer,String> productDao;
     UserDao<User> userDao;
     public void init() throws ServletException {
         basketDao = BasketDaoImpl.getInstance();
@@ -28,12 +28,14 @@ public class DeleteFromCartServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException,IOException {
         request.setCharacterEncoding("UTF-8");
         response.setCharacterEncoding("UTF-8");
-        int id = Integer.valueOf(request.getPathInfo().substring(1));
+        int id = Integer.parseInt(request.getPathInfo().substring(1));
+
+        response.getWriter().write(id);
 
         String username = (String) request.getSession().getAttribute("user");
 
-        User user = null;
-        user = userDao.get(username);
+
+        User user = userDao.get(username);
 
         if (user != null) {
             BasketDaoImpl.getInstance().delete(user.getId(),id);

@@ -37,7 +37,7 @@ import java.util.List;
 
 public class AdminServlet extends HttpServlet {
     private final int MaxFileSize = 1024 * 1024 * 3;
-    private ProductDao<Product> productDao;
+    private ProductDao<Product,Integer,String> productDao;
     private UserDao<User> userDao;
 
     Product product;

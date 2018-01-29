@@ -12,64 +12,61 @@
     <link href="/css/news_item.css" rel="stylesheet">
 
     <script src="/js/jquery.min.js"></script>
-
-    <script>
-        function Delete(i) {
-            $.ajax({
-                url: "/deleteFromCart/" + i,
-                type: "GET"
-            });
-        }
-    </script>
-
-    <script type="text/javascript">
-        function ByProduct(i) {
-            alert("Вы купили товара на сумму " + i);
-        }
-    </script>
+    <script src="/js/basket.js"></script>
 
 </head>
 <body>
 <div class="container">
 
-<#include "header.ftl">
-<#include "menu.ftl">
+    <#include "header.ftl">
+        <#include "menu.ftl">
 
-    <div class="center-content">
-        <div class="container">
+            <div class="center-content">
+                <div class="container">
 
-            <div class="container_heading">Корзина</div>
-            <div id="products_container">
-            <#if basket??>
-                <#list basket as productInbasket>
-                    <div class="news_item">
-                        <div class="news_item_text_time">Имя: ${productInbasket.getName()}</div>
-                        <div class="news_item_text">ПодробноеОписание: ${productInbasket.getDetailed_description()}</div>
-                        <div class="news_item_text">Цена: ${productInbasket.getPrice()}</div>
-                        <div class="news_item_text">Оценка: ${productInbasket.getQuantity()}</div>
-                        <br><br>
-                        <img src="/imagesOfproducts/${productInbasket.getName()}.jpg" class="images">
-                        <br>
-                        <#if user??>
-                            <button style="display: block" onclick="ByProduct(${productInbasket.getPrice()})">Купить</button>
-                            <p></p>
-                            <button style="display: block" onclick="Delete(${productInbasket.getProduct_id()})">Удалить из корзины
-                            </button>
+                    <div class="container_heading">Корзина</div>
+                    <div id="products_container">
+                        <#if basket??>
+                            <#list basket as productInBasket>
+                                <div class="news_item">
+                                    <div id="product${productInBasket.getProduct_id()}">
+                                        <div class="news_item_text_time">Имя: ${productInBasket.getName()}</div>
+                                        <div class="news_item_text">ПодробноеОписание:
+                                            ${productInBasket.getDetailed_description()}
+                                        </div>
+                                        <div class="news_item_text">Цена: ${productInBasket.getPrice()}</div>
+                                        <div class="news_item_text">Оценка: ${productInBasket.getQuantity()}</div>
+                                        <br><br>
+                                        <img src="/imagesOfproducts/${productInBasket.getName()}.jpg" class="images">
+                                        <br>
+                                        <#if user??>
+                                            <button style="display: block"
+                                                    onclick="buyProduct(${productInBasket.getPrice()})">Купить
+                                            </button>
+                                            <p></p>
+                                            <button style="display: block"
+                                                    onclick="deleteFromCart(${productInBasket.getProduct_id()})">Удалить
+                                                из корзины
+                                            </button>
+                                        </#if>
+
+                                    </div>
+                                </div>
+                                <#if productInBasket_index
+                                <
+                                basket?size - 1>
+                                <div class="divider"></div>
+                        </#if>
+
+                        </#list>
                         </#if>
                     </div>
-                    <#if productInbasket_index<basket?size - 1>
-                        <div class="divider"></div>
-                    </#if>
-
-                </#list>
-            </#if>
+                </div>
             </div>
-        </div>
-    </div>
 
-<#if error??>
-    <h2>${error}</h2>
-</#if>
+            <#if error??>
+                <h2>${error}</h2>
+            </#if>
 
 </div>
 

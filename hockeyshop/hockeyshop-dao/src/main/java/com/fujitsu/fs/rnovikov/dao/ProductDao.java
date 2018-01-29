@@ -7,16 +7,18 @@ import java.sql.SQLException;
 /**
  * Created by User on 06.01.2018.
  */
-public interface ProductDao<T> {
+public interface ProductDao<T,E,F> {
 
     void save(T t);
-    void delete(int t);
+    void delete(E t);
     Product[] getAll();
-    T get(int id);
-    T get(String name);
+    T getById(E id);
+    T getByName(F name);
 
 
-    T[] getDecadeProduct(int id);
+    T[] getDecadeProduct(E id);
 
-    void editProduct(int id, int price, String detailed_description);
+    void editProduct(E id, E price, F detailed_description);
+
+    public void deleteConcreteProductInBaskets(E productId);
 }
