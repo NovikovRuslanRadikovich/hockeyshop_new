@@ -3,6 +3,7 @@ package com.fujitsu.tests.utils;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
+import java.io.File;
 import java.io.FileReader;
 
 /**
@@ -14,18 +15,18 @@ public class CredentialsRetriever {
     private static String password;
     private static String name;
 
+    private static final String FILE_PATH = System.getProperty("user.dir") + "\\src\\main\\resources\\credentials.json";
 
-//    private static final String FILE_PATH = "C:\\Users\\User\\Desktop\\hockeyshop\\hockeyshop-test\\src\\main\\resources\\credentials.json";
 
 
-    private static final String FILE_PATH = "D:\\hockeyshop\\hockeyshop-test\\src\\main\\resources\\credentials.json";
     private static JsonParser parser = new JsonParser();
     static Object object;
     static JsonObject obj;
     static {
 
+        System.out.println(FILE_PATH);
         try {
-            object = parser.parse(new FileReader(FILE_PATH));
+            object = parser.parse(new FileReader(new File(CredentialsRetriever.class.getClassLoader().getResource("/credentials.json").toURI())));
 
             obj = (JsonObject) object;
 
@@ -37,6 +38,7 @@ public class CredentialsRetriever {
     }
 
     public static String getBaseUrl() {
+
         if(baseUrl == null) {
             baseUrl =  obj.get("baseUrl").getAsString();
         }

@@ -2,24 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91fbf8cb-e38f-437a-94ab-aafeaa60ca17" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hockeyshop-web/src/main/webapp/js/basket.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-web/src/main/webapp/imagesOfproducts/Toews.jpg" afterPath="$PROJECT_DIR$/hockeyshop-web/src/main/webapp/imagesOfproducts/Toews.jpg" />
+      <change type="NEW" beforePath="" afterPath="D:/products/products-dao/src/main/resources/db/migration/V01__create_products_table.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-dao/pom.xml" afterPath="$PROJECT_DIR$/hockeyshop-dao/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/BasketDaoImpl.java" afterPath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/BasketDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/ProductDao.java" afterPath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/ProductDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/ProductDaoImpl.java" afterPath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/ProductDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/services/UserService.java" afterPath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/services/UserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-dao/src/main/resources/db/migration/V03__create_products_table.sql" afterPath="$PROJECT_DIR$/hockeyshop-dao/src/main/resources/db/migration/V03__create_products_table.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/AddToCartServlet.java" afterPath="$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/AddToCartServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/AdminServlet.java" afterPath="$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/AdminServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/DeleteFromCartServlet.java" afterPath="$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/DeleteFromCartServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/Detailed_Product.java" afterPath="$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/Detailed_Product.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/EditProductServlet.java" afterPath="$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/EditProductServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/GetProductsNextServlet.java" afterPath="$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/GetProductsNextServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/HomeServlet.java" afterPath="$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/HomeServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/ProductsServlet.java" afterPath="$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/ProductsServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-web/src/main/webapp/views/basket.ftl" afterPath="$PROJECT_DIR$/hockeyshop-web/src/main/webapp/views/basket.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/utils/PropertiesJson.java" afterPath="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/utils/PropertiesJson.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-dao/src/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/hockeyshop-dao/src/main/resources/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-test/src/test/java/com/fujitsu/tests/utils/CredentialsRetriever.java" afterPath="$PROJECT_DIR$/hockeyshop-test/src/test/java/com/fujitsu/tests/utils/CredentialsRetriever.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hockeyshop-web/pom.xml" afterPath="$PROJECT_DIR$/hockeyshop-web/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,101 +39,111 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Detailed_Product.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/Detailed_Product.java">
+      <file leaf-file-name="V01__create_users_table.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/resources/db/migration/V01__create_users_table.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="63" column="9" lean-forward="false" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
+            <state relative-caret-position="17">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="V06__create_basket_to_users_foreign_key.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/resources/db/migration/V06__create_basket_to_users_foreign_key.sql">
+      <file leaf-file-name="HomeServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/HomeServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="V05__create_basket_table.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/resources/db/migration/V05__create_basket_table.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="V04__create_products_unique_name.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/resources/db/migration/V04__create_products_unique_name.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/LoginServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="117" column="4" lean-forward="false" selection-start-line="117" selection-start-column="4" selection-end-line="117" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserAuthFilter.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/filters/UserAuthFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="V03__create_products_table.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/resources/db/migration/V03__create_products_table.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="196" lean-forward="false" selection-start-line="0" selection-start-column="196" selection-end-line="0" selection-end-column="196" />
+            <state relative-caret-position="221">
+              <caret line="20" column="51" lean-forward="false" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hockeyshop-dao/pom.xml">
+        <entry file="file://$PROJECT_DIR$/hockeyshop-web/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="1819">
+              <caret line="107" column="49" lean-forward="false" selection-start-line="107" selection-start-column="49" selection-end-line="107" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="V01__create_users_table.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/resources/db/migration/V01__create_users_table.sql">
+      <file leaf-file-name="products_decade.ftl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/webapp/views/products_decade.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="323">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="68" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="V02__create_users_name_unique.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/resources/db/migration/V02__create_users_name_unique.sql">
+      <file leaf-file-name="ProductDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/ProductDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="-1275">
+              <caret line="110" column="5" lean-forward="false" selection-start-line="110" selection-start-column="5" selection-end-line="110" selection-end-column="5" />
+              <folding>
+                <marker date="1517227152034" expanded="true" signature="981:1093" ph=" INSERT statement (PRODUCTS)" />
+                <marker date="1517227152034" expanded="true" signature="1838:1879" ph=" DELETE statement (PRODUCTS)" />
+                <marker date="1517227152034" expanded="true" signature="2250:2289" ph=" DELETE statement (BASKET)" />
+                <marker date="1517227152034" expanded="true" signature="2498:2520" ph=" SELECT statement (PRODUCTS)" />
+                <marker date="1517227152034" expanded="true" signature="3799:3842" ph=" SELECT statement (PRODUCTS)" />
+                <marker date="1517227152034" expanded="true" signature="4852:4889" ph=" SELECT statement (PRODUCTS)" />
+                <marker date="1517227152034" expanded="true" signature="6450:6526" ph=" UPDATE statement (PRODUCTS)" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PropertiesJson.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/utils/PropertiesJson.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="70" lean-forward="false" selection-start-line="17" selection-start-column="70" selection-end-line="17" selection-end-column="70" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/resources/database.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConnectionPool.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/utils/ConnectionPool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="35" column="62" lean-forward="false" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="393">
+              <caret line="40" column="7" lean-forward="false" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductsServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/ProductsServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="76" column="20" lean-forward="false" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -163,7 +162,12 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>ile</find>
+      <find>maven-comp</find>
+      <find>json</find>
     </findStrings>
+    <dirStrings>
+      <dir>D:\hockeyshop\hockeyshop-test\src\test\java\com\fujitsu</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="D:/" />
@@ -184,10 +188,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/utils/PropertiesJson.java" />
-        <option value="$PROJECT_DIR$/hockeyshop-test/src/main/resources/credentialsOfUser.json" />
         <option value="$PROJECT_DIR$/hockeyshop-test/src/main/resources/credentialsOfAdmin.json" />
-        <option value="$PROJECT_DIR$/hockeyshop-test/src/test/java/com/fujitsu/tests/utils/CredentialsRetriever.java" />
         <option value="$PROJECT_DIR$/hockeyshop-test/src/test/java/com/fujitsu/tests/bases/AuthBase.java" />
         <option value="$PROJECT_DIR$/hockeyshop-test/src/test/java/com/fujitsu/tests/testers/BasketTest.java" />
         <option value="$PROJECT_DIR$/hockeyshop-test/src/test/java/com/fujitsu/tests/AppManager.java" />
@@ -198,12 +199,10 @@
         <option value="$PROJECT_DIR$/hockeyshop-test/pom.xml" />
         <option value="$PROJECT_DIR$/hockeyshop-test/src/main/resources/homepageelements.json" />
         <option value="$PROJECT_DIR$/hockeyshop-test/src/test/java/com/fujitsu/tests/testers/HomeTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/hockeyshop-dao/src/main/resources/db/migration/V08__create_comments_table.sql" />
         <option value="$PROJECT_DIR$/hockeyshop-dao/src/main/resources/db/migration/V09__create_comments_primary_key.sql" />
         <option value="$PROJECT_DIR$/hockeyshop-web/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/entities/Comment.java" />
-        <option value="$PROJECT_DIR$/hockeyshop-web/pom.xml" />
         <option value="$PROJECT_DIR$/hockeyshop-web/src/main/webapp/views/detailed_product.ftl" />
         <option value="$PROJECT_DIR$/hockeyshop-web/src/main/webapp/js/comments.js" />
         <option value="$PROJECT_DIR$/hockeyshop-dao/src/main/resources/db/migration/V10__create_image_row_of_products.sql" />
@@ -235,6 +234,11 @@
         <option value="$PROJECT_DIR$/hockeyshop-dao/src/main/resources/db/migration/V03__create_products_table.sql" />
         <option value="$PROJECT_DIR$/hockeyshop-dao/pom.xml" />
         <option value="$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/Detailed_Product.java" />
+        <option value="$PROJECT_DIR$/hockeyshop-web/pom.xml" />
+        <option value="$PROJECT_DIR$/hockeyshop-dao/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/hockeyshop-test/src/test/java/com/fujitsu/tests/utils/CredentialsRetriever.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/utils/PropertiesJson.java" />
       </list>
     </option>
   </component>
@@ -284,6 +288,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -441,12 +448,6 @@
             <path>
               <item name="hockeyshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="hockeyshop" type="462c0819:PsiDirectoryNode" />
-              <item name="hockeyshop-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hockeyshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hockeyshop" type="462c0819:PsiDirectoryNode" />
               <item name="hockeyshop-test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -592,6 +593,19 @@
               <item name="hockeyshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="hockeyshop" type="462c0819:PsiDirectoryNode" />
               <item name="hockeyshop-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="fujitsu" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="CredentialsRetriever" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="hockeyshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hockeyshop" type="462c0819:PsiDirectoryNode" />
+              <item name="hockeyshop-test" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -673,33 +687,6 @@
               <item name="fujitsu" type="462c0819:PsiDirectoryNode" />
               <item name="fs" type="462c0819:PsiDirectoryNode" />
               <item name="rnovikov" type="462c0819:PsiDirectoryNode" />
-              <item name="filters" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hockeyshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hockeyshop" type="462c0819:PsiDirectoryNode" />
-              <item name="hockeyshop-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="fujitsu" type="462c0819:PsiDirectoryNode" />
-              <item name="fs" type="462c0819:PsiDirectoryNode" />
-              <item name="rnovikov" type="462c0819:PsiDirectoryNode" />
-              <item name="filters" type="462c0819:PsiDirectoryNode" />
-              <item name="UserAuthFilter" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="hockeyshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hockeyshop" type="462c0819:PsiDirectoryNode" />
-              <item name="hockeyshop-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="fujitsu" type="462c0819:PsiDirectoryNode" />
-              <item name="fs" type="462c0819:PsiDirectoryNode" />
-              <item name="rnovikov" type="462c0819:PsiDirectoryNode" />
               <item name="servlets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -717,15 +704,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hockeyshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hockeyshop" type="462c0819:PsiDirectoryNode" />
-              <item name="hockeyshop-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="imagesOfproducts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hockeyshop" type="b2602c69:ProjectViewProjectNode" />
@@ -752,40 +730,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hockeyshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hockeyshop" type="462c0819:PsiDirectoryNode" />
-              <item name="hockeyshop-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="unregistered" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hockeyshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hockeyshop" type="462c0819:PsiDirectoryNode" />
-              <item name="hockeyshop-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/products" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -826,7 +781,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ShopSmokeTest.testHomepage">
+  <component name="RunManager" selected="JUnit.AllTests">
+    <configuration name="AllTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.fujitsu.tests.testers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="hockeyshop-test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.fujitsu.tests.testers" />
+      <option name="MAIN_CLASS_NAME" value="com.fujitsu.tests.testers.AllTests" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="ShopSmokeTest.testHomepage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1316,12 +1296,14 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="JUnit.ShopSmokeTest.testHomepage" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.AllTests" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ShopSmokeTest.testHomepage" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.AllTests" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ShopSmokeTest.testHomepage" />
       </list>
     </recent_temporary>
   </component>
@@ -1453,10 +1435,20 @@
       <option name="project" value="LOCAL" />
       <updated>1516975077012</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="last version">
+      <created>1517233725682</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1517233725682</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="AllTests - 2018.02.01 at 14h 46m 13s.xml">
+      <configuration name="AllTests" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="ShopSmokeTest_testHomepage - 2018.01.22 at 15h 24m 33s.xml">
       <configuration name="ShopSmokeTest.testHomepage" configurationId="JUnit" />
     </history-entry>
@@ -1479,7 +1471,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29506314" sideWeight="0.09352078" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29506314" sideWeight="0.10635697" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.00794621" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1492,15 +1484,16 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.4969743" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.6709531" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37428242" sideWeight="0.47066015" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.66748166" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29506314" sideWeight="0.90647924" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29506314" sideWeight="0.893643" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="FAQ Robot" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29462102" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.301956" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1511,7 +1504,6 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.4969743" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1566,7 +1558,8 @@
     <MESSAGE value="weblayer" />
     <MESSAGE value="comments" />
     <MESSAGE value="normal version" />
-    <option name="LAST_COMMIT_MESSAGE" value="normal version" />
+    <MESSAGE value="last version" />
+    <option name="LAST_COMMIT_MESSAGE" value="last version" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1579,318 +1572,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/services/Service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/BasketDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="45" lean-forward="false" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/BasketServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="57" column="76" lean-forward="false" selection-start-line="57" selection-start-column="76" selection-end-line="57" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/CommentsServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="41" column="33" lean-forward="false" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/RegistrationServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="68" column="21" lean-forward="true" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hockeyshop-test/src/main/resources/credentials.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/resources/database.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/webapp/js/detailed_product.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/webapp/js/validation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/webapp/views/unregistered/login.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/webapp/views/unregistered/loginOrRegister.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/webapp/views/unregistered/registration.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-474">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/webapp/views/products.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/services/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="27" column="40" lean-forward="false" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hockeyshop-test/src/test/java/com/fujitsu/tests/testers/LoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hockeyshop-test/src/test/java/com/fujitsu/tests/testers/HomeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/entities/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/webapp/views/admin/admin.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="83" lean-forward="false" selection-start-line="30" selection-start-column="83" selection-end-line="30" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/ProductDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/CommentDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-          <folding>
-            <marker date="1516974818756" expanded="true" signature="1075:1117" ph=" SELECT statement (COMMENTS)" />
-            <marker date="1516974818756" expanded="true" signature="1839:1858" ph=" INSERT statement" />
-            <marker date="1516974818756" expanded="true" signature="1839:1908" ph=" INSERT statement (COMMENTS)" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/entities/Comment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/UserDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="52" column="32" lean-forward="false" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
-          <folding>
-            <marker date="1516974818775" expanded="true" signature="970:1035" ph=" INSERT statement (USERS)" />
-            <marker date="1516974818775" expanded="true" signature="1802:1821" ph=" SELECT statement (USERS)" />
-            <marker date="1516974818775" expanded="true" signature="2709:2746" ph=" SELECT statement (USERS)" />
-            <marker date="1516974818775" expanded="true" signature="3436:3470" ph=" SELECT statement (USERS)" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/EditProductServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="36" column="45" lean-forward="false" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/AddToCartServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-202">
-          <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/GetProductsNextServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="22" column="50" lean-forward="true" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/webapp/js/comments.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="46" lean-forward="false" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/BasketDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="37" column="46" lean-forward="false" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
-          <folding>
-            <marker date="1517227152063" expanded="true" signature="933:986" ph=" INSERT statement (BASKET)" />
-            <marker date="1517227152063" expanded="true" signature="1406:1461" ph=" DELETE statement (BASKET)" />
-            <marker date="1517227152063" expanded="true" signature="1930:1968" ph=" SELECT statement (BASKET)" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/ProductDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="79" column="5" lean-forward="false" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
-          <folding>
-            <marker date="1517227152034" expanded="true" signature="981:1093" ph=" INSERT statement (PRODUCTS)" />
-            <marker date="1517227152034" expanded="true" signature="1838:1879" ph=" DELETE statement (PRODUCTS)" />
-            <marker date="1517227152034" expanded="true" signature="2250:2289" ph=" DELETE statement (BASKET)" />
-            <marker date="1517227152034" expanded="true" signature="2498:2520" ph=" SELECT statement (PRODUCTS)" />
-            <marker date="1517227152034" expanded="true" signature="3799:3842" ph=" SELECT statement (PRODUCTS)" />
-            <marker date="1517227152034" expanded="true" signature="4852:4889" ph=" SELECT statement (PRODUCTS)" />
-            <marker date="1517227152034" expanded="true" signature="6450:6526" ph=" UPDATE statement (PRODUCTS)" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/HomeServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="42" column="58" lean-forward="false" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/entities/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/AdminServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="176" column="40" lean-forward="true" selection-start-line="176" selection-start-column="40" selection-end-line="176" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/webapp/views/products_decade.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="73" lean-forward="false" selection-start-line="38" selection-start-column="73" selection-end-line="38" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/webapp/views/basket.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="47" column="71" lean-forward="false" selection-start-line="47" selection-start-column="71" selection-end-line="47" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/ProductsServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/DeleteFromCartServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="30" column="70" lean-forward="false" selection-start-line="30" selection-start-column="70" selection-end-line="30" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/webapp/js/basket.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="41" lean-forward="false" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1898,7 +1583,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1906,7 +1590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="86" lean-forward="false" selection-start-line="0" selection-start-column="86" selection-end-line="0" selection-end-column="86" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1914,7 +1597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1922,7 +1604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="82" lean-forward="false" selection-start-line="0" selection-start-column="82" selection-end-line="0" selection-end-column="82" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1966,25 +1647,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/resources/db/migration/V01__create_users_table.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hockeyshop-dao/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/Detailed_Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
+        <state relative-caret-position="0">
           <caret line="63" column="9" lean-forward="false" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
           <folding />
         </state>
@@ -1992,7 +1657,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/LoginServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
+        <state relative-caret-position="1751">
           <caret line="117" column="4" lean-forward="false" selection-start-line="117" selection-start-column="4" selection-end-line="117" selection-end-column="4" />
           <folding />
         </state>
@@ -2000,8 +1665,326 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/filters/UserAuthFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+        <state relative-caret-position="289">
+          <caret line="24" column="7" lean-forward="false" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/webapp/views/unregistered/registration.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/entities/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-219">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/AdminServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="176" column="40" lean-forward="true" selection-start-line="176" selection-start-column="40" selection-end-line="176" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hockeyshop-test/src/test/java/com/fujitsu/tests/helpers/HelperBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-49">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/webapp/js/validation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="77" column="33" lean-forward="false" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/webapp/views/header.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/webapp/views/products.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hockeyshop-test/src/main/resources/credentials.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hockeyshop-test/src/main/resources/homepageelements.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hockeyshop-test/src/test/java/com/fujitsu/tests/ShopSmokeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="24" column="51" lean-forward="false" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hockeyshop-test/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hockeyshop-test/src/test/java/com/fujitsu/tests/AppManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-100">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hockeyshop-test/src/test/java/com/fujitsu/tests/bases/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hockeyshop-test/src/test/java/com/fujitsu/tests/testers/AllTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hockeyshop-test/src/test/java/com/fujitsu/tests/testers/HomeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-170">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hockeyshop-test/src/test/java/com/fujitsu/tests/bases/AuthBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="46" lean-forward="false" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/utils/SingleConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/utils/FormDataCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/resources/database.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding>
+            <marker date="1516974818775" expanded="true" signature="970:1035" ph=" INSERT statement (USERS)" />
+            <marker date="1516974818775" expanded="true" signature="1573:1608" ph=" DELETE statement (USERS)" />
+            <marker date="1516974818775" expanded="true" signature="1802:1821" ph=" SELECT statement (USERS)" />
+            <marker date="1516974818775" expanded="true" signature="2709:2746" ph=" SELECT statement (USERS)" />
+            <marker date="1516974818775" expanded="true" signature="3436:3470" ph=" SELECT statement (USERS)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hockeyshop-test/src/test/java/com/fujitsu/tests/utils/CredentialsRetriever.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/entities/Comment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="15" lean-forward="false" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/entities/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="28" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hockeyshop-dao/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="75" column="20" lean-forward="true" selection-start-line="75" selection-start-column="20" selection-end-line="75" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/ProductDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/dao/ProductDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1275">
+          <caret line="110" column="5" lean-forward="false" selection-start-line="110" selection-start-column="5" selection-end-line="110" selection-end-column="5" />
+          <folding>
+            <marker date="1517227152034" expanded="true" signature="981:1093" ph=" INSERT statement (PRODUCTS)" />
+            <marker date="1517227152034" expanded="true" signature="1838:1879" ph=" DELETE statement (PRODUCTS)" />
+            <marker date="1517227152034" expanded="true" signature="2250:2289" ph=" DELETE statement (BASKET)" />
+            <marker date="1517227152034" expanded="true" signature="2498:2520" ph=" SELECT statement (PRODUCTS)" />
+            <marker date="1517227152034" expanded="true" signature="3799:3842" ph=" SELECT statement (PRODUCTS)" />
+            <marker date="1517227152034" expanded="true" signature="4852:4889" ph=" SELECT statement (PRODUCTS)" />
+            <marker date="1517227152034" expanded="true" signature="6450:6526" ph=" UPDATE statement (PRODUCTS)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/resources/db/migration/V01__create_users_table.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/HomeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="20" column="51" lean-forward="false" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hockeyshop-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1819">
+          <caret line="107" column="49" lean-forward="false" selection-start-line="107" selection-start-column="49" selection-end-line="107" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/java/com/fujitsu/fs/rnovikov/servlets/ProductsServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="76" column="20" lean-forward="false" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hockeyshop-web/src/main/webapp/views/products_decade.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="68" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="40" column="7" lean-forward="false" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/utils/ConnectionPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="35" column="62" lean-forward="false" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/java/com/fujitsu/fs/rnovikov/utils/PropertiesJson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="70" lean-forward="false" selection-start-line="17" selection-start-column="70" selection-end-line="17" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hockeyshop-dao/src/main/resources/database.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
           <folding />
         </state>
       </provider>

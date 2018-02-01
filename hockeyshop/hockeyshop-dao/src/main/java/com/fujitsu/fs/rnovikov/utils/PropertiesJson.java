@@ -15,10 +15,7 @@ public class PropertiesJson {
     private static String PASSWORD;
     private static String USERNAME;
 
-
-//    private static String FILE_PATH = "C:\\Users\\User\\Desktop\\hockeyshop\\hockeyshop-dao\\src\\main\\resources\\database.json";
-
-    private static String FILE_PATH = "D:\\hockeyshop\\hockeyshop-dao\\src\\main\\resources\\database.json";
+    private static String FILE_PATH = "D:\\hockeyshop\\hockeyshop-dao  "\\src\\main\\resources\\database.json";
     private static JsonParser parser = new JsonParser();
     static Object object;
     static JsonObject obj;
